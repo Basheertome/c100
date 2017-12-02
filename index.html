@@ -1,33 +1,38 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>C100 – a kitchen tools journal</title>
+  <meta name="description" content="C100 is a monthly digital journal about the tools we use in the kitchen through the lens of design and technology." />
+  <meta name="keywords" content="kitchen, tools, journal, design, technology, monthly" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="index.css">
+  <!-- <script src="stats.js"></script> -->
+</head>
+<body>
+  <div class="left"><div class="container">
+    <img src="assets/mark.svg" alt="" />
+    <div class="header">
+      <img src="assets/logo.svg" alt="" />
+      <p>Issue 1 • February 2018</p>
+    </div>
+  </div></div>
+  <div class="right"><div class="container">
+    <div class="intro">
+      <p>C100 is a monthly digital journal about the tools we use in the kitchen through the lens of design and technology.</p>
+      <p>Sign up on the email list to have the first issue sent right to your inbox when we launch in 2018.</p>
+    </div>
+    <form action="https://tinyletter.com/c100" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/c100', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="text" placeholder="email@example.com" name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed" />
+      <input type="submit" />
+    </form>
+    <ul class="social">
+      <li><a href="http://twitter.com/c100_journal/" target="_blank"><img src="assets/twitter.svg" alt="t"></a></li>
+      <li><a href="http://www.instagram.com/c100journal/" target="_blank"><img src="assets/instagram.svg" alt="i"></a></li>
+      <li><a href="http://www.facebook.com/c100journal/" target="_blank"><img src="assets/facebook.svg" alt="f"></a></li>
+    </ul>
+  </div></div>
+</body>
+</html>
