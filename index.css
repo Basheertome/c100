@@ -54,7 +54,7 @@ body {
 	display: flex;
 	min-height: 100vh;
 	min-width: 300px;
-	background: red;
+	background: green;
 	color: #3D3D65;
 	font-family: "SpotMono", Courier, monospace;
 }
