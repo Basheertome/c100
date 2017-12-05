@@ -167,7 +167,6 @@ input[type="submit"] {
 	width: 16px;
 	height: 16px;
 	margin: 0 10px;
-	font-size: 0;
 	cursor: pointer;
 	outline: none;
 	background: url("assets/arrow.svg") no-repeat center center;
