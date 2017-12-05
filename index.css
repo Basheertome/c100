@@ -160,19 +160,20 @@ input[type="text"] {
 ::-moz-placeholder { color: #3D3D65; opacity:  1; }
 ::placeholder { color: #3D3D65; }
 
-.submit {
+input[type="submit"] {
 	display: inline-block;
 	border: 0;
 	min-width: 16px;
 	width: 16px;
 	height: 16px;
 	margin: 0 10px;
+	font-size: 0;
 	cursor: pointer;
 	outline: none;
 	background: url("assets/arrow.svg") no-repeat center center;
 }
 
-.submit:active {
+input[type="submit"]:active {
 	position: relative;
 	top: 1px;
 }
