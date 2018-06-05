@@ -23,7 +23,7 @@ sass:
   style: :compressed
 
 # Gem settings
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jemoji
