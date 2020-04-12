@@ -6,8 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
+  color: var(--heading-color);
 }
 
 h1 {
@@ -34,10 +33,6 @@ p {
   margin-bottom: 1rem;
 }
 
-strong {
-  color: #303030;
-}
-
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -53,29 +48,28 @@ dd {
 
 hr {
   position: relative;
-  margin: 1.5rem 0;
+  margin: var(--spacer-2) 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid var(--border-color);
 }
 
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: var(--gray-600);
   text-transform: uppercase;
 
   &[title] {
     cursor: help;
-    border-bottom: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted var(--border-color);
   }
 }
 
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: var(--gray-500);
+  border-left: .25rem solid var(--border-color);
 
   p:last-child {
     margin-bottom: 0;
@@ -85,6 +79,10 @@ blockquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
+}
+
+figure {
+  margin: 0;
 }
 
 
@@ -114,4 +112,76 @@ a[href^="#fnref:"] {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mallory";
+  src: url($baseurl + "/fonts/mallory_book_regular-webfont.eot");
+  src: url($baseurl + "/fonts/mallory_book_regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/mallory_book_regular-webfont.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory_book_regular-webfont.woff") format("woff"),
+       url($baseurl + "/fonts/mallory_book_regular-webfont.ttf") format("truetype"),
+       url($baseurl + "/fonts/mallory_book_regular-webfont.svg#mallory_bookregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mallory";
+  src: url($baseurl + "/fonts/mallory_book_italic-webfont.eot");
+  src: url($baseurl + "/fonts/mallory_book_italic-webfont.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/mallory_book_italic-webfont.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory_book_italic-webfont.woff") format("woff"),
+       url($baseurl + "/fonts/mallory_book_italic-webfont.ttf") format("truetype"),
+       url($baseurl + "/fonts/mallory_book_italic-webfont.svg#mallory_bookitalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Mallory";
+  src: url($baseurl + "/fonts/mallory_thin_regular-webfont.eot");
+  src: url($baseurl + "/fonts/mallory_thin_regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/mallory_thin_regular-webfont.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory_thin_regular-webfont.woff") format("woff"),
+       url($baseurl + "/fonts/mallory_thin_regular-webfont.ttf") format("truetype"),
+       url($baseurl + "/fonts/mallory_thin_regular-webfont.svg#mallory_thinregular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mallory";
+  src: url($baseurl + "/fonts/mallory_medium_regular-webfont.eot");
+  src: url($baseurl + "/fonts/mallory_medium_regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/mallory_medium_regular-webfont.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory_medium_regular-webfont.woff") format("woff"),
+       url($baseurl + "/fonts/mallory_medium_regular-webfont.ttf") format("truetype"),
+       url($baseurl + "/fonts/mallory_medium_regular-webfont.svg#mallory_mediumregular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mallory";
+  src: url($baseurl + "/fonts/mallory_bold_regular-webfont.eot");
+  src: url($baseurl + "/fonts/mallory_bold_regular-webfont.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/mallory_bold_regular-webfont.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory_bold_regular-webfont.woff") format("woff"),
+       url($baseurl + "/fonts/mallory_bold_regular-webfont.ttf") format("truetype"),
+       url($baseurl + "/fonts/mallory_bold_regular-webfont.svg#mallory_boldregular") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hoefler-titling";
+  src: url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.eot");
+  src: url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.eot?#iefix") format("embedded-opentype"),
+    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.woff2") format("woff2"),
+    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.woff") format("woff"),
+    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.ttf") format("truetype"),
+    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.svg#HoeflerTitling-HTF-SmRoman") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }

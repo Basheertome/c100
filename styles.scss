@@ -3,6 +3,8 @@
 # only main files contain this front matter, not partials.
 ---
 
+$baseurl: "{{ site.baseurl }}";
+
 @import "variables";
 @import "base";
 @import "type";
@@ -13,78 +15,22 @@
 @import "posts";
 @import "pagination";
 @import "message";
+@import "toc";
 @import "search";
 
-@font-face {
-  font-family: 'mallory';
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.woff2') format('woff2'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.woff') format('woff'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.ttf') format('truetype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_regular-webfont.svg#mallory_bookregular') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
+// Sass for creating the swatches
+.colors {
+  display: grid;
+  grid-template-columns: max-content 1fr;
 
-@font-face {
-  font-family: 'mallory';
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.woff2') format('woff2'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.woff') format('woff'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.ttf') format('truetype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_book_italic-webfont.svg#mallory_bookitalic') format('svg');
-  font-weight: 400;
-  font-style: italic;
-}
+  dt {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);
+  }
 
-
-
-@font-face {
-  font-family: 'mallory';
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.woff2') format('woff2'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.woff') format('woff'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.ttf') format('truetype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_thin_regular-webfont.svg#mallory_thinregular') format('svg');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'mallory';
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.woff2') format('woff2'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.woff') format('woff'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.ttf') format('truetype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_medium_regular-webfont.svg#mallory_mediumregular') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'mallory';
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.woff2') format('woff2'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.woff') format('woff'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.ttf') format('truetype'),
-       url('{{ site.baseurl }}/assets/fonts/mallory_bold_regular-webfont.svg#mallory_boldregular') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'hoefler-titling';
-  src: url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.eot');
-  src: url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.eot?#iefix') format('embedded-opentype'),
-    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.woff2') format('woff2'),
-    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.woff') format('woff'),
-    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.ttf') format('truetype'),
-    url('{{ site.baseurl }}/assets/fonts/HoeflerTitling-HTF-SmRoman.svg#HoeflerTitling-HTF-SmRoman') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  dd {
+    margin-left: var(--spacer);
+  }
 }

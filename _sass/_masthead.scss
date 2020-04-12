@@ -1,7 +1,7 @@
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
+  margin-bottom: var(--spacer-3);
 }
 
 .head {
@@ -181,10 +181,10 @@
     height: 26px;
     background: rgba(255,255,255,0);
     border: 0;
-    padding: 7px 5px 3px 0;
+    padding-right: 10px;
     box-shadow: 0 3px rgba(0,0,0,0.4);
     outline: none;
-    font-family: $root-font-family;
+    font-family: var(--body-font);
     font-size: 16px;
     line-height: 16px;
     -webkit-appearance: none;
@@ -198,6 +198,45 @@
 
     #search {
       box-shadow: 0 3px rgba(0,0,0,1);
+    }
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .masthead img {
+    filter: invert(100%);
+  }
+
+  .head {
+    .navigation {
+      a {
+        color: #fff;
+      }
+
+      li a {
+        box-shadow: inset 0 -3px rgba(255,255,255,0);
+        &:hover {
+          box-shadow: inset 0 -3px rgba(255,255,255,1);
+        }
+      }
+    }
+    .masthead-title {
+      color: #fff;
+    }
+  }
+
+  .search {
+    #search {
+      color: #fff;
+      box-shadow: 0 3px rgba(255,255,255,0.4);
+    }
+
+    &:hover #search {
+      box-shadow: 0 3px rgba(255,255,255,1);
     }
   }
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
   {% include head.html %}
@@ -21,8 +21,8 @@
         </div>
         <div class="head">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="C100">
-              <img src="{{ site.baseurl }}/assets/c100-logo.svg" alt="C100" onerror="this.src={{ site.baseurl }}/assets/c100-logo.png; this.onerror=null;">
+            <a href="{{ site.baseurl }}/" title="Home">
+              <img src="{{ site.baseurl }}/assets/c100-logo.svg" alt="C100">
             </a>
             <small>{{ site.tagline }}</small>
           </h3>
@@ -49,14 +49,12 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
       </footer>
     </div>
 
-    <div class="mark"></div>
-
-    <script src="{{ site.baseurl }}/modules/lunr.js/lunr.min.js"></script>
+    <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
     <script src="{{ site.baseurl }}/js/search.js"></script>
 
     {% if site.analytics_id %}{% include analytics.html %}{% endif %}

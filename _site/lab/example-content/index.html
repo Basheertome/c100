@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
   <head>
@@ -12,12 +12,31 @@
   </title>
 
   <link rel="stylesheet" href="/styles.css">
-  <link rel="apple-touch-icon-precomposed" href="/assets/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/assets/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="C100" href="/atom.xml">
 
-  <script src="/modules/jquery/dist/jquery.min.js"></script>
-  <script src="/modules/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Example content" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme." />
+<meta property="og:description" content="Howdy! This is an example blog post that shows several types of HTML content supported in this theme." />
+<link rel="canonical" href="http://localhost:4000/lab/example-content/" />
+<meta property="og:url" content="http://localhost:4000/lab/example-content/" />
+<meta property="og:site_name" content="C100" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-02T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Example content" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"headline":"Example content","dateModified":"2020-04-02T00:00:00-07:00","url":"http://localhost:4000/lab/example-content/","datePublished":"2020-04-02T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/lab/example-content/"},"description":"Howdy! This is an example blog post that shows several types of HTML content supported in this theme.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
 </head>
 
 
@@ -39,8 +58,8 @@
         </div>
         <div class="head">
           <h3 class="masthead-title">
-            <a href="/" title="C100">
-              <img src="/assets/c100-logo.svg" alt="C100" onerror="this.src=/assets/c100-logo.png; this.onerror=null;">
+            <a href="/" title="Home">
+              <img src="/assets/c100-logo.svg" alt="C100">
             </a>
             <small>a kitchen tools journal</small>
           </h3>
@@ -62,15 +81,10 @@
       <div id="results" class="all-posts results"></div>
 
       <main>
-        <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html><body><article class="post">
+        <article class="post">
   <h1 class="post-title">Example content</h1>
-  <time datetime="2016-01-02T00:00:00-08:00" class="post-date">02 Jan 2016</time>
-  
-
-<div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-</div>
+  <time datetime="2020-04-02T00:00:00-07:00" class="post-date">02 Apr 2020</time>
+  <p class="message"><strong>Howdy!</strong> This is an example blog post that shows several types of HTML content supported in this theme.</p>
 
 <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
@@ -89,8 +103,10 @@
 <strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
   <li>
 <em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li>
+<mark>To highlight</mark>, use <code class="highlighter-rouge">&lt;mark&gt;</code>.</li>
   <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
   <li>
 <del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
   <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
@@ -116,21 +132,18 @@
 
 <h3 id="code">Code</h3>
 
-<p>Inline code is available with the <code class="highlighter-rouge">&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.</p>
+<p>Inline code is available with the <code class="highlighter-rouge">&lt;code&gt;</code> element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.</p>
 
-<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console
-</span>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
 
-<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments
-</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
 
-<span class="c1">// Call the function
-</span>
+<span class="c1">// Call the function</span>
 <span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
 <span class="c1">// &gt; 8</span></code></pre></figure>
 
-<p>You may also optionally show code snippets with line numbers. Add <code class="highlighter-rouge">linenos</code> to the Pygments tags.</p>
+<p>You may also optionally show code snippets with line numbers. Add <code class="highlighter-rouge">linenos</code> to the Rouge tags.</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
@@ -142,17 +155,15 @@
 7
 8
 </pre></td>
-<td class="code"><pre><span class="c1">// Example can be run directly in your JavaScript console
-</span>
+<td class="code"><pre><span class="c1">// Example can be run directly in your JavaScript console</span>
 
-<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments
-</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
 
-<span class="c1">// Call the function
-</span>
+<span class="c1">// Call the function</span>
 <span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span></pre></td>
+<span class="c1">// &gt; 8</span>
+</pre></td>
 </tr></tbody></table></code></pre></figure>
 
 <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
@@ -161,8 +172,7 @@
 
 <p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
 
-<noscript><pre>400: Invalid request
-</pre></noscript>
+<noscript><pre>400: Invalid request</pre></noscript>
 <script src="https://gist.github.com/13f94b734a4ddb132735.js?file=gist.md"> </script>
 
 <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.</p>
@@ -260,48 +270,48 @@
   </ol>
 </div>
 
+</article>
 
-  <a href="http://localhost:8888/lab/example-content/#disqus_thread" class="show-comments" target="_blank">Comment</a>
 
-<div id="disqus_thread"></div>
+<aside class="related">
+  <h3>Related posts</h3>
+  <ul class="related-posts">
+    
+      <li>
+        <a href="/features/introduction/">
+          Introduction
+          <small><time datetime="2020-04-04T00:00:00-07:00">04 Apr 2020</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/features/options/">
+          Options
+          <small><time datetime="2020-04-03T00:00:00-07:00">03 Apr 2020</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/found/whats-jekyll/">
+          What's Jekyll?
+          <small><time datetime="2020-03-01T00:00:00-08:00">01 Mar 2020</time></small>
+        </a>
+      </li>
+    
+  </ul>
+</aside>
 
-<script>
-  var disqus_config = function () {
-    this.page.url = 'http://localhost:8888/lab/example-content/';
-    this.page.identifier = '/lab/example-content';
-  };
-
-  $(document).ready(function() {
-    $('.show-comments').on('click', function(e){
-      e.preventDefault();
-      $.ajax({
-        type: 'GET',
-        url: '//c100.disqus.com/embed.js',
-        dataType: 'script',
-        cache: true
-      });
-      $(this).fadeOut();
-    });
-  });
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow" target="_blank">comments powered by Disqus.</a>
-</noscript>
-<script id="dsq-count-scr" src="//c100.disqus.com/count.js" async></script>
-
-</article></body></html>
 
       </main>
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2018-06-04T23:13:56-07:00">2018</time>. All rights reserved.
+          &copy; <time datetime="2020">2020</time>. All rights reserved.
         </small>
       </footer>
     </div>
 
-    <div class="mark"></div>
-
-    <script src="/modules/lunr.js/lunr.min.js"></script>
+    <script src="/js/lunr.min.js"></script>
     <script src="/js/search.js"></script>
 
     <script>
@@ -313,5 +323,6 @@
   ga('require', 'linkid');
   ga('send', 'pageview');
 </script>
+
   </body>
 </html>

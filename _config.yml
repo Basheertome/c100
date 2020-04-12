@@ -1,19 +1,12 @@
 # Basic settings
 title: C100
-tagline: "a kitchen tools journal"
-description: "A monthly, online journal on food and the tools we use to make it."
-email: editor@c100.co
+tagline: a kitchen tools journal
+description: A monthly, online journal on food and the tools we use to make it
 analytics_id: UA-25940549-15
-
-# Social settings
-twitter: c100journal
-instagram: c100journal
-facebook: c100journal
 
 # Network settings
 baseurl: ""
-url: "http://c100.co"
-port: 8888
+url: http://c100.co
 
 # Build settings
 paginate: 1
@@ -22,20 +15,27 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+# Social settings
+twitter: c100journal
+instagram: c100journal
+facebook: c100journal
+
 # Gem settings
 plugins:
-  - jekyll-paginate
   - jekyll-gist
-  - jemoji
-
-# Front Matter defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: true
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-extlinks
 
 extlinks:
   attributes: {target: _blank}
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md

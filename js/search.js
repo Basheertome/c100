@@ -34,25 +34,38 @@ var store = [{% for post in site.posts %}{
 
 // builds search
 $(document).ready(function() {
-  $('input#search').on('keyup', function () {
+  $('.search-input').on('keyup', function () {
     var resultdiv = $('#results');
     // Get query
     var query = $(this).val();
     // Search for it
     var result = index.search(query);
+    // Figure out plural
+    if (result.length == 1) {
+      var plural = '';
+    } else {
+      var plural = 's';
+    }
+    
     // Show results
     resultdiv.empty();
     // Add status
-    resultdiv.prepend('<p class="">Found '+result.length+' result(s)</p>');
+    resultdiv.prepend('<p class="status">Found '+result.length+' result'+plural+'</p>');
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &times; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
+      var searchitem = '<div class="result"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &bull; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
       resultdiv.append(searchitem);
     }
+    $('#results').slideDown();
   }).focus(function () {
-    $('body').addClass('searching');
+    if($(this).val() == "") {
+      $('body').addClass('searching');
+    }
   }).blur(function () {
-    $('body').removeClass('searching');
-  });;
+    if($(this).val() == "") {
+      $('body').removeClass('searching');
+      $('#results').slideUp().empty();
+    }
+  });
 });
