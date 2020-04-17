@@ -108,6 +108,29 @@ a[href^="#fnref:"] {
 // Custom type
 //
 // Extend paragraphs with `.lead` for larger introductory text.
+//
+// Sans:
+//   Mallory
+//     • Thin (300)
+//     • Book (400)
+//     • Book Italic (400)
+//     • Medium (500)
+//     • Bold (600)
+// 
+// Serif:
+//   Feijoa
+//     • Book (400)
+//     • Book Italic (400)
+//     • Bold (600)
+// 
+// Mono:
+//   Spot Mono
+//     • Normal (400)
+// 
+// Display:
+//   Hoefler Titling
+//     • Normal (400)
+//
 
 .lead {
   font-size: 1.25rem;
@@ -175,13 +198,61 @@ a[href^="#fnref:"] {
 }
 
 @font-face {
-  font-family: "hoefler-titling";
-  src: url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.eot");
-  src: url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.eot?#iefix") format("embedded-opentype"),
-    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.woff2") format("woff2"),
-    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.woff") format("woff"),
-    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.ttf") format("truetype"),
-    url($baseurl + "/fonts/HoeflerTitling-HTF-SmRoman.svg#HoeflerTitling-HTF-SmRoman") format("svg");
-  font-weight: normal;
+  font-family: "Feijoa";
+  src: url($baseurl + "/fonts/feijoa-medium.eot");
+  src: url($baseurl + "/fonts/feijoa-medium.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/feijoa-medium.woff2") format("woff2"),
+       url($baseurl + "/fonts/feijoa-medium.woff") format("woff"),
+       url($baseurl + "/fonts/feijoa-medium.ttf") format("truetype"),
+       url($baseurl + "/fonts/feijoa-medium.svg#feijoa-medium") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Feijoa";
+  src: url($baseurl + "/fonts/feijoa-mediumitalic.eot");
+  src: url($baseurl + "/fonts/feijoa-mediumitalic.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/feijoa-mediumitalic.woff2") format("woff2"),
+       url($baseurl + "/fonts/feijoa-mediumitalic.woff") format("woff"),
+       url($baseurl + "/fonts/feijoa-mediumitalic.ttf") format("truetype"),
+       url($baseurl + "/fonts/feijoa-mediumitalic.svg#feijoa-mediumitalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Feijoa";
+  src: url($baseurl + "/fonts/feijoa-bold.eot");
+  src: url($baseurl + "/fonts/feijoa-bold.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/feijoa-bold.woff2") format("woff2"),
+       url($baseurl + "/fonts/feijoa-bold.woff") format("woff"),
+       url($baseurl + "/fonts/feijoa-bold.ttf") format("truetype"),
+       url($baseurl + "/fonts/feijoa-bold.svg#feijoa-bold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spot Mono";
+  src: url($baseurl + "/fonts/spotmono.eot");
+  src: url($baseurl + "/fonts/spotmono.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/spotmono.woff2") format("woff2"),
+       url($baseurl + "/fonts/spotmono.woff") format("woff"),
+       url($baseurl + "/fonts/spotmono.ttf") format("truetype"),
+       url($baseurl + "/fonts/spotmono.svg#spotmono") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hoefler Titling";
+  src: url($baseurl + "/fonts/hoeflertitling-htf-smroman.eot");
+  src: url($baseurl + "/fonts/hoeflertitling-htf-smroman.eot?#iefix") format("embedded-opentype"),
+       url($baseurl + "/fonts/hoeflertitling-htf-smroman.woff2") format("woff2"),
+       url($baseurl + "/fonts/hoeflertitling-htf-smroman.woff") format("woff"),
+       url($baseurl + "/fonts/hoeflertitling-htf-smroman.ttf") format("truetype"),
+       url($baseurl + "/fonts/hoeflertitling-htf-smroman.svg#hoeflertitling-htf-smroman") format("svg");
+  font-weight: 400;
   font-style: normal;
 }
