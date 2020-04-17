@@ -2,6 +2,10 @@
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   margin-bottom: 1rem;
+  font-family: var(--ui-font);
+  font-size: var(--ui-font-size);
+  line-height: var(--ui-line-height);
+  color: var(--ui-color);
 }
 
 .head {
@@ -238,9 +242,9 @@
     padding-right: 10px;
     box-shadow: 0 2px rgba(0,0,0,0.5);
     outline: none;
-    font-family: var(--body-font);
-    font-size: 16px;
-    line-height: 16px;
+    font-family: var(--ui-font);
+    font-size: var(--ui-font-size);
+    line-height: var(--ui-line-height);
     -webkit-appearance: none;
     -webkit-transition: .1s linear width, .1s linear background;
     -moz-transition: .1s linear width, .1s linear background;
