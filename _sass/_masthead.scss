@@ -86,7 +86,6 @@
   .masthead-title {
     width: 100%;
     display: block;
-    vertical-align: top;
     text-align: center;
     margin: 0 0.5rem;
     color: #000000;
@@ -203,7 +202,6 @@
 }
 
 .social {
-  display: inline-block;
   float: left;
   list-style: none;
   margin: 0;
@@ -230,7 +228,6 @@
 
 .search {
   position: relative;
-  display: inline-block;
   float: right;
   opacity: 0.2;
   z-index: 100;
