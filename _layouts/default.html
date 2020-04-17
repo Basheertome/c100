@@ -21,21 +21,26 @@
         </div>
         <div class="head">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">
-              <img src="{{ site.baseurl }}/assets/c100-logo.svg" alt="C100">
+            <a href="{{ site.baseurl }}/" title="home">
+              {% include logo.svg %}
             </a>
-            <small>{{ site.tagline }}</small>
+            <div class="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </h3>
           <div class="navigation">
             <ul class="left">
-              <li><a href="{{ site.baseurl }}/issues/">issues</a></li>
-              <li><a href="{{ site.baseurl }}/about/">about</a></li>
-              <li><a href="{{ site.baseurl }}/newsletter/">newsletter</a></li>
+              {% for nav in site.data.left_navigation %}
+              <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.text }}</a></li>
+              {% endfor %}
             </ul>
             <ul class="right">
-              <li><a href="{{ site.baseurl }}/features/">features</a></li>
-              <li><a href="{{ site.baseurl }}/found/">found</a></li>
-              <li><a href="{{ site.baseurl }}/lab/">lab</a></li>
+              {% for nav in site.data.right_navigation %}
+              <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.text }}</a></li>
+              {% endfor %}
             </ul>
           </div>
         </div>

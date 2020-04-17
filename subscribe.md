@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Newsletter
+title: Subscribe
 ---
 
 <p class="message">
