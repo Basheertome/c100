@@ -102,6 +102,9 @@ $(document).ready(function() {
   }).focus(function () {
     if($(this).val() == "") {
       $('body').addClass('searching');
+      var scrollAmount = $('.search').offset().top - 40;
+      console.log(scrollAmount);
+      $('html, body').animate({scrollTop: scrollAmount}, 250);
     }
   }).blur(function () {
     if($(this).val() == "") {
