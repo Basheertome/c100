@@ -12,7 +12,7 @@ var index = lunr(function () {
   index.add({
     title: "Introduction",
     category: "features",
-    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\nThis demo site was last updated April 17, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n",
+    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\nThis demo site was last updated April 18, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n",
     tags: [],
     id: 0
   });
@@ -52,25 +52,25 @@ var store = [{
   "link": "/features/introduction/",
   "date": "April 4, 2020",
   "category": "features",
-  "excerpt": "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two..."
+  "excerpt": "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward..."
 },{
   "title": "Options",
   "link": "/features/options/",
   "date": "April 3, 2020",
   "category": "features",
-  "excerpt": "With Poole as a baseline theme for Jekyll, there aren’t many options available out of the box. Basic light and..."
+  "excerpt": "With Poole as a baseline theme for Jekyll, there aren’t many options available out of the box. Basic light and dark mode support is included. Colors are..."
 },{
   "title": "Example content",
   "link": "/lab/example-content/",
   "date": "April 2, 2020",
   "category": "lab",
-  "excerpt": "Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis..."
+  "excerpt": "Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes,..."
 },{
   "title": "What's Jekyll?",
   "link": "/found/whats-jekyll/",
   "date": "March 1, 2020",
   "category": "found",
-  "excerpt": "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes...."
+  "excerpt": "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a..."
 }]
 
 // builds search
@@ -91,14 +91,14 @@ $(document).ready(function() {
     // Show results
     resultdiv.empty();
     // Add status
-    resultdiv.prepend('<p class="status">Found '+result.length+' result'+plural+'</p>');
+    resultdiv.prepend('<p class="status">found '+result.length+' result'+plural+'</p>');
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><div class="result-body"><a href="'+store[ref].link+'" class="post-title">'+store[ref].title+'</a><div class="post-date small">'+store[ref].category+' &bull; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
+      var searchitem = '<div class="result"><a href="'+store[ref].link+'" class="result-title">'+store[ref].title+'</a><div class="result-meta">'+store[ref].category+' <span>&bull;</span> '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></div>';
       resultdiv.append(searchitem);
     }
-    $('#results').slideDown();
+    $('#results').fadeIn(100);
   }).focus(function () {
     if($(this).val() == "") {
       $('body').addClass('searching');
@@ -109,7 +109,7 @@ $(document).ready(function() {
   }).blur(function () {
     if($(this).val() == "") {
       $('body').removeClass('searching');
-      $('#results').slideUp().empty();
+      $('#results').fadeOut(100).empty();
     }
   });
 });

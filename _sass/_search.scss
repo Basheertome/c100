@@ -1,21 +1,77 @@
 #results {
 	display: none;
+	margin: 3.5rem 3.5rem 0 3.5rem;
+	padding: 2rem;
+	background: var(--overlay-bg);
+	box-shadow: 0 3px 7px rgba(0,0,0,0.05),
+				0 5px 20px rgba(0,0,0,0.05);
+	border-radius: 10px;
+
 	.status {
+		font-family: var(--ui-font);
+		text-align: center;
+		color: var(--ui-color);
+		opacity: 0.4;
+		margin-bottom: 1.5rem;
 
-	}
-	.result {
-
-		.result-body {
-
-			.post-title {
-
-			}
-			.post-date {
-
-			}
-			p {
-
-			}
+		&:last-child {
+			margin-bottom: 0;
 		}
 	}
+	.result {
+		margin-bottom: 1.5rem;
+
+		.result-title {
+			display: block;
+			font-size: 1.5rem;
+			font-weight: 500;
+			line-height: 1.4;
+			color: var(--ui-color);
+			margin-bottom: 0.25rem;
+		}
+
+		.result-meta {
+			font-size: 15px;
+			margin-bottom: 0.25rem;
+			opacity: 0.5;
+
+			span {
+				opacity: 0.35;
+			}
+		}
+
+		p {
+			margin-bottom: 0;
+			font-family: var(--body-font);
+			font-size: var(--body-font-size);
+			line-height: var(--body-line-height);
+			color: var(--body-color);
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 35rem) {
+	#results {
+		opacity: 0;
+		margin: 0;
+		padding: 2rem 0;
+		background: var(--overlay-bg-t);
+		box-shadow: none;
+		border-radius: 0;
+		-webkit-transition: 0.25s ease-in-out opacity;
+		-moz-transition: 0.25s ease-in-out opacity;
+		transition: 0.25s ease-in-out opacity;
+	}
+
+	.masthead.active #results {
+		opacity: 1;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	
 }

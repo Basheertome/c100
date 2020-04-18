@@ -61,10 +61,6 @@
       a {
         display: inline-block;
         line-height: 24px;
-        box-shadow: inset 0 -2px rgba(212,203,195,0);
-        -webkit-transition: .1s linear box-shadow;
-        -moz-transition: .1s linear box-shadow;
-        transition: .1s linear box-shadow;
 
         &:hover, &:focus {
           text-decoration: none;
@@ -83,7 +79,7 @@
     }
 
     a {
-      color: #000000;
+      color: var(--ui-color);
     }
   }
 
@@ -92,7 +88,7 @@
     display: block;
     text-align: center;
     margin: 0 0.5rem;
-    color: #000000;
+    color: var(--ui-color);
 
     .logo {
       display: block;
@@ -141,7 +137,7 @@
         display: block;
         width: 6px;
         height: 6px;
-        background: #000;
+        background: var(--ui-color);
         border-radius: 3px;
         transform-origin: 3px 3px;
         -webkit-transition: 0.2s ease-in-out width, 0.2s ease-in-out height, 0.2s ease-in-out border-radius, 0.2s ease-in-out transform-origin;
@@ -204,9 +200,9 @@
     display: inline-block;
     vertical-align: bottom;
     opacity: 0.2;
-    -webkit-transition: .1s linear opacity;
-    -moz-transition: .1s linear opacity;
-    transition: .1s linear opacity;
+    -webkit-transition: .1s ease-in-out opacity;
+    -moz-transition: .1s ease-in-out opacity;
+    transition: .1s ease-in-out opacity;
 
     &:hover {
       opacity: 1;
@@ -224,9 +220,9 @@
   float: right;
   opacity: 0.2;
   z-index: 100;
-  -webkit-transition: .1s linear opacity;
-  -moz-transition: .1s linear opacity;
-  transition: .1s linear opacity;
+  -webkit-transition: .1s ease-in-out opacity;
+  -moz-transition: .1s ease-in-out opacity;
+  transition: .1s ease-in-out opacity;
 
   img {
     display: inline-block;
@@ -237,18 +233,19 @@
   #search {
     width: 100px;
     height: 26px;
-    background: rgba(255,255,255,0);
     border: 0;
     padding-right: 10px;
+    color: var(--ui-color);
+    background: transparent;
     box-shadow: 0 2px rgba(0,0,0,0.5);
     outline: none;
     font-family: var(--ui-font);
     font-size: var(--ui-font-size);
     line-height: var(--ui-line-height);
     -webkit-appearance: none;
-    -webkit-transition: .1s linear width, .1s linear background;
-    -moz-transition: .1s linear width, .1s linear background;
-    transition: .1s linear width, .1s linear background;
+    -webkit-transition: .1s ease-in-out width, .1s ease-in-out background;
+    -moz-transition: .1s ease-in-out width, .1s ease-in-out background;
+    transition: .1s ease-in-out width, .1s ease-in-out background;
   }
 
   &:hover {
@@ -310,7 +307,7 @@
     min-height: 100vh;
     width: 100%;
     padding: var(--spacer-2);
-    background: rgba(255,255,255,0);
+    background: var(--overlay-bg-t);
     pointer-events: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -411,7 +408,7 @@
     }
 
     &.active {
-      background: rgba(255,255,255,1);
+      background: var(--overlay-bg);
       box-shadow: 0 2px 5px rgba(0,0,0,0.1),
                   0 3px 10px rgba(0,0,0,0.1),
                   0 5px 20px rgba(0,0,0,0.1);
@@ -458,56 +455,27 @@
   }
 
   .head {
-    .navigation {
+    .navigation li {
       a {
-        color: #fff;
+        box-shadow: inset 0 -2px rgba(255,255,255,0);
       }
-
-      li {
-        a {
-          box-shadow: inset 0 -2px rgba(255,255,255,0);
-        }
-        a:hover, &.active a {
-          box-shadow: inset 0 -2px rgba(255,255,255,0.2);
-        }
-      }
-    }
-
-    .masthead-title {
-      color: #fff;
-
-      .menu span {
-        background: #fff;
+      a:hover, &.active a {
+        box-shadow: inset 0 -2px rgba(255,255,255,0.2);
       }
     }
   }
 
-  .search {
-    #search {
-      color: #fff;
-      box-shadow: 0 2px rgba(255,255,255,0.5);
-    }
-
-    &:hover #search {
-      box-shadow: 0 2px rgba(255,255,255,1);
-    }
+  .search #search {
+    box-shadow: 0 2px rgba(255,255,255,0.5);
   }
-
-  .searching .search #search {
+  
+  .search:hover #search, .searching .search #search {
     box-shadow: 0 2px rgba(255,255,255,1);
   }
 
   @media (max-width: 35rem) {
-    .masthead {
-      background: rgba(102,101,100,0);
-
-      &.active {
-        background: rgba(102,101,100,1);
-      }
-
-      .hair .search #search {
-        box-shadow: 0 2px rgba(255,255,255,1);
-      }
+    .masthead .hair .search #search {
+      box-shadow: 0 2px rgba(255,255,255,1);
     }
   }
 }
