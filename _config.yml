@@ -6,7 +6,7 @@ analytics_id: UA-25940549-15
 
 # Network settings
 baseurl: ""
-url: http://c100.co
+url: http://c100.co/
 host: 0.0.0.0
 
 # Build settings
@@ -20,6 +20,13 @@ sass:
 twitter: c100journal
 instagram: c100journal
 facebook: c100journal
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      thumbnail: default.png
 
 # Gem settings
 plugins:

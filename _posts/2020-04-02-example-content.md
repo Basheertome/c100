@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Example content
-issue: August 2020
 category: lab
+issue: august
+thumbnail: example.png
+description: His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.
 ---
 
 **Howdy!** This is an example blog post that shows several types of HTML content supported in this theme.
