@@ -79,10 +79,30 @@ var store = [{
 
 // builds search
 $(document).ready(function() {
+  var timeout;
+  var delay = 250;
+
   $('.search-input').on('keyup', function (event) {
+    if (timeout) {
+      clearTimeout(timeout); }
+    timeout = setTimeout(function() {
+      searchKeyup(event); }, delay);
+  }).focus(function () {
+    if (timeout) {
+      clearTimeout(timeout); }
+    timeout = setTimeout(function() {
+      searchFocus(event); }, delay);
+  }).blur(function () {
+    if (timeout) {
+      clearTimeout(timeout); }
+    timeout = setTimeout(function() {
+      searchBlur(event); }, delay);
+  });
+
+  function searchKeyup(event) {
     var resultdiv = $('#results');
     // Get query
-    var query = $(this).val();
+    var query = $('.search-input').val();
     // Search for it
     var result = index.search(query);
     // Figure out plural
@@ -91,7 +111,6 @@ $(document).ready(function() {
     } else {
       var plural = 's';
     }
-    
     // Show results
     resultdiv.empty();
     // Add status
@@ -99,18 +118,22 @@ $(document).ready(function() {
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><a href="'+store[ref].link+'" class="result-title">'+store[ref].title+'</a><div class="result-meta">'+store[ref].category+' &middot; '+store[ref].issue+'</div><p>'+store[ref].excerpt+'</p></span></li>';
+      var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].category+' &middot; '+store[ref].issue+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
       resultdiv.append(searchitem);
     }
     $('#results').fadeIn(100);
-  }).focus(function () {
+  }
+
+  function searchFocus(event) {
     $('body').addClass('searching');
     var scrollAmount = $('.search').offset().top - 40;
     $('html, body').animate({scrollTop: scrollAmount}, 250);
-  }).blur(function () {
-    if($(this).val() == "") {
+  }
+
+  function searchBlur(event) {
+    if($('.search-input').val() == "") {
       $('body').removeClass('searching');
       $('#results').fadeOut(100).empty();
     }
-  });
+  }
 });
