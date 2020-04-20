@@ -12,6 +12,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "code";
 @import "layout";
 @import "masthead";
+@import "footer";
 @import "posts";
 @import "pagination";
 @import "message";

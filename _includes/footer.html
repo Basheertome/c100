@@ -1,7 +1,25 @@
 <footer class="footer">
-    <small>
-      &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-    </small>
+    <ul class="navigation">
+        <li class="search" onclick="$('#search').focus();">
+            <img src="{{ site.baseurl }}/assets/search.svg" alt="&#1F50D;">
+        </li>
+        {% assign navigation = site.data.left_navigation | concat: site.data.right_navigation %}
+        {% for nav in navigation %}
+        <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.text }}</a></li>
+        {% endfor %}
+    </ul>
+    <ul class="social">
+        <li><a href="http://twitter.com/{{ site.twitter }}/" target="_blank"><img src="{{ site.baseurl }}/assets/twitter.svg" alt="t"></a></li>
+        <li><a href="http://www.instagram.com/{{ site.instagram }}/" target="_blank"><img src="{{ site.baseurl }}/assets/instagram.svg" alt="i"></a></li>
+        <li><a href="http://www.facebook.com/{{ site.facebook }}/" target="_blank"><img src="{{ site.baseurl }}/assets/facebook.svg" alt="f"></a></li>
+        <li><a href="{{ site.baseurl }}/atom.xml"><img src="{{ site.baseurl }}/assets/feed.svg" alt="r"></a></li>
+    </ul>
+    <div class="copyright">
+        <span>&copy; </span>
+        <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }} </time>
+        <a href="http://walnut.co/" target="_blank">walnut</a>
+        <span>. all rights reserved.</span>
+    </div>
 </footer>
 
 <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
