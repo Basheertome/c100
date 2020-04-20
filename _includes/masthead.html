@@ -1,0 +1,41 @@
+<header class="masthead">
+    <div class="hair">
+      <ul class="social">
+        <li><a href="http://twitter.com/{{ site.twitter }}/" target="_blank"><img src="{{ site.baseurl }}/assets/twitter.svg" alt="t"></a></li>
+        <li><a href="http://www.instagram.com/{{ site.instagram }}/" target="_blank"><img src="{{ site.baseurl }}/assets/instagram.svg" alt="i"></a></li>
+        <li><a href="http://www.facebook.com/{{ site.facebook }}/" target="_blank"><img src="{{ site.baseurl }}/assets/facebook.svg" alt="f"></a></li>
+        <li><a href="{{ site.baseurl }}/atom.xml"><img src="{{ site.baseurl }}/assets/feed.svg" alt="r"></a></li>
+      </ul>
+      <div class="search" onclick="$('#search').focus();">
+        <img src="{{ site.baseurl }}/assets/search.svg" alt="&#1F50D;">
+        <input type="search" id="search" class="search-input">
+      </div>
+    </div>
+    <div class="head">
+      <h3 class="masthead-title">
+        <a href="{{ site.baseurl }}/" title="home">
+          {% include logo.svg %}
+        </a>
+        <div class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </h3>
+      <div class="navigation">
+        <ul class="left">
+          {% for nav in site.data.left_navigation %}
+          <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.text }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="right">
+          {% for nav in site.data.right_navigation %}
+          <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <ul id="results" class="all-posts results"></ul>
+  </header>
+  

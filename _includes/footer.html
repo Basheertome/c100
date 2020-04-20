@@ -1,0 +1,10 @@
+<footer class="footer">
+    <small>
+      &copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+    </small>
+</footer>
+
+<script src="{{ site.baseurl }}/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/js/search.js"></script>
+
+{% if site.analytics_id %}{% include analytics.html %}{% endif %}
