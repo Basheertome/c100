@@ -6,7 +6,7 @@ analytics_id: UA-25940549-15
 
 # Network settings
 baseurl: ""
-url: http://c100.co/
+url: https://c100.co/
 host: 0.0.0.0
 
 # Build settings

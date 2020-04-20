@@ -1,4 +1,4 @@
-I"˜&<p class="message"><strong>Howdy!</strong> This is an example blog post that shows several types of HTML content supported in this theme.</p>
+I"›&<p class="message"><strong>Howdy!</strong> This is an example blog post that shows several types of HTML content supported in this theme.</p>
 
 <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
@@ -121,9 +121,9 @@
 
 <p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
 
-<p><img src="http://placehold.it/800x400" alt="placeholder" title="Large example image" />
-<img src="http://placehold.it/400x200" alt="placeholder" title="Medium example image" />
-<img src="http://placehold.it/200x200" alt="placeholder" title="Small example image" /></p>
+<p><img src="https://placehold.it/800x400" alt="placeholder" title="Large example image" />
+<img src="https://placehold.it/400x200" alt="placeholder" title="Medium example image" />
+<img src="https://placehold.it/200x200" alt="placeholder" title="Small example image" /></p>
 
 <h3 id="tables">Tables</h3>
 

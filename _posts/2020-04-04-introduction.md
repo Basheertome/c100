@@ -10,14 +10,14 @@ description: One morning, when Gregor Samsa woke from troubled dreams, he found 
 
 -----
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
+Poole is the butler for [Jekyll](https://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
 
 This demo site was last updated {{ site.time | date: "%B %d, %Y" }}.
 
 There are currently two themes built on Poole:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* [Hyde](https://hyde.getpoole.com)
+* [Lanyon](https://lanyon.getpoole.com)
 
 Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
