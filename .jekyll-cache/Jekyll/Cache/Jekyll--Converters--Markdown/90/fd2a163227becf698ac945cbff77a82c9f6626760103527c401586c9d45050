@@ -1,0 +1,38 @@
+I"�<h1 id="title-the-evolution-to-here">Title: The Evolution to Here</h1>
+<h2 id="subtitle">Subtitle</h2>
+<p>The biggest shifts in computing have come from shifts in context. We can design for the next big opportunities if we understand how we got Here first.</p>
+
+<h2 id="description">Description</h2>
+<p>Each major new form of computing has coincided with a major new form of input. That input can evolve to be less and less discrete as the context the computer understands becomes greater and greater.</p>
+
+<p>With a terminal you had to directly write the code for any function you wanted the computer to do. Every time. Then when the GUI came along, you could skip a few steps by pointing &amp; clicking at what you were looking at. By the time we got to smartphones, your computer could tell not just what your were tapping on but where in the world you were tapping.</p>
+
+<p>This increase in context, for example, took getting directions from typing gps coordinates into a command line, to typing in two addresses, to now just searching for the generic name of your destination with your current location already assumed.</p>
+
+<p>This huge increase in context has allowed us to massively stretch the capabilities of computing way beyond spreadsheets to dating, shopping, working out, &amp; so much more.</p>
+
+<p>So, as computing becomes more ambient &amp; pervasive, what other increases in context do we already have that we aren’t yet taking full advantage of?</p>
+
+<h2 id="key-takeaways">Key takeaways</h2>
+<ol>
+  <li>Passive context is a user’s most powerful input and should be used wisely.</li>
+  <li>Every change in context should initiate an inversely proportional response in interface.</li>
+  <li>With wearables, home devices, and other types of ambient computing, what new context opportunities are there if we listen for them?</li>
+</ol>
+
+<h2 id="experience">Experience</h2>
+<p>I’ve been working in VR and wearables hardware at Google for the last 4 years. This has become a key framework we use internally to judge where to go next.</p>
+
+<h2 id="target-audience">Target audience</h2>
+<p>As a framework, this is something anyone in the technology industry will be able to apply: from designers (junior, senior, etc), to engineers, to product managers. The talk will intentionally try hard to be both really concrete but also not exclusionary by focusing on specific programs or niche skillsets.</p>
+
+<h2 id="relevance">Relevance</h2>
+<p>As computing becomes more and more integrated with peoples’ lives, it’s important that designers understand the ecosystems, sensors, &amp; surfaces that encompass these new systems so that they can design for them both on and off the screen.</p>
+
+<h2 id="engagement-with-the-audience">Engagement with the audience</h2>
+<p>I love to use a mixture of humor and a non-stop wall of engaging imagery to keep folks engaged, tuned in, &amp; entertained. Unlike my previous talks, this one focuses more specifically on a framework rather than a singular design process, so repetition will enable folks to start filling in the blanks in the latter examples if they’re really getting the hang of the concept.</p>
+
+<h2 id="diagram">Diagram</h2>
+
+<p><img src="IxDA%20Interaction%2020%20Submission/Context-Interface-Diagram.png" alt="" /></p>
+:ET
