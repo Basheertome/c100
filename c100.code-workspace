@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			".jekyll-cache": true,
+			".sass-cache": true,
+			"*.code-workspace": true,
+			"Gemfile.lock": true
+		}
+	}
+}

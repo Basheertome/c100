@@ -1,6 +1,5 @@
 ---
-volume: october
-year: 2020
+volume: 3
 color: 6C8D9E
 thumbnail: twig.png
 ---

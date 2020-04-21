@@ -10,7 +10,6 @@ url: https://c100.co/
 host: 0.0.0.0
 
 # Build settings
-paginate: 1
 permalink: /:categories/:title/
 sass:
   sass_dir: _sass
@@ -32,18 +31,17 @@ defaults:
       type: "issues"
     values:
       layout: post
-      thumbnail: default.png
 
 # Collection settings
 collections:
   issues:
     output: true
     permalink: /:title
+    sort_by: volume
 
 # Gem settings
 plugins:
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-extlinks
 
@@ -59,3 +57,4 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - "*.code-workspace"

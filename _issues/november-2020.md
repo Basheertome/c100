@@ -1,6 +1,5 @@
 ---
-volume: november
-year: 2020
+volume: 4
 color: A0BF6D
 thumbnail: rosemary.png
 ---

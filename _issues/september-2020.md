@@ -1,6 +1,5 @@
 ---
-volume: september
-year: 2020
+volume: 2
 color: 99799B
 thumbnail: flower.png
 ---

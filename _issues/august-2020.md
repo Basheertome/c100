@@ -1,6 +1,5 @@
 ---
-volume: august
-year: 2020
+volume: 1
 color: 4C4C7C
 thumbnail: leaf.png
 ---
