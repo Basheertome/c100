@@ -1,7 +1,7 @@
 ---
 title: These Days Highlights
-category: feature
-issue: october
+tags: feature
+category: october-2020
 thumbnail: introduction.png
 description: Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!
 ---

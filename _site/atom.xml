@@ -4,7 +4,7 @@
  <title>C100</title>
  <link href="/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2020-04-20T17:49:43-07:00</updated>
+ <updated>2020-04-20T22:47:13-07:00</updated>
  <id>http://0.0.0.0:4000</id>
  <author>
    <name></name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Introduction</title>
-   <link href="http://0.0.0.0:4000/features/introduction/"/>
+   <link href="http://0.0.0.0:4000/august-2020/introduction/"/>
    <updated>2020-04-04T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/features/introduction</id>
+   <id>http://0.0.0.0:4000/august-2020/introduction</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -63,9 +63,9 @@
  
  <entry>
    <title>Options</title>
-   <link href="http://0.0.0.0:4000/features/options/"/>
+   <link href="http://0.0.0.0:4000/august-2020/options/"/>
    <updated>2020-04-03T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/features/options</id>
+   <id>http://0.0.0.0:4000/august-2020/options</id>
    <content type="html">&lt;p&gt;With Poole as a baseline theme for Jekyll, there aren’t many options available out of the box. Basic light and dark mode support is included. Colors are also provided for your own customization, while other Poole themes build on this to create more unique looks.&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
@@ -234,9 +234,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="http://0.0.0.0:4000/lab/example-content/"/>
+   <link href="http://0.0.0.0:4000/august-2020/example-content/"/>
    <updated>2020-04-02T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/lab/example-content</id>
+   <id>http://0.0.0.0:4000/august-2020/example-content</id>
    <content type="html">&lt;p class=&quot;message&quot;&gt;&lt;strong&gt;Howdy!&lt;/strong&gt; This is an example blog post that shows several types of HTML content supported in this theme.&lt;/p&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
@@ -420,9 +420,9 @@
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://0.0.0.0:4000/found/whats-jekyll/"/>
+   <link href="http://0.0.0.0:4000/august-2020/whats-jekyll/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/found/whats-jekyll</id>
+   <id>http://0.0.0.0:4000/august-2020/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -435,9 +435,9 @@
  
  <entry>
    <title>Wabi Sabi</title>
-   <link href="http://0.0.0.0:4000/lab/wabi-sabi/"/>
+   <link href="http://0.0.0.0:4000/november-2020/wabi-sabi/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/lab/wabi-sabi</id>
+   <id>http://0.0.0.0:4000/november-2020/wabi-sabi</id>
    <content type="html">&lt;p&gt;Accommodates to attrition and degradation&lt;/p&gt;
 
 &lt;p&gt;Corrosion and contamination makes its expression richer&lt;/p&gt;
@@ -458,9 +458,9 @@
  
  <entry>
    <title>Tech to Invest In</title>
-   <link href="http://0.0.0.0:4000/found/tech-to-invest/"/>
+   <link href="http://0.0.0.0:4000/november-2020/tech-to-invest/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/found/tech-to-invest</id>
+   <id>http://0.0.0.0:4000/november-2020/tech-to-invest</id>
    <content type="html">&lt;h1 id=&quot;blockchain&quot;&gt;Blockchain&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;Crypto currencies&lt;/li&gt;
@@ -523,9 +523,9 @@
  
  <entry>
    <title>IxDA Submission</title>
-   <link href="http://0.0.0.0:4000/feature/ixda/"/>
+   <link href="http://0.0.0.0:4000/november-2020/ixda/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/ixda</id>
+   <id>http://0.0.0.0:4000/november-2020/ixda</id>
    <content type="html">&lt;h1 id=&quot;title-the-evolution-to-here&quot;&gt;Title: The Evolution to Here&lt;/h1&gt;
 &lt;h2 id=&quot;subtitle&quot;&gt;Subtitle&lt;/h2&gt;
 &lt;p&gt;The biggest shifts in computing have come from shifts in context. We can design for the next big opportunities if we understand how we got Here first.&lt;/p&gt;
@@ -568,9 +568,9 @@
  
  <entry>
    <title>Animal Crossing</title>
-   <link href="http://0.0.0.0:4000/feature/animal-crossing/"/>
+   <link href="http://0.0.0.0:4000/november-2020/animal-crossing/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/animal-crossing</id>
+   <id>http://0.0.0.0:4000/november-2020/animal-crossing</id>
    <content type="html">&lt;h2 id=&quot;money-trees&quot;&gt;Money Trees&lt;/h2&gt;
 &lt;p&gt;April 14th - Fertile&lt;/p&gt;
 
@@ -584,9 +584,9 @@
  
  <entry>
    <title>These Days Highlights</title>
-   <link href="http://0.0.0.0:4000/feature/these-days/"/>
+   <link href="http://0.0.0.0:4000/october-2020/these-days/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/these-days</id>
+   <id>http://0.0.0.0:4000/october-2020/these-days</id>
    <content type="html">&lt;p&gt;The first time he’d come to this Ikea had been on a weekend, when the place was packed with middle-class families and newlyweds and college students with their parents. Many of the shoppers, like Connor, had just moved to the city, and they looked anxious and overwhelmed, walking around with yellow recycled plastic shopping bags and strips of paper measuring tape and little golf pencils, trying to figure out how an oak dinette set or a $299 sofa would fit into their new lives.&lt;/p&gt;
 
 &lt;p&gt;“We all just want to prove we’re special, different. It’s like how everyone on Facebook tries to come up with their own way of wishing you happy birthday.”&lt;/p&gt;
@@ -607,9 +607,9 @@
  
  <entry>
    <title>Super Normal</title>
-   <link href="http://0.0.0.0:4000/lab/super-normal/"/>
+   <link href="http://0.0.0.0:4000/october-2020/super-normal/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/lab/super-normal</id>
+   <id>http://0.0.0.0:4000/october-2020/super-normal</id>
    <content type="html">&lt;p&gt;When people hear the word “design”, they think “special”; creating “special” things is what everyone, designers and users alike, assume design is all about. When in fact, both sides are playing out a mutual fantasy far removed from real life.&lt;/p&gt;
 
 &lt;p&gt;I’d like us to explore whatever we might conceive as Super Normal. It’s much more of a quietly seen unseen, a refreshing surprise that awakens the person who had thought of looking for something obviously special in design by instead reconfirming what we already hold important and so perhaps letting us break free of our current design paradigm straight jacket.&lt;/p&gt;
@@ -624,9 +624,9 @@
  
  <entry>
    <title>Questions for Jake</title>
-   <link href="http://0.0.0.0:4000/found/jake/"/>
+   <link href="http://0.0.0.0:4000/october-2020/jake/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/found/jake</id>
+   <id>http://0.0.0.0:4000/october-2020/jake</id>
    <content type="html">&lt;ol&gt;
   &lt;li&gt;Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?&lt;/li&gt;
   &lt;li&gt;What do you think of the heat lost while doing pour over?&lt;/li&gt;
@@ -644,9 +644,9 @@
  
  <entry>
    <title>Famous Breakfasts</title>
-   <link href="http://0.0.0.0:4000/feature/famous-breakfasts/"/>
+   <link href="http://0.0.0.0:4000/october-2020/famous-breakfasts/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/famous-breakfasts</id>
+   <id>http://0.0.0.0:4000/october-2020/famous-breakfasts</id>
    <content type="html">&lt;h2 id=&quot;bill-clinton&quot;&gt;Bill Clinton&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Almond Milk Smoothie with Fresh Berries and Nondairy Protein Powder&lt;/li&gt;
@@ -710,9 +710,9 @@
  
  <entry>
    <title>Mac Baker Email</title>
-   <link href="http://0.0.0.0:4000/feature/mac-baker-email/"/>
+   <link href="http://0.0.0.0:4000/september-2020/mac-baker-email/"/>
    <updated>2020-01-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/mac-baker-email</id>
+   <id>http://0.0.0.0:4000/september-2020/mac-baker-email</id>
    <content type="html">&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt;: The ideal interface is your Mom. She doesn’t need to show you a chart, she just needs to say ‘You’re tired, you need to go to bed.’ You do it because you trust her and you know she’s right. Charts are fun and pretty, but only a persuasion stopgap or a presentation aid to help you understand. Digging into data is a fleeting joy. Using a chart to illustrate a correlation can be helpful. Make it Pertinent, Pretty, Polite, and Protected.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -766,9 +766,9 @@ Blanket, lump response.&lt;/p&gt;
  
  <entry>
    <title>Slow Carb</title>
-   <link href="http://0.0.0.0:4000/lab/slow-carb/"/>
+   <link href="http://0.0.0.0:4000/september-2020/slow-carb/"/>
    <updated>2020-01-03T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/lab/slow-carb</id>
+   <id>http://0.0.0.0:4000/september-2020/slow-carb</id>
    <content type="html">&lt;h1 id=&quot;proteins&quot;&gt;Proteins&lt;/h1&gt;
 &lt;p&gt;Egg whites with 1–2 whole eggs for ﬂavor (or, if organic, 2–5 whole eggs, including yolks)&lt;/p&gt;
 
@@ -837,9 +837,9 @@ Blanket, lump response.&lt;/p&gt;
  
  <entry>
    <title>Photography Equipment</title>
-   <link href="http://0.0.0.0:4000/found/photography-equipment/"/>
+   <link href="http://0.0.0.0:4000/september-2020/photography-equipment/"/>
    <updated>2020-01-02T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/found/photography-equipment</id>
+   <id>http://0.0.0.0:4000/september-2020/photography-equipment</id>
    <content type="html">&lt;h1 id=&quot;everyday-carry&quot;&gt;Everyday Carry&lt;/h1&gt;
 &lt;p&gt;$4000 - Leica Q&lt;/p&gt;
 
@@ -883,9 +883,9 @@ Blanket, lump response.&lt;/p&gt;
  
  <entry>
    <title>FITC Talk Outline</title>
-   <link href="http://0.0.0.0:4000/feature/fitc-outline/"/>
+   <link href="http://0.0.0.0:4000/september-2020/fitc-outline/"/>
    <updated>2020-01-02T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/feature/fitc-outline</id>
+   <id>http://0.0.0.0:4000/september-2020/fitc-outline</id>
    <content type="html">&lt;h2 id=&quot;title&quot;&gt;Title&lt;/h2&gt;
 &lt;p&gt;Beyond Automation: Machine Learning as a Creative Tool&lt;/p&gt;
 

@@ -1,7 +1,7 @@
 ---
 title: Tech to Invest In
-category: found
-issue: november
+tags: found
+category: november-2020
 thumbnail: jekyll.png
 description: The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.
 ---

@@ -1,7 +1,7 @@
 ---
 title: Photography Equipment
-category: found
-issue: september
+tags: found
+category: september-2020
 thumbnail: introduction.png
 description: He slid back into his former position. "Getting up early all the time", he thought, "it makes you stupid. You've got to get enough sleep. Other travelling salesmen live a life of luxury. For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts.
 ---

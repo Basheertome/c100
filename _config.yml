@@ -27,6 +27,18 @@ defaults:
     values:
       layout: post
       thumbnail: default.png
+  - scope:
+      path: ""
+      type: "issues"
+    values:
+      layout: post
+      thumbnail: default.png
+
+# Collection settings
+collections:
+  issues:
+    output: true
+    permalink: /:title
 
 # Gem settings
 plugins:

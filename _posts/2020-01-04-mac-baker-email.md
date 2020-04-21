@@ -1,7 +1,7 @@
 ---
 title: Mac Baker Email
-category: feature
-issue: september
+tags: feature
+category: september-2020
 thumbnail: jekyll.png
 description: How about if I sleep a little bit longer and forget all this nonsense, he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state couldn't get into that position. However hard he threw himself onto his right, he always rolled back to where he was.
 ---

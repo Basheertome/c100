@@ -1,7 +1,7 @@
 ---
 title: What's Jekyll?
-category: found
-issue: august
+tags: found
+category: august-2020
 thumbnail: jekyll.png
 description: It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.
 ---
