@@ -3,21 +3,14 @@ layout: default
 title: Home
 ---
 
+{% assign issue = site.issues[-1].slug %}
+
+<div class="banner">{{- issue | split: "-" | first -}}</div>
+
+{% assign posts = site.categories[issue] | reverse %}
 <div class="posts">
-  {% assign issue = site.issues[-1].slug %}
-  {% assign posts = site.categories[issue] | reverse %}
   {% for post in posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    {% if post.tags == "found" %}
-      {{ post.content }}
-    {% else %}
-      {{ post.description }}
-    {% endif %}
-  </article>
+    {% include postlet.html %}
   {% endfor %}
 </div>
 

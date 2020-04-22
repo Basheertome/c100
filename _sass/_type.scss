@@ -86,6 +86,32 @@ figure {
   margin: 0;
 }
 
+.banner {
+  position: relative;
+  transform: scale(3);
+  z-index: -1;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  text-align: center;
+  font-family: var(--banner-font);
+  line-height: var(--banner-line-height);
+  color: var(--banner-color);
+
+  font-size: 10vw;
+  padding: 8vw 0 12.5vw 0;
+  @media (min-width: 1000px) {
+    font-size: 100px;
+    padding: 80px 0 125px 0;
+  }
+  @media (max-width: 35rem) {
+    padding: 7vw 0 12.5vw 0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    opacity: 0.2;
+  }
+}
 
 // Markdown footnotes
 //

@@ -8,29 +8,30 @@ var index = lunr(function () {
   this.field('content', {boost: 10})
   this.field('description', {boost: 10})
   this.field('tags')
-  this.field('category')
+  this.field('issue')
   this.ref('id')
 });
 
 {% assign year = post.date | date: "%Y" %}
 {% assign count = 0 %}
 {% for post in site.posts %}
+  {% assign post-issue = site.issues | where:"slug", post.category | first %}
   index.add({
     title: {{post.title | jsonify}},
     content: {{post.content | strip_html | jsonify}},
     description: {{post.description | strip_html | jsonify}},
     tags: {{post.tags | jsonify}},
-    category: {{post.category | jsonify}},
+    issue: {{post-issue.volume | jsonify}},
     id: {{count}}
   });
   {% assign count = count | plus: 1 %}
 {% endfor %}
 
 // builds reference data
-var store = [{% for post in site.posts %}{
+var store = [{% for post in site.posts %}{% assign post-issue = site.issues | where:"slug", post.category | first %}{
   "title": {{post.title | jsonify}},
   "link": {{ post.url | jsonify }},
-  "category": {{post.category | replace: "-", " " | jsonify}},
+  "issue": {{post-issue.volume | jsonify}},
   "tags": {{ post.tags | jsonify }},
   "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail | jsonify }},
   "excerpt": {% if post.description %}{{ post.description | truncatewords: 27 | jsonify }}{% else %}{{ post.content | strip_html | truncatewords: 27 | jsonify }}{% endif %}
@@ -80,7 +81,7 @@ $(document).ready(function() {
       // Loop through, match, and add results
       for (var item in result) {
         var ref = result[item].ref;
-        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags+' &middot; '+store[ref].category+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
+        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
         resultdiv.append(searchitem);
       }
       $('#results').fadeIn(100);
