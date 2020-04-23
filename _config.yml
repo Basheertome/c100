@@ -30,7 +30,7 @@ defaults:
       path: ""
       type: "issues"
     values:
-      layout: post
+      layout: issue
 
 # Collection settings
 collections:
