@@ -12,7 +12,7 @@
         {% endfor %}
         <a href="{{ site.baseurl | append: "/issues/" }}">issue {{ post-issue.volume }}</a>
     </div>
-    {% if post.tags contains "found" %}
+    {% if post.tags contains "found" and include.full-found %}
         {{ post.content }}
     {% else %}
       <p class="post-description">{{ post.description }}</p>

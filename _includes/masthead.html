@@ -26,12 +26,12 @@
     <div class="navigation">
       <ul class="left">
         {% for nav in site.data.navigation.left %}
-        <li{% if page.url contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
+        <li{% if page.dir contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
         {% endfor %}
       </ul>
       <ul class="right">
         {% for nav in site.data.navigation.right %}
-        <li{% if page.url contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
+        <li{% if page.dir contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
         {% endfor %}
       </ul>
     </div>

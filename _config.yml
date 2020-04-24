@@ -42,6 +42,11 @@ collections:
 # Pagination settings
 pagination:
   enabled: true
+  title: ':title &middot; :num'
+  # TODO: adjust pagination amount to final count
+  per_page: 3
+  permalink: '/:num/'
+  sort_reverse: true
 
 # Gem settings
 plugins:

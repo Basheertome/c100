@@ -1,49 +1,9 @@
 ---
-layout: default
+layout: issues
 title: Issues
 pagination:
   enabled: true
   <!-- TODO: adjust pagination amount to final count -->
   per_page: 2
-  title: ':title &middot; :num'
   collection: 'issues'
-  permalink: '/:num/'
-  sort_reverse: true
 ---
-
-<div class="banner">
-  <h1>issues</h1>
-</div>
-
-{% assign issues = paginator.posts %}
-<table class="issues">
-  {% tablerow issue in issues cols:3 %}
-    <a class="issue-link" href="{{ issue | relative_url }}">
-      <div class="issue">
-        <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
-        <div class="issue-year">{{- issue.slug | split: "-" | slice: 1 -}}</div>
-        <div class="issue-volume">{{- issue.volume -}}</div>
-      </div>
-      <div class="issue-meta">
-        <span>{{issue.slug | split: "-" | slice: 0}}</span>
-        &middot;
-        <span>issue {{ issue.volume }}</span>
-      </div>
-    </a>
-  {% endtablerow %}
-</table>
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">older</a>
-  {% else %}
-    <span class="pagination-item older">older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">newer</a>
-  {% else %}
-    <span class="pagination-item newer">newer</span>
-  {% endif %}
-</div>
-{% endif %}
