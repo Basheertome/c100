@@ -1,0 +1,15 @@
+left:
+  - text: issues
+    url: issues
+  - text: about
+    url: about
+  - text: subscribe
+    url: subscribe
+
+right:
+  - text: features
+    url: features
+  - text: found
+    url: found
+  - text: lab
+    url: lab

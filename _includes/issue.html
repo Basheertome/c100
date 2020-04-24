@@ -1,0 +1,36 @@
+<div class="banner">
+  <h1>{{- issue.slug | split: "-" | first -}}</h1>
+  <h2>{{ issue.content | strip_html }}</h2>
+</div>
+
+{% assign posts = site.categories[issue.slug] | reverse %}
+<div class="posts">
+  {% for post in posts %}
+    {% include postlet.html %}
+  {% endfor %}
+</div>
+
+{% assign issue-count = site.issues | size %}
+{% if issue.volume < issue-count %}
+  {% assign next-issue = issue.volume | plus: 0 %}
+{% else %}
+  {% assign next-issue = false %}
+{% endif %}
+{% if issue.volume > 1 %}
+  {% assign previous-issue = issue.volume | minus: 2 %}
+{% else %}
+  {% assign previous-issue = false %}
+{% endif %}
+
+<div class="pagination">
+  {% if previous-issue %}
+    <a class="pagination-item older" href="{{ site.issues[previous-issue] | relative_url }}">previous issue</a>
+  {% else %}
+    <span class="pagination-item older">previous issue</span>
+  {% endif %}
+  {% if next-issue %}
+    <a class="pagination-item newer" href="{{ site.issues[next-issue] | relative_url }}">next issue</a>
+  {% else %}
+    <span class="pagination-item newer">next issue</span>
+  {% endif %}
+</div>

@@ -3,9 +3,9 @@
         <li class="search" onclick="$('#search').focus();">
             <img src="{{ site.baseurl }}/assets/search.svg" alt="&#1F50D;">
         </li>
-        {% assign navigation = site.data.left_navigation | concat: site.data.right_navigation %}
+        {% assign navigation = site.data.navigation.left | concat: site.data.navigation.right %}
         {% for nav in navigation %}
-        <li{% if nav.url == page.url %} class="active"{% endif %}><a href="{{ site.baseurl | append: nav.url }}">{{ nav.text }}</a></li>
+        <li{% if page.url contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
         {% endfor %}
     </ul>
     <ul class="social">

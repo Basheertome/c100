@@ -3,24 +3,6 @@ layout: default
 title: Home
 ---
 
-{% assign issue = site.issues[-1].slug %}
+{% assign issue = site.issues[-1] %}
 
-<div class="banner">{{- issue | split: "-" | first -}}</div>
-<h2 class="issue-description">{{ site.issues[-1].content }}</h2>
-
-{% assign posts = site.categories[issue] | reverse %}
-<div class="posts">
-  {% for post in posts %}
-    {% include postlet.html %}
-  {% endfor %}
-</div>
-
-{% assign issue-count = site.issues | size %}
-<div class="pagination">
-  {% if issue-count > 1 %}
-    <a class="pagination-item older" href="{{ site.issues[-2] | relative_url }}">previous issue</a>
-  {% else %}
-    <span class="pagination-item previous issue">previous issue</span>
-  {% endif %}
-    <span class="pagination-item newer">next issue</span>
-</div>
+{% include issue.html %}

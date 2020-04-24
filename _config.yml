@@ -36,13 +36,18 @@ defaults:
 collections:
   issues:
     output: true
-    permalink: /:title
+    permalink: /:title/
     sort_by: volume
+
+# Pagination settings
+pagination:
+  enabled: true
 
 # Gem settings
 plugins:
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-paginate-v2
   - jekyll-extlinks
 
 extlinks:
