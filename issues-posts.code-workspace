@@ -5,6 +5,10 @@
 			"path": "_issues"
 		},
 		{
+			"name": "_drafts",
+			"path": "_drafts"
+		},
+		{
 			"name": "_posts",
 			"path": "_posts"
 		}

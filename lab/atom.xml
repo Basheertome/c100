@@ -5,13 +5,13 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }} - {{ site.tagline }}</title>
- <link href="{{ '/atom.xml' | relative_url }}" rel="self"/>
- <link href="{{ site.url | append: site.baseurl }}/"/>
+ <title>{{ site.title }} - Lab</title>
+ <link href="{{ '/lab/atom.xml' | relative_url }}" rel="self"/>
+ <link href="{{ site.url | append: site.baseurl | append: '/lab' }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <id>{{ site.url }}/lab</id>
 
- {% for post in site.posts %}
+ {% for post in site.tags.lab %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
    <link href="{{ site.url | append: site.baseurl | append: post.url }}"/>

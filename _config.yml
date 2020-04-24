@@ -50,9 +50,9 @@ pagination:
 
 # Gem settings
 plugins:
+  - jekyll-paginate-v2
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-paginate-v2
   - jekyll-extlinks
 
 extlinks:
