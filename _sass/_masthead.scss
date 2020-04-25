@@ -61,6 +61,10 @@
           display: inline-block;
           line-height: 24px;
           color: var(--ui-color);
+          box-shadow: inset 0 -2px rgba(212,203,195,0);
+          -webkit-transition: .1s ease-in-out box-shadow;
+          -moz-transition: .1s ease-in-out box-shadow;
+          transition: .1s ease-in-out box-shadow;
 
           &:hover, &:focus {
             text-decoration: none;
@@ -127,6 +131,18 @@
         padding: 6px;
         margin-right: -6px;
         cursor: pointer;
+        transform: scale(1);
+        -webkit-transition: 0.1s ease-in-out transform;
+        -moz-transition: 0.1s ease-in-out transform;
+        transition: 0.1s ease-in-out transform;
+        
+        &:hover {
+          transform: scale(1.15);
+        }
+
+        &:active {
+          top: 2px;
+        }
 
         span {
           position: absolute;
@@ -376,6 +392,19 @@
 
         .logo {
           width: 8rem;
+          transform: scale(1);
+          -webkit-transition: 0.1s ease-in-out transform;
+          -moz-transition: 0.1s ease-in-out transform;
+          transition: 0.1s ease-in-out transform;
+        }
+
+        a:hover .logo {
+          transform: scale(1.03);
+
+          path {
+            fill: rgba(0,0,0,1);
+            stroke-width: 0;
+          }
         }
 
         .menu {
