@@ -85,7 +85,7 @@
       -moz-transition: .1s ease-in-out opacity;
       transition: .1s ease-in-out opacity;
 
-      &:hover {
+      &:hover, &:focus {
         opacity: 1;
       }
     }
@@ -117,7 +117,7 @@
       -moz-transition: .1s ease-in-out opacity;
       transition: .1s ease-in-out opacity;
 
-      &:hover {
+      &:hover, &:focus {
         opacity: 0.7;
       }
 

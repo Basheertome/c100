@@ -1,0 +1,116 @@
+.subscribe {
+    font-family: var(--ui-font);
+    color: var(--ui-color);
+    text-align: center;
+
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: var(--body-font);
+        font-size: var(--body-font-size);
+        line-height: var(--body-line-height);
+        opacity: 0.5;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 0.4rem;
+        line-height: 1.5;
+        text-transform: uppercase;
+        color: var(--ui-color);
+        box-shadow: 0 1px 0 var(--ui-color);
+        opacity: 0.2;
+        -webkit-transition: .1s ease-in-out opacity;
+        -moz-transition: .1s ease-in-out opacity;
+        transition: .1s ease-in-out opacity;
+
+        &:hover, &:focus {
+            text-decoration: none;
+            opacity: 1;
+        }
+
+        &:active {
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        max-width: 550px;
+        margin: 1.5rem auto;
+        padding: 4px 35px 0 35px;
+        background: var(--overlay-bg);
+        border-radius: 35px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+
+        input, button {
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family: var(--ui-font);
+            font-size: 20px;
+            line-height: 33px;
+            color: var(--ui-color) !important;
+            background: transparent;
+            outline: none;
+        }
+
+        input[type="text"] {
+            flex-grow: 1;
+        }
+
+        ::-ms-input-placeholder {
+            line-height: 33px; color: var(--ui-color); opacity: 0.2;
+            -ms-transition: .1s ease-in-out opacity; }
+        ::-webkit-input-placeholder {
+            line-height: 33px; color: var(--ui-color); opacity: 0.2;
+            -webkit-transition: .1s ease-in-out opacity; }
+        ::-moz-placeholder {
+            line-height: 33px; color: var(--ui-color); opacity: 0.2;
+            -moz-transition: .1s ease-in-out opacity; }
+        ::placeholder {
+            line-height: 33px; color: var(--ui-color); opacity: 0.2;
+            transition: .1s ease-in-out opacity; }
+        
+        &:hover, &:focus {
+            ::-ms-input-placeholder { opacity: 0.4; }
+            ::-webkit-input-placeholder { opacity: 0.4; }
+            ::-moz-placeholder { opacity: 0.4; }
+            ::placeholder { opacity: 0.4; }
+        }
+
+        button {
+            display: inline-block;
+            margin: 0 10px;
+            cursor: pointer;
+            opacity: 0.2;
+            -webkit-transition: .1s ease-in-out opacity;
+            -moz-transition: .1s ease-in-out opacity;
+            transition: .1s ease-in-out opacity;
+
+            span {
+                display: inline-block;
+                position: relative;
+                top: 1.5px;
+                transform: scale(1.3);
+                margin-left: 0.3rem;
+            }
+
+            &:active {
+                position: relative;
+                top: 2px;
+                opacity: 1;
+            }
+        }
+
+        input[type="text"]:focus + button {
+            opacity: 1;
+        }
+    }
+}

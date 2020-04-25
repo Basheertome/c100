@@ -18,6 +18,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "message";
 @import "toc";
 @import "search";
+@import "subscribe";
 
 // Sass for creating the swatches
 .colors {
