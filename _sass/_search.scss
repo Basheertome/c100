@@ -158,9 +158,3 @@
 		opacity: 1;
 	}
 }
-
-@media (prefers-color-scheme: dark) {
-	#results .result .result-thumbnail {
-		background-color: rgba(0,0,0,0.15);
-	}
-}
