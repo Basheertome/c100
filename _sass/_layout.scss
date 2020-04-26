@@ -13,11 +13,19 @@
   margin-right: auto;
 
   main {
+    position: relative;
     flex-grow: 1;
+    padding-top: 2.5rem;
   }
 }
 
 footer {
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);
+}
+
+@media (max-width: 35rem) {
+  .container main {
+    padding-top: 0;
+  }
 }

@@ -1,6 +1,5 @@
 .masthead {
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
   margin-bottom: 1rem;
   font-family: var(--ui-font);
   font-size: var(--ui-font-size);
@@ -321,6 +320,7 @@
     min-height: 100vh;
     width: 100%;
     padding: var(--spacer-2);
+    padding-bottom: 0;
     background: var(--overlay-bg-t);
     pointer-events: none;
     -webkit-user-select: none;
