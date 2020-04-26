@@ -1,5 +1,5 @@
 {% assign post-issue = site.issues | where:"slug", post.category | first %}
-<article class="post {{ post.tags | join: " " }}">
+<div class="post {{ post.tags | join: " " }}">
     <picture class="post-thumbnail">
         <img src="{{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail }}" alt="" />
     </picture>
@@ -17,4 +17,4 @@
     {% else %}
       <p class="post-description">{{ post.description }}</p>
     {% endif %}
-  </article>
+  </div>

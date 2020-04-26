@@ -1,29 +1,28 @@
 ---
-layout: page
+layout: about
 title: C100 &middot; About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<p class="image"><img src="/images/about.jpg" alt="Golden Gate Bridge" /></p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Inspiration
+Food sits in the blurry foreground of most of our lives' important moments. It's unavoidable -- food is art, medicine, sustenance, comfort, & community. And yet, it has often been an unpredictable and scary experience dealing with the tools that make it, discouraging people from engaging more deeply with the fuel of their daily lives.
 
-There are currently two themes built on Poole:
+We're on the cusp of a new era. More than ever, people care about what they eat, where it's from, and *how it's made*.
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+The kitchen is the new tool shed.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Description
+Started in 2020, C100 is a monthly digital journal about the tools we use in the kitchen through the lens of design and technology. It's for this new age of makers, explorers, and creatives who understand that technology is powered by style, taste and story, not just by technology alone.
 
-## Setup
+## Colophon
+We're published by [Walnut](https://walnut.co/) and created each month in California by [Basheer Tome](https://basheer.co/), a hardware interface designer cozying up to a calm, warm future with cooking & technology.
 
-Some fun facts about the setup of this project include:
+The site itself is hosted by [Linode](https://www.linode.com/) and built with [Jekyll](https://jekyllrb.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), and [Ruby](https://www.ruby-lang.org/en/).
 
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
+## Contact
+Get in touch: [{{ site.email }}](mailto:{{ site.email }}).
+<br/>
+Follow us: [Twitter](https://twitter.com/{{ site.twitter }}/), [Instagram](https://www.instagram.com/{{ site.instagram }}/), and [RSS]({{ site.baseurl }}/atom.xml).
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<p class="image mug"><img src="/images/mug.jpg" alt="Mug" /></p>
