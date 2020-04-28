@@ -21,8 +21,8 @@ We're published by [Walnut](https://walnut.co/) and created each month in Califo
 The site itself is hosted by [Linode](https://www.linode.com/) and built with [Jekyll](https://jekyllrb.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), and [Ruby](https://www.ruby-lang.org/en/).
 
 ## Contact
-Get in touch: [{{ site.email }}](mailto:{{ site.email }}).
+Get in touch via email at: [{{ site.email }}](mailto:{{ site.email }}).
 <br/>
-Follow us: [Twitter](https://twitter.com/{{ site.twitter }}/), [Instagram](https://www.instagram.com/{{ site.instagram }}/), and [RSS]({{ site.baseurl }}/atom.xml).
+Follow us on: [Twitter](https://twitter.com/{{ site.twitter }}/) or [Instagram](https://www.instagram.com/{{ site.instagram }}/).
 
 <p class="image mug"><img src="/images/mug.jpg" alt="Mug" /></p>

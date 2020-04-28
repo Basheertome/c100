@@ -3,8 +3,8 @@ left:
     url: issues
   - text: about
     url: about
-  - text: subscribe
-    url: subscribe
+  - text: shop
+    url: shop
 
 right:
   - text: features
