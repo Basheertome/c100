@@ -46,8 +46,12 @@
   }
 }
 
+.pagination.sideways {
+  display: none;
+}
+
 @media (min-width: 70rem) {
-  .pagination {
+  .pagination.sideways {
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -35,3 +35,16 @@
     <span class="pagination-item newer">next issue<span>&rarr;</span></span>
   {% endif %}
 </div>
+<div class="pagination sideways">
+  {% if previous-issue %}
+    <a class="pagination-item older" href="{{ site.issues[previous-issue] | relative_url }}">previous issue</a>
+  {% else %}
+    <span class="pagination-item older">previous issue</span>
+  {% endif %}
+  <span class="filler"></span>
+  {% if next-issue %}
+    <a class="pagination-item newer" href="{{ site.issues[next-issue] | relative_url }}">next issue</a>
+  {% else %}
+    <span class="pagination-item newer">next issue</span>
+  {% endif %}
+</div>
