@@ -93,7 +93,6 @@ figure {
 
   padding: 8vw 0 12.5vw 0;
   @media (min-width: 1000px) {
-    font-size: 100px;
     padding: 80px 0 125px 0;
   }
   @media (max-width: 35rem) {
@@ -115,9 +114,14 @@ figure {
     font-family: var(--banner-font);
     line-height: var(--banner-line-height);
     color: var(--banner-color);
-    font-size: 10vw;
     margin: 0;
-    padding-bottom: 3vw;
+
+    font-size: 12vw;
+    padding-bottom: 3.6vw;
+    @media (min-width: 1000px) {
+      font-size: 120px;
+      padding-bottom: 36px;
+    }
   }
 
   h2 {
