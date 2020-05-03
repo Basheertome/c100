@@ -15,7 +15,7 @@ var index = lunr(function () {
   index.add({
     title: "Tech to Invest In",
     content: "Blockchain\n\n  Crypto currencies\n  Identity\n  Smart contracts\n  Certification / diplomas\n\n\n/BTC, ETH, LTC, Ripple, GOOG (GV)/\n\nAutonomous vehicles\n\n  Trucks\n  Buses\n  Taxis\n  Cars\n  Mobile homes / RV\n\n\n/GOOG (Waymo)/\n\nContinuous health monitoring\n\n  Started with steps\n  Then Heart rate\n  GSR\n  Glucose\n  Blood\n  Sleep\n  Food\n\n\n/GOOG (Verily)/\n\nConstellation devices post-phone\n\n  Hearables\n  Wearables\n  Contextual computing\n\n\n/GOOG (HWPA)/\n\nSynthetic Biology\n\n  CRISPR\n\n\n/GOOG (GV)/\n\nInternet infrastructure\n\n  LTE as replacement of DSL and slow internet\n  Wireless &gt; Wired\n\n\n/GOOG (Fiber)/\n",
-    description: "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. \"What's happened to me? \" he thought. It wasn't a dream.",
+    description: "",
     tags: ["found"],
     issue: 4,
     id: 0
@@ -59,7 +59,7 @@ var index = lunr(function () {
   index.add({
     title: "Questions for Jake",
     content: "\n  Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?\n  What do you think of the heat lost while doing pour over?\n  When you’re making coffee, is it more like baking or more like cooking? science or art?\n  How do you feel about the connectivity in the EKG+? Is it something you want to keep pursuing?\n  Where do you draw the line between automation and agency? How much would you streamline if you could?\n  Who do you feel like is your competitor? Hario? Bonavita? Proctor Silex? Breville?\n  What’s it been like to work with Branch? How do you balance what you rely on folks like them for vs what you bring in-house?\n  Did everything just kind of spiral from the Kickstarter project? Or was it a bit more conscious than that? It seems like it’d be hard to be a solo founder working in hardware.\n  How did you decide on the funding model? Did you consider VC? How did you find/meet your current investor?\n  How do you maintain steady income in-between major “hits” or new product drops? Have you been seeing uplift with SKU expansions, the partnerships, and the analog products launching in-between?\n\n",
-    description: "I ought to just try that with my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for me. If I didn't have my parents to think about I'd have given in my notice a long time ago, I'd have gone up to the boss and told him just what I think, tell him everything I would, let him know just what I feel. He'd fall right off his desk!",
+    description: "",
     tags: ["found"],
     issue: 3,
     id: 4
@@ -103,7 +103,7 @@ var index = lunr(function () {
   index.add({
     title: "Photography Equipment",
     content: "Everyday Carry\n$4000 - Leica Q\n\nDSLR\n$1500 - Canon EOS 5D Mark II\n\n$1200 - Canon 50mm f/1.2\n\n$1600 - Canon 14mm f/2.8\n\n$2200 - Canon TS-E 24mm f/3.5L II Tilt-S\n\n$400 - Canon 100mm f/2.8 Macro\n\nLighting &amp; Accessories\nCanon 430EX II Speedlite Flash\n\n2 Pocketwizard Plus II Tranceivers\n\nPocketWizard 804-501 CM-N3 Canon N3 3-Feet Straight Motor Drive Cord\n\nWestcott 45” Umbrella Optical White Satin\n\nManfrotto 680B Monopod\n\nManfrotto 7’8” ALU AC Compact Stand\n\nManfrotto 026 Swivel Umbrella Adapter\n\nManfrotto 035RL Super Clamp with 2908 Standard Stud\n\nManfrotto MB LBAG110 Light Stand Bag\n\nManfrotto 024B 6.5 Feet Long 3 Piece Boom Assembly with 10 lb Counterweight\n\nIncase DSLR Sling Pack in Black\n\nIncase Nylon Carrying Case for DSLR in Black\n",
-    description: "He slid back into his former position. \"Getting up early all the time\", he thought, \"it makes you stupid. You've got to get enough sleep. Other travelling salesmen live a life of luxury. For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts.",
+    description: "",
     tags: ["found"],
     issue: 2,
     id: 8
@@ -147,7 +147,7 @@ var index = lunr(function () {
   index.add({
     title: "What's Jekyll?",
     content: "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:\n\n\n  Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.\n\n\nIt’s an immensely useful tool. Find out more by visiting the project on GitHub.\n",
-    description: "It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.",
+    description: "",
     tags: ["found"],
     issue: 1,
     id: 12
@@ -194,8 +194,8 @@ var store = [{
   "link": "/november-2020/tech-to-invest/",
   "issue": 4,
   "tags": ["found"],
-  "thumbnail": "/thumbnails/jekyll.png",
-  "excerpt": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the..."
+  "thumbnail": "/thumbnails/default.png",
+  "excerpt": "Blockchain Crypto currencies Identity Smart contracts Certification / diplomas /BTC, ETH, LTC, Ripple, GOOG (GV)/ Autonomous vehicles Trucks Buses Taxis Cars Mobile homes / RV /GOOG (Waymo)/..."
 },{
   "title": "Wabi Sabi",
   "link": "/november-2020/wabi-sabi/",
@@ -222,8 +222,8 @@ var store = [{
   "link": "/october-2020/jake/",
   "issue": 3,
   "tags": ["found"],
-  "thumbnail": "/thumbnails/options.png",
-  "excerpt": "I ought to just try that with my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for..."
+  "thumbnail": "/thumbnails/default.png",
+  "excerpt": "Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing? What do you think of the heat lost while doing..."
 },{
   "title": "These Days Highlights",
   "link": "/october-2020/these-days/",
@@ -250,8 +250,8 @@ var store = [{
   "link": "/september-2020/photography-equipment/",
   "issue": 2,
   "tags": ["found"],
-  "thumbnail": "/thumbnails/introduction.png",
-  "excerpt": "He slid back into his former position. \"Getting up early all the time\", he thought, \"it makes you stupid. You've got to get enough sleep. Other travelling..."
+  "thumbnail": "/thumbnails/default.png",
+  "excerpt": "Everyday Carry $4000 - Leica Q DSLR $1500 - Canon EOS 5D Mark II $1200 - Canon 50mm f/1.2 $1600 - Canon 14mm f/2.8 $2200 - Canon..."
 },{
   "title": "FITC Talk Outline",
   "link": "/september-2020/fitc-outline/",
@@ -278,8 +278,8 @@ var store = [{
   "link": "/august-2020/whats-jekyll/",
   "issue": 1,
   "tags": ["found"],
-  "thumbnail": "/thumbnails/jekyll.png",
-  "excerpt": "It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her..."
+  "thumbnail": "/thumbnails/default.png",
+  "excerpt": "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a..."
 },{
   "title": "Introduction",
   "link": "/august-2020/introduction/",

@@ -1,4 +1,4 @@
-.posts.issue {
+.posts {
     .post {
         display: flex;
         flex-direction: row;
@@ -19,6 +19,10 @@
 
         .post-title, .post-meta {
             text-align: center;
+        }
+
+        .post-title a {
+            display: inline-block;
         }
 
         .post-meta {
@@ -50,7 +54,7 @@
         color: var(--ui-color);
         margin-bottom: 0;
 
-        &:after {
+        &:before {
             content: '';
             display: block;
             position: absolute;
@@ -64,9 +68,23 @@
             top: 2px;
         }
     }
-    .post:nth-child(odd) .post-title:after { left: -4rem; }
-    .post:nth-child(even) .post-title:after { right: -4rem; }
-    .post.found .post-title:after { display: none; }
+    .post:nth-child(odd) .post-title:before { left: -4rem; }
+    .post:nth-child(even) .post-title:before { right: -4rem; }
+    .post.found {
+        .post-title {
+            a {
+                padding: 0 1rem;
+                background: var(--body-bg);
+            }
+
+            &:before {
+                width: 100%;
+                left: 0; right: 0;
+                z-index: -1;
+            }
+        }
+        .post-meta { position: relative; }
+    }
 
     .post-meta {
         margin-bottom: 0.5rem;
@@ -104,27 +122,27 @@
 }
 
 @media (max-width: 60rem) {
-    .posts.issue {
+    .posts {
         .post:nth-child(odd) {
             .left {  margin-right: 3rem; }
-            .post-title:after { left: -3rem; }
+            .post-title:before { left: -3rem; }
         }
         .post:nth-child(even) {
             .left { margin-left: 3rem; }
-            .post-title:after { right: -3rem; }
+            .post-title:before { right: -3rem; }
         }
         .post-thumbnail {
             width: calc(45vw * 0.8);
             height: calc(30vw * 0.8);
         }
-        .post-title:after {
+        .post-title:before {
             width: 2rem;
         }
     }
 }
 
 @media (max-width: 45rem) {
-    .posts.issue {
+    .posts {
         .post {
             display: block;
             text-align: left !important;
@@ -137,9 +155,15 @@
                 width: 100%;
                 height: 45vw;
             }
-            .post-title:after {
+            .post-title:before {
                 display: none;
             }
+        }
+        .post.found .post-title:before {
+            position: static;
+            display: block;
+            width: 100%;
+            margin-bottom: 3rem;
         }
     }
 }
