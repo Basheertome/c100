@@ -24,13 +24,14 @@
 
 <div class="pagination">
   {% if previous-issue %}
-    <a class="pagination-item older" href="{{ site.issues[previous-issue] | relative_url }}">previous issue</a>
+    <a class="pagination-item older" href="{{ site.issues[previous-issue] | relative_url }}"><span>&larr;</span>previous issue</a>
   {% else %}
-    <span class="pagination-item older">previous issue</span>
+    <span class="pagination-item older"><span>&larr;</span>previous issue</span>
   {% endif %}
+  <span class="filler"></span>
   {% if next-issue %}
-    <a class="pagination-item newer" href="{{ site.issues[next-issue] | relative_url }}">next issue</a>
+    <a class="pagination-item newer" href="{{ site.issues[next-issue] | relative_url }}">next issue<span>&rarr;</span></a>
   {% else %}
-    <span class="pagination-item newer">next issue</span>
+    <span class="pagination-item newer">next issue<span>&rarr;</span></span>
   {% endif %}
 </div>
