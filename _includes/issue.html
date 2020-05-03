@@ -4,7 +4,7 @@
 </div>
 
 {% assign posts = site.categories[issue.slug] | reverse %}
-<div class="posts">
+<div class="posts issue">
   {% for post in posts %}
     {% include postlet.html full-found="true" %}
   {% endfor %}

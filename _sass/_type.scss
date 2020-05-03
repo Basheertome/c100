@@ -91,12 +91,12 @@ figure {
   flex-flow: row nowrap;
   align-items: center;
 
-  padding: 8vw 0 12.5vw 0;
+  padding: 6vw 0 12vw 0;
   @media (min-width: 1000px) {
     padding: 80px 0 125px 0;
   }
   @media (max-width: 35rem) {
-    padding: 7vw 0 12.5vw 0;
+    padding: 6vw 0 10vw 0;
   }
 
   h1, h2 {
@@ -139,6 +139,14 @@ figure {
                  0 -1px 0 var(--body-bg),
                  0 0 2px var(--body-bg),
                  0 0 2px var(--body-bg);
+    @media (max-width: 60rem) {
+      font-size: 1.2rem;
+      padding: 0 8vw;
+    }
+    @media (max-width: 45rem) {
+      font-size: 1rem;
+      padding: 0;
+    }
   }
 }
 

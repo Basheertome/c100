@@ -20,6 +20,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "search";
 @import "subscribe";
 @import "about";
+@import "issue";
 
 // Sass for creating the swatches
 .colors {
