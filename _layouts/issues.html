@@ -7,22 +7,22 @@ layout: default
 </div>
 
 {% assign issues = paginator.posts %}
-<table class="issues">
-  {% tablerow issue in issues cols:3 %}
-    <a class="issue-link" href="{{ issue | relative_url }}">
-      <div class="issue">
-        <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
-        <div class="issue-year">{{- issue.slug | split: "-" | slice: 1 -}}</div>
-        <div class="issue-volume">{{- issue.volume -}}</div>
-      </div>
-      <div class="issue-meta">
-        <span>{{issue.slug | split: "-" | slice: 0}}</span>
-        &middot;
-        <span>issue {{ issue.volume }}</span>
-      </div>
-    </a>
-  {% endtablerow %}
-</table>
+<div class="issues">
+{% for issue in issues %}
+  <a class="issue-link" href="{{ issue | relative_url }}">
+    <div class="issue" style="background-color: #{{ issue.color }}">
+      <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
+      <div class="issue-year">{{- issue.slug | split: "-" | slice: 1 -}}</div>
+      <div class="issue-volume">{{- issue.volume -}}</div>
+    </div>
+    <div class="issue-meta">
+      <span>{{issue.slug | split: "-" | slice: 0}}</span>
+      &middot;
+      <span>issue {{ issue.volume }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
