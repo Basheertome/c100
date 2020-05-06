@@ -32,6 +32,7 @@ defaults:
       type: "issues"
     values:
       layout: issue
+      cover: default.png
 
 # Collection settings
 collections:
