@@ -4,7 +4,7 @@
  <title>C100 - Features</title>
  <link href="/features/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/features/"/>
- <updated>2020-05-03T22:56:55-07:00</updated>
+ <updated>2020-05-06T01:07:52-07:00</updated>
  <id>http://0.0.0.0:4000/features</id>
 
  
@@ -269,7 +269,7 @@ Blanket, lump response.&lt;/p&gt;
 
 &lt;p&gt;Poole is the butler for &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the static site generator. It’s designed and developed by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.&lt;/p&gt;
 
-&lt;p&gt;This demo site was last updated May 03, 2020.&lt;/p&gt;
+&lt;p&gt;This demo site was last updated May 06, 2020.&lt;/p&gt;
 
 &lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
 

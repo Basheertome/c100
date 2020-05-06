@@ -10,13 +10,15 @@ layout: default
 <div class="issues">
 {% for issue in issues %}
   <a class="issue-link" href="{{ issue | relative_url }}">
-    <div class="issue" style="background-color: #{{ issue.color }}">
+    <div class="issue" style="color: #{{ issue.color }}; background-image: url('{{ site.baseurl | append: "/covers/" | append: issue.cover }}');">
       <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
-      <div class="issue-year">{{- issue.slug | split: "-" | slice: 1 -}}</div>
       <div class="issue-volume">{{- issue.volume -}}</div>
+      <div class="issue-logo">{% include mark.svg %}</div>
     </div>
     <div class="issue-meta">
       <span>{{issue.slug | split: "-" | slice: 0}}</span>
+      &middot;
+      <span>{{ issue.slug | split: "-" | slice: 1 }}</span>
       &middot;
       <span>issue {{ issue.volume }}</span>
     </div>
