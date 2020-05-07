@@ -2,11 +2,7 @@
 layout: default
 ---
 
-<div class="banner">
-  <h1>{{ page.pagination.tag }}</h1>
-</div>
-
-<div class="posts">
+<div class="posts {{ page.pagination.tag }}">
   {% for post in paginator.posts %}
     {% include postlet.html full-found="true" %}
   {% endfor %}

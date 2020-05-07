@@ -70,7 +70,10 @@
     }
     .post:nth-child(odd) .post-title:before { left: -4rem; }
     .post:nth-child(even) .post-title:before { right: -4rem; }
-    .post.found {
+    .post.found .post-title:before {
+        display: none;
+    }
+    &.issue .post.found {
         .post-title {
             a {
                 padding: 0 1rem;
@@ -78,6 +81,7 @@
             }
 
             &:before {
+                display: block;
                 width: 100%;
                 left: 0; right: 0;
                 z-index: -1;
@@ -159,7 +163,7 @@
                 display: none;
             }
         }
-        .post.found .post-title:before {
+        &.issue .post.found .post-title:before {
             position: static;
             display: block;
             width: 100%;
