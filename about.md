@@ -15,10 +15,12 @@ The kitchen is the new tool shed.
 ## Description
 Started in 2020, C100 is a monthly digital journal about the tools we use in the kitchen through the lens of design and technology. It's for this new age of makers, explorers, and creatives who understand that technology is powered by style, taste and story, not just by technology alone.
 
+Subscribe to the [newlsetter]({{ site.baseurl }}/subscribe) to get the latest issue sent directly to your inbox.
+
 ## Colophon
 We're published by [Walnut](https://walnut.co/) and created each month in California by [Basheer Tome](https://basheer.co/), a hardware interface designer cozying up to a calm, warm future with cooking & technology.
 
-The site itself is hosted by [Linode](https://www.linode.com/) and built with [Jekyll](https://jekyllrb.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), and [Ruby](https://www.ruby-lang.org/en/).
+The site itself is hosted by [Linode](https://www.linode.com/) and built with [Jekyll](https://jekyllrb.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), and [Ruby](https://www.ruby-lang.org/en/). The type is set in [Mallory](https://frerejones.com/families/mallory) from Frere-Jones and [Feijoa](https://klim.co.nz/retail-fonts/feijoa/) from Klim.
 
 ## Contact
 Get in touch via email at: [{{ site.email }}](mailto:{{ site.email }}).
