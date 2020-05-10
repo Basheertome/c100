@@ -32,6 +32,7 @@
 		&:hover .result .result-title,
 		&:focus .result .result-title {
 			text-decoration: underline;
+			text-underline-offset: 2.5px;
 		}
 
 		&:active {
