@@ -49,6 +49,9 @@
 .pagination.sideways {
   display: none;
   margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 70rem) {
@@ -76,8 +79,12 @@
         margin-right: -100px;
       }
 
-      & span {
-        display: none;
+      &.older span { margin-right: 0; }
+      &.newer span { margin-left: 0; }
+      &.older span, &.newer span {
+        opacity: 0.35;
+        &:first-child { margin-bottom: 0.7rem; }
+        &:last-child { margin-top: 0.7rem; }
       }
     }
 

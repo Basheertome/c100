@@ -24,15 +24,15 @@ layout: default
 </div>
 <div class="pagination sideways">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">older</a>
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}"><span>&uarr;</span>older<span>&uarr;</span></a>
   {% else %}
-    <span class="pagination-item older">older</span>
+    <span class="pagination-item older"><span>&uarr;</span>older<span>&uarr;</span></span>
   {% endif %}
   <span class="filler"></span>
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">newer</a>
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}"><span>&uarr;</span>newer<span>&uarr;</span></a>
   {% else %}
-    <span class="pagination-item newer">newer</span>
+    <span class="pagination-item newer"><span>&uarr;</span>newer<span>&uarr;</span></span>
   {% endif %}
 </div>
 {% endif %}
