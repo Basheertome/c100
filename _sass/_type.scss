@@ -12,11 +12,21 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+
+  a:hover,
+  a:focus {
+    text-underline-offset: 4px;
+  }
 }
 
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
+
+  a:hover,
+  a:focus {
+    text-underline-offset: 2.5px;
+  }
 }
 
 h3 {
@@ -32,6 +42,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 1.9;
 }
 
 ul, ol, dl {
@@ -150,19 +161,21 @@ figure {
   }
 }
 
-article p a {
-  display: inline-block;
-  line-height: 1;
-  border-bottom: 1px solid var(--link-color);
+article {
+  p a, li > a {
+    display: inline-block;
+    line-height: 1;
+    border-bottom: 1px solid var(--link-color);
 
-  &:hover, &:focus {
-    text-decoration: none;
-    border-bottom: 1px solid var(--link-hover-color);
-  }
+    &:hover, &:focus {
+      text-decoration: none;
+      border-bottom: 1px solid var(--link-hover-color);
+    }
 
-  &:active {
-    position: relative;
-    top: 2px;
+    &:active {
+      position: relative;
+      top: 2px;
+    }
   }
 }
 

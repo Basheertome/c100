@@ -121,14 +121,14 @@
         a {
           color: #000;
           font-weight: 400;
+        }
 
-          &:after {
-            content: ' \2192';
-          }
+        &:after {
+          content: ' \2192';
         }
       }
 
-      p:first-of-type a {
+      & > p:first-of-type a {
         display: inline-block;
         color: #000;
         font-family: var(--ui-font);

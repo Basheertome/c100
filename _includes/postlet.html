@@ -1,5 +1,12 @@
 {% assign post-issue = site.issues | where:"slug", post.category | first %}
-<div class="post {{ post.tags | join: " " }}">
+
+{% if post.tags contains "found" and include.full-found %}
+  {% assign wrapper = "article" %}
+{% else %}
+  {% assign wrapper = "div" %}
+{% endif %}
+
+<{{ wrapper }} class="post {{ post.tags | join: " " }}">
   <a class="left" href="{{ post.url | relative_url }}">
     {% if post.tags contains "found" and include.full-found %}{% else %}
       <picture class="post-thumbnail">
@@ -34,4 +41,4 @@
       <p class="post-description">{{ post.description }}</p>
     {% endif %}
   </span>
-</div>
+</{{ wrapper }}>
