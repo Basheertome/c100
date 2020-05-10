@@ -16,18 +16,6 @@
         text-align: left;
         .left { display: none; }
         .right { flex-grow: 1; }
-
-        .post-title, .post-meta {
-            text-align: center;
-        }
-
-        .post-title a {
-            display: inline-block;
-        }
-
-        .post-meta {
-            margin-bottom: 1rem;
-        }
     }
 
     .left:active {
@@ -49,10 +37,6 @@
 
     .post-title {
         position: relative;
-        font-family: var(--ui-font);
-        font-weight: 400;
-        color: var(--ui-color);
-        margin-bottom: 0;
 
         &:before {
             content: '';
@@ -73,9 +57,9 @@
     .post.found .post-title:before {
         display: none;
     }
-    &.issue .post.found {
+    &.issue .post.found {        
         .post-title {
-            a {
+            a, span {
                 padding: 0 1rem;
                 background: var(--body-bg);
             }
@@ -88,35 +72,6 @@
             }
         }
         .post-meta { position: relative; }
-    }
-
-    .post-meta {
-        margin-bottom: 0.5rem;
-        font-family: var(--ui-font);
-        font-size: 12px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-
-        a {
-            display: inline-block;
-            line-height: 14px;
-            color: var(--ui-color);
-            text-decoration: none;
-            border-bottom: 1px solid rgba(0,0,0,0.15);
-            -webkit-transition: .1s ease-in-out border-bottom;
-            -moz-transition: .1s ease-in-out border-bottom;
-            transition: .1s ease-in-out border-bottom;
-
-            &:hover, &:focus {
-                text-decoration: none;
-                border-bottom: 1px solid rgba(0,0,0,1);
-            }
-
-            &:active {
-                position: relative;
-                top: 2px;
-            }
-        }
     }
 
     .post-description {
@@ -163,11 +118,20 @@
                 display: none;
             }
         }
-        &.issue .post.found .post-title:before {
-            position: static;
-            display: block;
-            width: 100%;
-            margin-bottom: 3rem;
+        .post.found {
+            padding: 0;
+        }
+        &.issue .post.found .post-title {
+            a, span {
+                padding: 0;
+            }
+
+            &:before {
+                position: static;
+                display: block;
+                width: 100%;
+                margin-bottom: 3rem;
+            }
         }
     }
 }

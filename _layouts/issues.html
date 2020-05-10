@@ -12,11 +12,9 @@ layout: default
       <div class="issue-logo">{% include mark.svg %}</div>
     </div>
     <div class="issue-meta">
-      <span>{{issue.slug | split: "-" | slice: 0}}</span>
-      &middot;
-      <span>{{ issue.slug | split: "-" | slice: 1 }}</span>
-      &middot;
       <span>issue {{ issue.volume }}</span>
+      &middot;
+      <span>{{issue.slug | replace: "-", " " }}</span>
     </div>
   </a>
 {% endfor %}

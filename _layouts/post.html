@@ -2,9 +2,23 @@
 layout: default
 ---
 
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+{% assign post-issue = site.issues | where:"slug", page.category | first %}
+
+<article class="post {{ page.tags | join: " " }}">
+  <h1 class="post-title">
+    {% if page.tags contains "found" %}
+      Around the Web
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+  </h1>
+  <div class="post-meta">
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl | append: "/" | append: tag }}/">{{ tag }}</a> &middot;
+    {% endfor %}
+    <a href="{{ site.baseurl | append: post-issue.url }}">issue {{ post-issue.volume }}</a> &middot;
+    <a href="{{ site.baseurl | append: post-issue.url }}">{{ post-issue.slug | replace: "-", " " }}</a>
+  </div>
   {{ content | extlinks }}
 </article>
 

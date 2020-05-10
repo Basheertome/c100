@@ -13,11 +13,12 @@ var index = lunr(function () {
 
   
   index.add({
-    title: "Tech to Invest In",
-    content: "Blockchain\n\n  Crypto currencies\n  Identity\n  Smart contracts\n  Certification / diplomas\n\n\n/BTC, ETH, LTC, Ripple, GOOG (GV)/\n\nAutonomous vehicles\n\n  Trucks\n  Buses\n  Taxis\n  Cars\n  Mobile homes / RV\n\n\n/GOOG (Waymo)/\n\nContinuous health monitoring\n\n  Started with steps\n  Then Heart rate\n  GSR\n  Glucose\n  Blood\n  Sleep\n  Food\n\n\n/GOOG (Verily)/\n\nConstellation devices post-phone\n\n  Hearables\n  Wearables\n  Contextual computing\n\n\n/GOOG (HWPA)/\n\nSynthetic Biology\n\n  CRISPR\n\n\n/GOOG (GV)/\n\nInternet infrastructure\n\n  LTE as replacement of DSL and slow internet\n  Wireless &gt; Wired\n\n\n/GOOG (Fiber)/\n",
+    title: "Found",
+    content: "\n  \n    Cooking with Alkali\n\n    nordicfoodlab.org\n\n    \n      Acidity comes in many delicious forms. Much of the research performed here at the Lab concerns our unending search for them, from our exploration of sour wild things to our investigations of the possibilities of lactic and acetic acid fermentations. Acids can balance flavours, providing brightness and cutting through richness, or they can make you pucker your lips in a delight bordering on pain. But what about their chemical opposites, the alkalis?\n    \n\n    Lovely overview from the folks at Noma, going fairly deep into the science without losing sight of the practical culinary implications.\n  \n  \n    Bake the Baking Soda\n\n    nytimes.com\n\n    \n      Acids are invaluable mainstay cooking ingredients. Lemon and lime juices, myriad vinegars and sour salt, or citric acid, can brighten and balance the flavor of almost any food. But what about their chemical opposites, the un-acids? These are the alkalis, and they’re a different story.\n    \n\n    This short, old, but still relevant article in the NYT by culinary legend Harold McGee really opened my eyes to the full palate that pH’s spectrum encompasses, tying it right back to pretzels in a clear way.\n  \n  \n    Little Fat Boy\n\n    littlefatboy.com\n\n    Beautifully designed, photographed, and written blog going deep on dumplings by my friend Frankie. It started as him going to his grandma’s house to learn the recipes he loved growing up.\n  \n  \n    Stag EKG Kettle by Fellow\n\n    fellowproducts.com\n\n    It’s nearly impossible to find well-made and beautiful electrics in the kitchen. Fellow manages to tread that line while also delivering a fast, clean, &amp; simple interface that gets out of the way. Check out their grinder too.\n  \n  \n    The Spoon\n\n    thespoon.tech\n\n    For your day to day news on all things kitchen &amp; tech, The Spoon is one of the only places putting in the hard work to bring it to you.\n  \n\n",
     description: "",
     tags: ["found"],
     issue: 4,
+    date: "november 2020",
     id: 0
   });
   
@@ -29,6 +30,7 @@ var index = lunr(function () {
     description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
     tags: ["lab"],
     issue: 4,
+    date: "november 2020",
     id: 1
   });
   
@@ -40,6 +42,7 @@ var index = lunr(function () {
     description: "It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.",
     tags: ["features"],
     issue: 4,
+    date: "november 2020",
     id: 2
   });
   
@@ -51,17 +54,19 @@ var index = lunr(function () {
     description: "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.",
     tags: ["features","lab"],
     issue: 4,
+    date: "november 2020",
     id: 3
   });
   
 
   
   index.add({
-    title: "Questions for Jake",
+    title: "Found",
     content: "\n  Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?\n  What do you think of the heat lost while doing pour over?\n  When you’re making coffee, is it more like baking or more like cooking? science or art?\n  How do you feel about the connectivity in the EKG+? Is it something you want to keep pursuing?\n  Where do you draw the line between automation and agency? How much would you streamline if you could?\n  Who do you feel like is your competitor? Hario? Bonavita? Proctor Silex? Breville?\n  What’s it been like to work with Branch? How do you balance what you rely on folks like them for vs what you bring in-house?\n  Did everything just kind of spiral from the Kickstarter project? Or was it a bit more conscious than that? It seems like it’d be hard to be a solo founder working in hardware.\n  How did you decide on the funding model? Did you consider VC? How did you find/meet your current investor?\n  How do you maintain steady income in-between major “hits” or new product drops? Have you been seeing uplift with SKU expansions, the partnerships, and the analog products launching in-between?\n\n",
     description: "",
     tags: ["found"],
     issue: 3,
+    date: "october 2020",
     id: 4
   });
   
@@ -73,6 +78,7 @@ var index = lunr(function () {
     description: "Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone or become friendly with them. It can all go to Hell!",
     tags: ["features"],
     issue: 3,
+    date: "october 2020",
     id: 5
   });
   
@@ -84,6 +90,7 @@ var index = lunr(function () {
     description: "The next train went at seven; if he were to catch that he would have to rush like mad and the collection of samples was still not packed, and he did not at all feel particularly fresh and lively. And even if he did catch the train he would not avoid his boss's anger as the office assistant would have been there to see the five o'clock train go, he would have put in his report about Gregor's not being there a long time ago.",
     tags: ["features"],
     issue: 3,
+    date: "october 2020",
     id: 6
   });
   
@@ -95,17 +102,19 @@ var index = lunr(function () {
     description: "And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have to go right up close because the boss is hard of hearing. Well, there's still some hope; once I've got the money together to pay off my parents' debt to him - another five or six years I suppose - that's definitely what I'll do.",
     tags: ["lab"],
     issue: 3,
+    date: "october 2020",
     id: 7
   });
   
 
   
   index.add({
-    title: "Photography Equipment",
+    title: "Found",
     content: "Everyday Carry\n$4000 - Leica Q\n\nDSLR\n$1500 - Canon EOS 5D Mark II\n\n$1200 - Canon 50mm f/1.2\n\n$1600 - Canon 14mm f/2.8\n\n$2200 - Canon TS-E 24mm f/3.5L II Tilt-S\n\n$400 - Canon 100mm f/2.8 Macro\n\nLighting &amp; Accessories\nCanon 430EX II Speedlite Flash\n\n2 Pocketwizard Plus II Tranceivers\n\nPocketWizard 804-501 CM-N3 Canon N3 3-Feet Straight Motor Drive Cord\n\nWestcott 45” Umbrella Optical White Satin\n\nManfrotto 680B Monopod\n\nManfrotto 7’8” ALU AC Compact Stand\n\nManfrotto 026 Swivel Umbrella Adapter\n\nManfrotto 035RL Super Clamp with 2908 Standard Stud\n\nManfrotto MB LBAG110 Light Stand Bag\n\nManfrotto 024B 6.5 Feet Long 3 Piece Boom Assembly with 10 lb Counterweight\n\nIncase DSLR Sling Pack in Black\n\nIncase Nylon Carrying Case for DSLR in Black\n",
     description: "",
     tags: ["found"],
     issue: 2,
+    date: "september 2020",
     id: 8
   });
   
@@ -117,6 +126,7 @@ var index = lunr(function () {
     description: "He could see from the bed that it had been set for four o'clock as it should have been; it certainly must have rung. Yes, but was it possible to quietly sleep through that furniture-rattling noise? True, he had not slept peacefully, but probably all the more deeply because of that. What should he do now?",
     tags: ["features"],
     issue: 2,
+    date: "september 2020",
     id: 9
   });
   
@@ -128,6 +138,7 @@ var index = lunr(function () {
     description: "And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have to go right up close because the boss is hard of hearing. Well, there's still some hope; once I've got the money together to pay off my parents' debt to him - another five or six years I suppose - that's definitely what I'll do.",
     tags: ["lab"],
     issue: 2,
+    date: "september 2020",
     id: 10
   });
   
@@ -139,28 +150,31 @@ var index = lunr(function () {
     description: "How about if I sleep a little bit longer and forget all this nonsense, he thought, but that was something he was unable to do because he was used to sleeping on his right, and in his present state couldn't get into that position. However hard he threw himself onto his right, he always rolled back to where he was.",
     tags: ["features"],
     issue: 2,
+    date: "september 2020",
     id: 11
   });
   
 
   
   index.add({
-    title: "What's Jekyll?",
-    content: "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:\n\n\n  Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.\n\n\nIt’s an immensely useful tool. Find out more by visiting the project on GitHub.\n",
-    description: "",
-    tags: ["found"],
+    title: "Introduction",
+    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\nThis demo site was last updated May 09, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n",
+    description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
+    tags: ["features"],
     issue: 1,
+    date: "august 2020",
     id: 12
   });
   
 
   
   index.add({
-    title: "Introduction",
-    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\nThis demo site was last updated May 07, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n",
-    description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
-    tags: ["features"],
+    title: "Found",
+    content: "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:\n\n\n  Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.\n\n\nIt’s an immensely useful tool. Find out more by visiting the project on GitHub.\n",
+    description: "",
+    tags: ["found"],
     issue: 1,
+    date: "august 2020",
     id: 13
   });
   
@@ -172,6 +186,7 @@ var index = lunr(function () {
     description: "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.",
     tags: ["lab"],
     issue: 1,
+    date: "august 2020",
     id: 14
   });
   
@@ -183,6 +198,7 @@ var index = lunr(function () {
     description: "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. \"What's happened to me? \" he thought. It wasn't a dream.",
     tags: ["features"],
     issue: 1,
+    date: "august 2020",
     id: 15
   });
   
@@ -190,16 +206,18 @@ var index = lunr(function () {
 
 // builds reference data
 var store = [{
-  "title": "Tech to Invest In",
-  "link": "/november-2020/tech-to-invest/",
+  "title": "Around the Web: November 2020",
+  "link": "/november-2020/found/",
   "issue": 4,
+  "date" : "november 2020",
   "tags": ["found"],
   "thumbnail": "/thumbnails/default.png",
-  "excerpt": "Blockchain Crypto currencies Identity Smart contracts Certification / diplomas /BTC, ETH, LTC, Ripple, GOOG (GV)/ Autonomous vehicles Trucks Buses Taxis Cars Mobile homes / RV /GOOG (Waymo)/..."
+  "excerpt": "Cooking with Alkali nordicfoodlab.org Acidity comes in many delicious forms. Much of the research performed here at the Lab concerns our unending search for them, from our..."
 },{
   "title": "Wabi Sabi",
   "link": "/november-2020/wabi-sabi/",
   "issue": 4,
+  "date" : "november 2020",
   "tags": ["lab"],
   "thumbnail": "/thumbnails/example.png",
   "excerpt": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and..."
@@ -207,6 +225,7 @@ var store = [{
   "title": "IxDA Submission",
   "link": "/november-2020/ixda/",
   "issue": 4,
+  "date" : "november 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/options.png",
   "excerpt": "It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her..."
@@ -214,13 +233,15 @@ var store = [{
   "title": "Animal Crossing",
   "link": "/november-2020/animal-crossing/",
   "issue": 4,
+  "date" : "november 2020",
   "tags": ["features","lab"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on..."
 },{
-  "title": "Questions for Jake",
-  "link": "/october-2020/jake/",
+  "title": "Around the Web: October 2020",
+  "link": "/october-2020/found/",
   "issue": 3,
+  "date" : "october 2020",
   "tags": ["found"],
   "thumbnail": "/thumbnails/default.png",
   "excerpt": "Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing? What do you think of the heat lost while doing..."
@@ -228,6 +249,7 @@ var store = [{
   "title": "These Days Highlights",
   "link": "/october-2020/these-days/",
   "issue": 3,
+  "date" : "october 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling, worries about..."
@@ -235,6 +257,7 @@ var store = [{
   "title": "Famous Breakfasts",
   "link": "/october-2020/famous-breakfasts/",
   "issue": 3,
+  "date" : "october 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/example.png",
   "excerpt": "The next train went at seven; if he were to catch that he would have to rush like mad and the collection of samples was still not..."
@@ -242,13 +265,15 @@ var store = [{
   "title": "Super Normal",
   "link": "/october-2020/super-normal/",
   "issue": 3,
+  "date" : "october 2020",
   "tags": ["lab"],
   "thumbnail": "/thumbnails/jekyll.png",
   "excerpt": "And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have..."
 },{
-  "title": "Photography Equipment",
-  "link": "/september-2020/photography-equipment/",
+  "title": "Around the Web: September 2020",
+  "link": "/september-2020/found/",
   "issue": 2,
+  "date" : "september 2020",
   "tags": ["found"],
   "thumbnail": "/thumbnails/default.png",
   "excerpt": "Everyday Carry $4000 - Leica Q DSLR $1500 - Canon EOS 5D Mark II $1200 - Canon 50mm f/1.2 $1600 - Canon 14mm f/2.8 $2200 - Canon..."
@@ -256,6 +281,7 @@ var store = [{
   "title": "FITC Talk Outline",
   "link": "/september-2020/fitc-outline/",
   "issue": 2,
+  "date" : "september 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/options.png",
   "excerpt": "He could see from the bed that it had been set for four o'clock as it should have been; it certainly must have rung. Yes, but was..."
@@ -263,6 +289,7 @@ var store = [{
   "title": "Slow Carb",
   "link": "/september-2020/slow-carb/",
   "issue": 2,
+  "date" : "september 2020",
   "tags": ["lab"],
   "thumbnail": "/thumbnails/example.png",
   "excerpt": "And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have..."
@@ -270,27 +297,31 @@ var store = [{
   "title": "Mac Baker Email",
   "link": "/september-2020/mac-baker-email/",
   "issue": 2,
+  "date" : "september 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/jekyll.png",
   "excerpt": "How about if I sleep a little bit longer and forget all this nonsense, he thought, but that was something he was unable to do because he..."
 },{
-  "title": "What's Jekyll?",
-  "link": "/august-2020/whats-jekyll/",
-  "issue": 1,
-  "tags": ["found"],
-  "thumbnail": "/thumbnails/default.png",
-  "excerpt": "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a..."
-},{
   "title": "Introduction",
   "link": "/august-2020/introduction/",
   "issue": 1,
+  "date" : "august 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and..."
 },{
+  "title": "Around the Web: August 2020",
+  "link": "/august-2020/found/",
+  "issue": 1,
+  "date" : "august 2020",
+  "tags": ["found"],
+  "thumbnail": "/thumbnails/default.png",
+  "excerpt": "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme: Jekyll is a..."
+},{
   "title": "Example content",
   "link": "/august-2020/example-content/",
   "issue": 1,
+  "date" : "august 2020",
   "tags": ["lab"],
   "thumbnail": "/thumbnails/example.png",
   "excerpt": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on..."
@@ -298,6 +329,7 @@ var store = [{
   "title": "Options",
   "link": "/august-2020/options/",
   "issue": 1,
+  "date" : "august 2020",
   "tags": ["features"],
   "thumbnail": "/thumbnails/options.png",
   "excerpt": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the..."
@@ -347,7 +379,7 @@ $(document).ready(function() {
       // Loop through, match, and add results
       for (var item in result) {
         var ref = result[item].ref;
-        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
+        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+' &middot; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
         resultdiv.append(searchitem);
       }
       $('#results').fadeIn(100);

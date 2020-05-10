@@ -67,10 +67,10 @@ abbr {
 }
 
 blockquote {
-  padding: .5rem 1rem;
+  padding: 0.25rem 1rem;
   margin: .8rem 0;
-  color: var(--gray-500);
-  border-left: .25rem solid var(--border-color);
+  color: rgba(0,0,0,0.5);
+  border-left: 1px solid rgba(0,0,0,0.15);
 
   p:last-child {
     margin-bottom: 0;
@@ -78,7 +78,7 @@ blockquote {
 
   @media (min-width: 30em) {
     padding-right: 5rem;
-    padding-left: 1.25rem;
+    padding-left: 1.3rem;
   }
 }
 
@@ -150,7 +150,7 @@ figure {
   }
 }
 
-article a {
+article p a {
   display: inline-block;
   line-height: 1;
   border-bottom: 1px solid var(--link-color);

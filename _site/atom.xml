@@ -4,72 +4,60 @@
  <title>C100 - a kitchen tools journal</title>
  <link href="/atom.xml" rel="self"/>
  <link href="http://0.0.0.0:4000/"/>
- <updated>2020-05-07T20:49:25-07:00</updated>
+ <updated>2020-05-09T21:43:43-07:00</updated>
  <id>http://0.0.0.0:4000</id>
 
  
  <entry>
-   <title>Tech to Invest In</title>
-   <link href="http://0.0.0.0:4000/november-2020/tech-to-invest/"/>
+   <title>Found</title>
+   <link href="http://0.0.0.0:4000/november-2020/found/"/>
    <updated>2020-04-04T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/november-2020/tech-to-invest</id>
-   <content type="html">&lt;h1 id=&quot;blockchain&quot;&gt;Blockchain&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Crypto currencies&lt;/li&gt;
-  &lt;li&gt;Identity&lt;/li&gt;
-  &lt;li&gt;Smart contracts&lt;/li&gt;
-  &lt;li&gt;Certification / diplomas&lt;/li&gt;
-&lt;/ul&gt;
+   <id>http://0.0.0.0:4000/november-2020/found</id>
+   <content type="html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;cooking-with-alkali&quot;&gt;&lt;a href=&quot;http://nordicfoodlab.org/blog/2015/8/6/cooking-with-alkali&quot;&gt;Cooking with Alkali&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;/BTC, ETH, LTC, Ripple, GOOG (GV)/&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://nordicfoodlab.org/blog/2015/8/6/cooking-with-alkali&quot;&gt;nordicfoodlab.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;autonomous-vehicles&quot;&gt;Autonomous vehicles&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Trucks&lt;/li&gt;
-  &lt;li&gt;Buses&lt;/li&gt;
-  &lt;li&gt;Taxis&lt;/li&gt;
-  &lt;li&gt;Cars&lt;/li&gt;
-  &lt;li&gt;Mobile homes / RV&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Acidity comes in many delicious forms. Much of the research performed here at the Lab concerns our unending search for them, from our exploration of sour wild things to our investigations of the possibilities of lactic and acetic acid fermentations. Acids can balance flavours, providing brightness and cutting through richness, or they can make you pucker your lips in a delight bordering on pain. But what about their chemical opposites, the alkalis?&lt;/p&gt;
+    &lt;/blockquote&gt;
 
-&lt;p&gt;/GOOG (Waymo)/&lt;/p&gt;
+    &lt;p&gt;Lovely overview from the folks at Noma, going fairly deep into the science without losing sight of the practical culinary implications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;bake-the-baking-soda&quot;&gt;&lt;a href=&quot;https://www.nytimes.com/2010/09/15/dining/15curious.html&quot;&gt;Bake the Baking Soda&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h1 id=&quot;continuous-health-monitoring&quot;&gt;Continuous health monitoring&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Started with steps&lt;/li&gt;
-  &lt;li&gt;Then Heart rate&lt;/li&gt;
-  &lt;li&gt;GSR&lt;/li&gt;
-  &lt;li&gt;Glucose&lt;/li&gt;
-  &lt;li&gt;Blood&lt;/li&gt;
-  &lt;li&gt;Sleep&lt;/li&gt;
-  &lt;li&gt;Food&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/2010/09/15/dining/15curious.html&quot;&gt;nytimes.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;/GOOG (Verily)/&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Acids are invaluable mainstay cooking ingredients. Lemon and lime juices, myriad vinegars and sour salt, or citric acid, can brighten and balance the flavor of almost any food. But what about their chemical opposites, the un-acids? These are the alkalis, and they’re a different story.&lt;/p&gt;
+    &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;constellation-devices-post-phone&quot;&gt;Constellation devices post-phone&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hearables&lt;/li&gt;
-  &lt;li&gt;Wearables&lt;/li&gt;
-  &lt;li&gt;Contextual computing&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;This short, old, but still relevant article in the NYT by culinary legend Harold McGee really opened my eyes to the full palate that pH’s spectrum encompasses, tying it right back to pretzels in a clear way.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;little-fat-boy&quot;&gt;&lt;a href=&quot;http://littlefatboy.com/&quot;&gt;Little Fat Boy&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;/GOOG (HWPA)/&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://littlefatboy.com/&quot;&gt;littlefatboy.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;synthetic-biology&quot;&gt;Synthetic Biology&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;CRISPR&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;Beautifully designed, photographed, and written blog going &lt;em&gt;deep&lt;/em&gt; on dumplings by my friend Frankie. It started as him going to his grandma’s house to learn the recipes he loved growing up.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;stag-ekg-kettle-by-fellow&quot;&gt;&lt;a href=&quot;https://fellowproducts.com/stagg-ekg/&quot;&gt;Stag EKG Kettle by Fellow&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;/GOOG (GV)/&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://fellowproducts.com/stagg-ekg/&quot;&gt;fellowproducts.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;internet-infrastructure&quot;&gt;Internet infrastructure&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;LTE as replacement of DSL and slow internet&lt;/li&gt;
-  &lt;li&gt;Wireless &amp;gt; Wired&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;p&gt;It’s nearly impossible to find well-made &lt;em&gt;and&lt;/em&gt; beautiful electrics in the kitchen. Fellow manages to tread that line while also delivering a fast, clean, &amp;amp; simple interface that gets out of the way. Check out their &lt;a href=&quot;https://fellowproducts.com/products/ode-brew-grinder&quot;&gt;grinder&lt;/a&gt; too.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;the-spoon&quot;&gt;&lt;a href=&quot;https://thespoon.tech/&quot;&gt;The Spoon&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;/GOOG (Fiber)/&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://thespoon.tech/&quot;&gt;thespoon.tech&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;For your day to day news on all things kitchen &amp;amp; tech, The Spoon is one of the only places putting in the hard work to bring it to you.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  
@@ -154,10 +142,10 @@
  </entry>
  
  <entry>
-   <title>Questions for Jake</title>
-   <link href="http://0.0.0.0:4000/october-2020/jake/"/>
+   <title>Found</title>
+   <link href="http://0.0.0.0:4000/october-2020/found/"/>
    <updated>2020-03-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/october-2020/jake</id>
+   <id>http://0.0.0.0:4000/october-2020/found</id>
    <content type="html">&lt;ol&gt;
   &lt;li&gt;Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?&lt;/li&gt;
   &lt;li&gt;What do you think of the heat lost while doing pour over?&lt;/li&gt;
@@ -280,10 +268,10 @@
  </entry>
  
  <entry>
-   <title>Photography Equipment</title>
-   <link href="http://0.0.0.0:4000/september-2020/photography-equipment/"/>
+   <title>Found</title>
+   <link href="http://0.0.0.0:4000/september-2020/found/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/september-2020/photography-equipment</id>
+   <id>http://0.0.0.0:4000/september-2020/found</id>
    <content type="html">&lt;h1 id=&quot;everyday-carry&quot;&gt;Everyday Carry&lt;/h1&gt;
 &lt;p&gt;$4000 - Leica Q&lt;/p&gt;
 
@@ -501,21 +489,6 @@ Blanket, lump response.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://0.0.0.0:4000/august-2020/whats-jekyll/"/>
-   <updated>2020-01-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/august-2020/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Introduction</title>
    <link href="http://0.0.0.0:4000/august-2020/introduction/"/>
    <updated>2020-01-04T00:00:00-08:00</updated>
@@ -526,7 +499,7 @@ Blanket, lump response.&lt;/p&gt;
 
 &lt;p&gt;Poole is the butler for &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the static site generator. It’s designed and developed by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.&lt;/p&gt;
 
-&lt;p&gt;This demo site was last updated May 07, 2020.&lt;/p&gt;
+&lt;p&gt;This demo site was last updated May 09, 2020.&lt;/p&gt;
 
 &lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
 
@@ -561,6 +534,21 @@ Blanket, lump response.&lt;/p&gt;
 &lt;p&gt;These themes are developed on and hosted with GitHub. Head to the &lt;a href=&quot;&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Found</title>
+   <link href="http://0.0.0.0:4000/august-2020/found/"/>
+   <updated>2020-01-04T00:00:00-08:00</updated>
+   <id>http://0.0.0.0:4000/august-2020/found</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  

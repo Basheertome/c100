@@ -22,6 +22,7 @@ var index = lunr(function () {
     description: {{post.description | strip_html | jsonify}},
     tags: {{post.tags | jsonify}},
     issue: {{post-issue.volume | jsonify}},
+    date: {{ post-issue.slug | replace: "-", " " | jsonify }},
     id: {{count}}
   });
   {% assign count = count | plus: 1 %}
@@ -29,9 +30,10 @@ var index = lunr(function () {
 
 // builds reference data
 var store = [{% for post in site.posts %}{% assign post-issue = site.issues | where:"slug", post.category | first %}{
-  "title": {{post.title | jsonify}},
+  "title": {% if post.tags contains "found" %}{{ post.category | replace: "-", " " | capitalize | prepend: "Around the Web: " | jsonify }}{% else %}{{ post.title | jsonify }}{% endif %},
   "link": {{ post.url | jsonify }},
   "issue": {{post-issue.volume | jsonify}},
+  "date" : {{ post-issue.slug | replace: "-", " " | jsonify }},
   "tags": {{ post.tags | jsonify }},
   "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail | jsonify }},
   "excerpt": {% if post.description %}{{ post.description | truncatewords: 27 | jsonify }}{% else %}{{ post.content | strip_html | truncatewords: 27 | jsonify }}{% endif %}
@@ -81,7 +83,7 @@ $(document).ready(function() {
       // Loop through, match, and add results
       for (var item in result) {
         var ref = result[item].ref;
-        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
+        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+' &middot; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
         resultdiv.append(searchitem);
       }
       $('#results').fadeIn(100);
