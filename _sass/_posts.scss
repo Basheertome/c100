@@ -78,7 +78,7 @@
   .post-title {
     text-align: center;
 
-    a, span {
+    a {
         display: inline-block;
     }
   }
@@ -121,10 +121,12 @@
         a {
           color: #000;
           font-weight: 400;
-        }
 
-        &:after {
-          content: ' \2192';
+          &:after {
+            content: ' \2192';
+            display: inline-block;
+            margin-left: 0.4rem;
+          }
         }
       }
 
