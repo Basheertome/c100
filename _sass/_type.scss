@@ -60,9 +60,10 @@ dd {
 
 hr {
   position: relative;
-  margin: var(--spacer-2) 0;
+  max-width: 25%;
+  margin: var(--spacer-3) auto;
   border: 0;
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid rgba(0,0,0,0.1);
 }
 
 abbr {

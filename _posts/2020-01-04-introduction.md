@@ -12,6 +12,8 @@ description: One morning, when Gregor Samsa woke from troubled dreams, he found 
 
 Poole is the butler for [Jekyll](https://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
 
+![Cereal](https://readcereal.com/wp-content/uploads/2020/04/Bauhaus-landscape-2-1455x970.jpg#big)
+
 This demo site was last updated {{ site.time | date: "%B %d, %Y" }}.
 
 There are currently two themes built on Poole:
@@ -20,6 +22,8 @@ There are currently two themes built on Poole:
 * [Lanyon](https://lanyon.getpoole.com)
 
 Learn more and contribute on [GitHub]({{ site.github.repo }}).
+
+![Cereal 2](https://readcereal.com/wp-content/uploads/2017/12/journal_maniberg1-1455x970.jpg)
 
 ## What's included
 
@@ -34,9 +38,15 @@ Poole is a streamlined Jekyll site designed and built as a foundation for buildi
 
 Additional features are available in individual themes.
 
+![Cereal 3](https://readcereal.com/wp-content/uploads/2017/12/journal_maniberg5.jpg#half)
+![Cereal 4](https://readcereal.com/wp-content/uploads/2017/12/journal_maniberg7.jpg#half)
+
 ## Browser support
 
 Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.
+
+![Cereal 5](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait7.jpg#bighalf)
+![Cereal 6](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait8.jpg#bighalf)
 
 ## Download
 

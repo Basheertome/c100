@@ -3,7 +3,11 @@ layout: default
 ---
 
 {% assign post-issue = site.issues | where:"slug", page.category | first %}
-
+{% if page.tags contains "found" %}{% else %}
+  <picture class="post-thumbnail">
+    <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
+  </picture>
+{% endif %}
 <article class="post {{ page.tags | join: " " }}">
   <h1 class="post-title">
     {% if page.tags contains "found" %}
