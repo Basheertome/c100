@@ -40,13 +40,18 @@ Additional features are available in individual themes.
 
 ![Cereal 3](https://readcereal.com/wp-content/uploads/2017/12/journal_maniberg5.jpg#half)
 ![Cereal 4](https://readcereal.com/wp-content/uploads/2017/12/journal_maniberg7.jpg#half)
+![Cereal 5](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait17-800x1067.jpg#half)
+![Cereal 6](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait18-800x1067.jpg#half)
 
 ## Browser support
 
 Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.
 
-![Cereal 5](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait7.jpg#bighalf)
-![Cereal 6](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait8.jpg#bighalf)
+![Cereal 7](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait7.jpg#bighalf)
+![Cereal 8](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait8.jpg#bighalf)
+![Cereal 9](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait11-800x1067.jpg#bighalf)
+![Cereal 10](https://readcereal.com/wp-content/uploads/2017/05/abode_portrait12-800x1067.jpg#bighalf)
+![Cereal 11](https://readcereal.com/wp-content/uploads/2018/09/Promenade-du-Port-Landscape-5-1455x970.jpg#big)
 
 ## Download
 
