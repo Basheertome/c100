@@ -23,6 +23,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "postlet";
 @import "404";
 @import "issues";
+@import "footnotes";
 
 // Sass for creating the swatches
 .colors {

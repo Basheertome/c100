@@ -49,6 +49,10 @@ pagination:
   permalink: '/:num/'
   sort_reverse: true
 
+# Markdown settings
+kramdown:
+  footnote_backlink: '&#x21a9;&#xFE0E;'
+
 # Gem settings
 plugins:
   - jekyll-paginate-v2
