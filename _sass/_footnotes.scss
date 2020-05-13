@@ -1,10 +1,4 @@
 // Control the border appearance and size
-$footnote-border-color: #cccccc !default;
-$footnote-border-size: 3px !default;
-
-// Color of the "up" arrow in in-line footnotes:
-$footnote-arrow-color: white !default;
-
 $leading: 28px !default;
 
 // Footnote font size:
@@ -15,6 +9,43 @@ $footnote-width: 150px;
 
 // The max width at which we can display sidebar footnotes. Will mostly likely be different for you:
 $max-column-width-for-sidebar: 1155px !default;
+
+// Markdown footnotes
+//
+// See the example content post for an example.
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+  display: inline-block;
+  margin-left: .1rem;
+}
+
+// List of footnotes
+.footnotes {
+  margin-top: -1.5rem;
+  font-size: 85%;
+  ol {
+    margin-top: 3.5rem;
+    margin-bottom: 0;
+    &:before {
+      content: '';
+      display: block;
+      max-width: 25%;
+      margin: var(--spacer-3) auto;
+      border: 0;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    li:last-child > *:last-child {
+      margin-bottom: 0;
+    }
+  }  
+  .reversefootnote {
+    border: none !important;
+  }
+}
 
 // Footnote stuff (starting with a reset)
 sup[id^="fnref"] {
@@ -29,46 +60,26 @@ sup[id^="fnref"] {
 
 .inline-footnote {
 	&.closed {
-		display: none;
+    display: none;
 	}
 	&.opened {
 		position: relative;
 		display: block;
-		margin: auto;
+    margin: auto;
 		top: auto !important;
 		margin-bottom: $leading;
-		border-top: $footnote-border-size solid $footnote-border-color;
-		border-bottom: $footnote-border-size solid $footnote-border-color;
 		margin-top: $leading;
-		padding-top: $leading / 3;
-		padding-bottom: $leading / 3;
-		padding-left: $leading / 2;
-		padding-right: $leading / 2;
+		padding: $leading / 1.5;
+    background: rgba(0,0,0,0.02);
+    border-radius: calc(var(--border-radius)*2);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+
 		& > *:first-child {
 			margin-top: 0;
-		}
-		&:after, &:before {
-			bottom: 100%;
-			left: 50%;
-			border: solid transparent;
-			content: " ";
-			height: 0;
-			width: 0;
-			position: absolute;
-			pointer-events: none;
-		}
-		&:after {
-			border-color: rgba(0, 0, 0, 0);
-			border-bottom-color: $footnote-arrow-color;
-			border-width: 20px;
-			margin-left: -20px;
-		}
-		&:before {
-			border-color: rgba(0, 0, 0, 0);
-			border-bottom-color: $footnote-border-color;
-			border-width: 24px;
-			margin-left: -24px;
-		}
+    }
+    & > *:last-child {
+      margin-bottom: 0;
+    }
 	}
 	&.cloned {
 		display: none;
@@ -100,6 +111,16 @@ sup[id^="fnref"] {
       border-radius: 0.5rem;
     }
   }
+  .inline-footnote {
+    opacity: 1;
+    &.closed { opacity: 0; }
+    &.opened {
+      animation-name: footFade;
+      animation-duration: 0.35s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards; }
+    @keyframes footFade { from {opacity: 0;} to {opacity: 1;} }
+  }
 }
 @media screen and (min-width: $max-column-width-for-sidebar) {
   sup[id^="fnref"] {
@@ -114,14 +135,15 @@ sup[id^="fnref"] {
 		&.closed,&.opened,&.cloned {
 			display: block;
 			position: absolute;
-			font-size: $footnote-font-size;
+      font-size: $footnote-font-size;
+      color: rgba(0,0,0,0.6);
 			margin-top: $footnote-font-size * -2;
 			width: $footnote-width;
 			border: 0;
 			top: auto;
 			padding: 0;
       right: -1 * $footnote-width - $leading / 2 - 56px - 16px;
-      opacity: 0.6;
+      z-index: -1;
 			p,ul,ol {
 				margin-top: $leading * 0.7;
 				&:first-child {
@@ -130,7 +152,10 @@ sup[id^="fnref"] {
 			}
 			* {
 				line-height: 1.65;
-			}
+      }
+      a {
+        line-height: 1.3;
+      }
 		}
 		&.opened {
 			& > *:first-child {
@@ -144,12 +169,12 @@ sup[id^="fnref"] {
 			display: none;
 		}
 		sup {
-			display: inline;
-			top: 0;
-			font-size: inherit;
-			&:after {
-				content: ". ";
-			}
+			display: block;
+      top: 0;
+      margin-bottom: 0.5rem;
+      font-size: inherit;
+      line-height: 2.5 !important;
+      border-bottom: 1px solid rgba(0,0,0,0.15);
 		}
 	}
 }

@@ -62,6 +62,9 @@ hr {
   position: relative;
   max-width: 25%;
   margin: var(--spacer-3) auto;
+  @media (max-width: 35rem) {
+    margin: 1.5rem auto;
+  }
   border: 0;
   border-top: 1px solid rgba(0,0,0,0.1);
 }
@@ -178,25 +181,6 @@ article {
       top: 2px;
     }
   }
-}
-
-// Markdown footnotes
-//
-// See the example content post for an example.
-
-// Footnote number within body text
-a[href^="#fn:"],
-// Back to footnote link
-a[href^="#fnref:"] {
-  display: inline-block;
-  margin-left: .1rem;
-  font-weight: bold;
-}
-
-// List of footnotes
-.footnotes {
-  margin-top: 2rem;
-  font-size: 85%;
 }
 
 // Custom type

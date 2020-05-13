@@ -8,9 +8,9 @@ description: One morning, when Gregor Samsa woke from troubled dreams, he found 
 
 {::options footnote_backlink_inline="false" /}
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.[^1]
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll[^1] and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
 
-[^1]: Just a quick little test to see if footnotes are working in the right way
+[^1]: Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following. Poole is the butler for [Jekyll](https://jekyllrb.com), the static site generator.
 
 -----
 
