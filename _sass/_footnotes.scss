@@ -29,9 +29,12 @@ a[href^="#fnref:"] {
   ol {
     margin-top: 3.5rem;
     margin-bottom: 0;
+    padding: 0 0 0 1.5rem;
     &:before {
       content: '';
+      position: relative;
       display: block;
+      left: -0.75rem;
       max-width: 25%;
       margin: var(--spacer-3) auto;
       border: 0;

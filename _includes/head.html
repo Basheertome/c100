@@ -5,6 +5,8 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+    {% elsif page.tags contains "found" and page.title %}
+      Around the Web
     {% elsif page.title %}
       {{ page.title }}
     {% else %}

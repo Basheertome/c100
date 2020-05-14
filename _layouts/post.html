@@ -3,6 +3,11 @@ layout: default
 ---
 
 {% assign post-issue = site.issues | where:"slug", page.category | first %}
+{% if page.tags contains "found" %}
+	{% assign title = "Around the Web" %}
+{% else %}
+	{% assign title = page.title %}
+{% endif %}
 {% if page.tags contains "found" %}{% else %}
   <picture class="post-thumbnail header">
     <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
@@ -10,11 +15,7 @@ layout: default
 {% endif %}
 <article class="post {{ page.tags | join: " " }}">
   <h1 class="post-title">
-    {% if page.tags contains "found" %}
-      Around the Web
-    {% else %}
-      {{ page.title }}
-    {% endif %}
+    {{ title }}
   </h1>
   <div class="post-meta">
     {% for tag in page.tags %}
@@ -24,6 +25,14 @@ layout: default
     <a href="{{ site.baseurl | append: post-issue.url }}">{{ post-issue.slug | replace: "-", " " }}</a>
   </div>
   {{ content | extlinks }}
+  <div class="share">
+    <ul>
+      <li>share this article</li>
+      <li><a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img src="{{ site.baseurl }}/assets/twitter.svg" alt="twitter"></a></li>
+      <li><a href="mailto:?subject={{ title }}&amp;body=From C100: {{ site.url }}{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/email.svg" alt="email"></a></li>
+      <li><a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/link.svg" alt="link"></a></li>
+    </ul>
+  </div>
 </article>
 
 <aside class="related">
