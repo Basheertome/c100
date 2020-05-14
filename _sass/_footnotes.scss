@@ -176,5 +176,11 @@ sup[id^="fnref"] {
       line-height: 2.5 !important;
       border-bottom: 1px solid rgba(0,0,0,0.15);
 		}
-	}
+  }
+  .post.found .inline-footnote {
+    &.closed,&.opened,&.cloned {
+      right: -1 * $footnote-width - $leading / 2 - 16px;
+      z-index: 0;
+    }
+  }
 }

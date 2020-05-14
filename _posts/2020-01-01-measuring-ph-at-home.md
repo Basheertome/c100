@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Measuring pH at Home
 tags: features
 category: august-2020
 thumbnail: introduction.png

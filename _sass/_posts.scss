@@ -72,6 +72,10 @@
   }
 }
 
+main > article.post h1 {
+  font-size: 2.75rem;
+}
+
 article.post {
   &.features, &.lab {
     position: relative;
@@ -153,7 +157,7 @@ article.post {
       margin-bottom: 1rem;
   }
 
-  ol {
+  & > ol, .right > ol {
     list-style: none;
     margin-top: 2rem;
     counter-reset: counter;
@@ -334,6 +338,9 @@ article.post {
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
+  }
+  main > article.post h1 {
+    font-size: 2rem;
   }
   article.post {
     &.features, &.lab {

@@ -19,8 +19,11 @@
 
   <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/js/jquery.waypoints.min.js"></script>
-  <script src="{{ site.baseurl }}/js/jquery.inline-footnotes.min.js"></script>
   <script src="{{ site.baseurl }}/js/script.js"></script>
+  {% if page.is_post %}
+    <script src="{{ site.baseurl }}/js/jquery.inline-footnotes.min.js"></script>
+    <script type="text/javascript">$(document).ready(function(){$.inlineFootnotes();});</script>
+  {% endif %}
 
   {% seo title=false %}
 </head>

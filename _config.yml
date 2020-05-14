@@ -27,6 +27,7 @@ defaults:
     values:
       layout: post
       thumbnail: default.png
+      is_post: true
   - scope:
       path: ""
       type: "issues"
