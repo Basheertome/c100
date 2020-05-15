@@ -147,8 +147,82 @@
     }
 }
 
+.subscribe.mini {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    .post.found & { padding-left: 40px; }
+    margin: 2rem 0 0 0;
+    text-align: left;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+
+    & > span {
+        flex-grow: 1;
+        font-size: var(--body-font-size);
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.35);
+
+        span:last-child {
+            display: none;
+        }
+    }
+
+    form {
+        align-items: flex-end;
+        height: 26px;
+        max-width: 550px;
+        margin: 0;
+        padding: 0 10px;
+        background: transparent;
+        border-radius: 0;
+        box-shadow: 0 1px rgba(0,0,0,1);
+
+        input, button {
+            font-size: 16px;
+            line-height: normal;
+            vertical-align: center;
+        }
+
+        ::-ms-input-placeholder {
+            line-height: normal; color: var(--ui-color); opacity: 1; }
+        ::-webkit-input-placeholder {
+            line-height: normal; color: var(--ui-color); opacity: 1; }
+        ::-moz-placeholder {
+            line-height: normal; color: var(--ui-color); opacity: 1; }
+        ::placeholder {
+            line-height: normal; color: var(--ui-color); opacity: 1; }
+
+        &:hover {
+            ::-ms-input-placeholder { opacity: 0.4; }
+            ::-webkit-input-placeholder { opacity: 0.4; }
+            ::-moz-placeholder { opacity: 0.4; }
+            ::placeholder { opacity: 0.4; }
+        }
+
+        button {
+            margin-right: 0;
+            opacity: 1;
+
+            span:first-child {
+                display: none;
+            }
+            span:last-child {
+                top: 0;
+                transform: scale(1.3);
+                margin-left: 0;
+                color: #000;
+            }
+        }
+    }
+}
+
 @media (max-width: 60rem) {
-    .subscribe {
+    .fullpage .subscribe {
         p {
             font-size: 14px;
         }
@@ -168,13 +242,20 @@
 }
 
 @media (max-width: 55rem) {
-    .subscribe .background img {
+    .fullpage .subscribe .background img {
         width: 26rem;
     }
 }
 
+@media (max-width: 45rem) {
+    .subscribe.mini > span {
+        span:first-child { display: none; }
+        span:last-child { display: inline; }
+    }
+}
+
 @media (max-width: 35rem) {
-    .subscribe {
+    .fullpage .subscribe {
         width: calc(100% + 3rem);
         padding: 2.5rem 3rem 3rem 3rem;
         margin: 0 0 0 -1.5rem;
@@ -244,6 +325,15 @@
                     }
                 }
             }
+        }
+    }
+    .subscribe.mini {
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        .post.found & { padding-left: 0; }
+
+        & > span {
+            margin-bottom: 0.5rem;
         }
     }
 }

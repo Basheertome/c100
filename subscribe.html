@@ -2,20 +2,16 @@
 layout: default
 title: C100 &middot; Subscribe
 ---
-<div class="center">
-<div class="subscribe">
-  <div class="background"><img src="{{ site.baseurl }}/assets/subscribe.jpg" /></div>
+<div class="center fullpage">
+  <div class="subscribe">
+    <div class="background"><img src="{{ site.baseurl }}/assets/subscribe.jpg" /></div>
 
-  <h1>Subscribe to the newsletter</h1>
-  <p>Get the latest issue sent directly to your inbox every month</p>
+    <h1>Subscribe to the newsletter</h1>
+    <p>Get the latest issue sent directly to your inbox every month</p>
 
-  <form action="https://tinyletter.com/c100" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/c100', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <input type="hidden" value="1" name="embed" />
-    <input type="text" placeholder="email address" name="email" id="tlemail" />
-    <button type="submit"><span>submit </span><span>&#8677;</span></button>
-  </form>
+    {% include subscribe.html %}
 
-  <!-- TODO: Get real link for this -->
-  <a href="https://tinyletter.com/c100" target="blank"><span>view </span>archive</a>
-</div>
+    <!-- TODO: Get real link for this -->
+    <a href="https://tinyletter.com/c100" target="blank"><span>view </span>archive</a>
+  </div>
 </div>
