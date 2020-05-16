@@ -189,13 +189,13 @@
         }
 
         ::-ms-input-placeholder {
-            line-height: normal; color: var(--ui-color); opacity: 1; }
+            line-height: normal; color: var(--ui-color); opacity: 0.2; }
         ::-webkit-input-placeholder {
-            line-height: normal; color: var(--ui-color); opacity: 1; }
+            line-height: normal; color: var(--ui-color); opacity: 0.2; }
         ::-moz-placeholder {
-            line-height: normal; color: var(--ui-color); opacity: 1; }
+            line-height: normal; color: var(--ui-color); opacity: 0.2; }
         ::placeholder {
-            line-height: normal; color: var(--ui-color); opacity: 1; }
+            line-height: normal; color: var(--ui-color); opacity: 0.2; }
 
         &:hover {
             ::-ms-input-placeholder { opacity: 0.4; }
