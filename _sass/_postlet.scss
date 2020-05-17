@@ -2,14 +2,21 @@
     .post {
         display: flex;
         flex-direction: row;
+
+        .left, .right {
+            display: block;
+            position: relative;
+        }
     }
     .post:nth-child(odd) {
         .left {  margin-right: 4rem; }
+        .post-spot { right: -250px; }
     }
     .post:nth-child(even) {
         flex-direction: row-reverse;
         text-align: right;
         .left { margin-left: 4rem; }
+        .post-spot { left: -250px; }
     }
 
     .post.found {
@@ -32,6 +39,30 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+
+    .post-spot {
+        display: block;
+        width: 400px;
+        max-width: 400px;
+        height: 400px;
+        position: absolute;
+        top: calc(50% - 200px);
+        z-index: -1;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    
+        img {
+            display: initial;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            margin: 0; padding: 0;
+            object-fit: contain;
+            border-radius: 0;
         }
     }
 
@@ -118,7 +149,6 @@
             text-align: left !important;
             margin-bottom: 3rem;
             .left {
-                display: block;
                 margin: 1rem 0 !important;
             }
             .post-thumbnail {

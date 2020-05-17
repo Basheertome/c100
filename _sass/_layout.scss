@@ -35,6 +35,13 @@
         border-radius: 0;
       }
     }
+    .post.found ~ .splash {
+      top: 150px;
+      opacity: 0.5;
+    }
+    .issues + .splash {
+        top: 0px;
+    }
   }
 }
 

@@ -38,5 +38,6 @@
     {% else %}
       <p class="post-description">{{ post.description }}</p>
     {% endif %}
+    <picture class="post-spot"><img src="{{ site.baseurl | append: "/illos/" | append: post.illo }}" alt="" /></picture>
   </span>
 </{{ wrapper }}>
