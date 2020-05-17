@@ -27,12 +27,15 @@ defaults:
     values:
       layout: post
       thumbnail: default.png
+      illo: default.png
       is_post: true
   - scope:
       path: ""
       type: "issues"
     values:
       layout: issue
+      volume: 0
+      color: ffffff
       cover: default.png
 
 # Collection settings

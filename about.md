@@ -3,7 +3,7 @@ layout: about
 title: C100 &middot; About
 ---
 
-<p class="image"><img src="/images/about.jpg" alt="Golden Gate Bridge" /></p>
+<p class="image"><img src="/assets/about.jpg" alt="Golden Gate Bridge" /></p>
 
 ## Inspiration
 Food sits in the blurry foreground of most of our lives' important moments. It's unavoidable -- food is art, medicine, sustenance, comfort, & community. And yet, it has often been an unpredictable and scary experience dealing with the tools that make it, discouraging people from engaging more deeply with the fuel of their daily lives.
@@ -27,4 +27,4 @@ Get in touch via email at: [{{ site.email }}](mailto:{{ site.email }}).
 <br/>
 Follow us on: [Twitter](https://twitter.com/{{ site.twitter }}/) or [Instagram](https://www.instagram.com/{{ site.instagram }}/).
 
-<p class="image mug"><img src="/images/mug.jpg" alt="Mug" /></p>
+<p class="image mug"><img src="/assets/mug.png" alt="Mug" /></p>

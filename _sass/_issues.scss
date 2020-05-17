@@ -120,6 +120,10 @@
     }
 }
 
+.container main .issues + .splash {
+    top: 0px;
+}
+
 @media (max-width: 60rem) {
     .issues {
         grid-template-columns: repeat(2, 1fr);
