@@ -1,4 +1,5 @@
 ---
+title: linkages
 volume: 3
 color: 6C8D9E
 cover: desert.jpg

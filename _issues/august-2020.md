@@ -1,4 +1,5 @@
 ---
+title: twist
 volume: 1
 color: 4C4C7C
 cover: beach.jpg
