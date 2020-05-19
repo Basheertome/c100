@@ -7,14 +7,17 @@ thumbnail: introduction.png
 description: Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.
 ---
 
+### Creamy
 * **4 Large** Egg yolks
 * **1/2C** Granulated sugar
 * **1/2C** Sweet marsala wine
 * **1lb** Mascarpone cheese
 * **1C** Heavy cream
-* **40** Prepared espresso
-* **12oz** Granulated sugar
-* **2t** Ladyfinger cookies
+
+### Crunch
+* **12oz** Prepared espresso
+* **2t** Granulated sugar
+* **40** Ladyfinger cookies
 * **2T** Cocoa powder
 
 ---
@@ -80,18 +83,18 @@ Lightly dust a work surface with flour. When your dough is ready, take out of pl
     <td colspan="3"></td>
   </tr>
   <tr>
-    <td>40</td>
+    <td>12oz</td>
     <td colspan="2">Prepared espresso</td>
     <td rowspan="2">dissolve</td>
     <td colspan="2" rowspan="2"></td>
     <td rowspan="3">soak for 2sec</td>
   </tr>
   <tr>
-    <td>12oz</td>
+    <td>2t</td>
     <td colspan="2">Granulated sugar</td>
   </tr>
   <tr>
-    <td>2t</td>
+    <td>40</td>
     <td colspan="2">Ladyfinger cookies</td>
     <td colspan="3"></td>
   </tr>
