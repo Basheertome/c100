@@ -37,12 +37,23 @@ defaults:
       volume: 0
       color: ffffff
       cover: default.png
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: recipe
+      volume: 0
+      thumbnail: default.png
 
 # Collection settings
 collections:
   issues:
     output: true
     permalink: /:title/
+    sort_by: volume
+  recipes:
+    output: true
+    permalink: /recipes/:title/
     sort_by: volume
 
 # Pagination settings

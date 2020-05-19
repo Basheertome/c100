@@ -1,5 +1,5 @@
 ---
-title: ferment
+theme: ferment
 volume: 4
 color: 522e23
 cover: fog.jpg

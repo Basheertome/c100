@@ -11,6 +11,9 @@
 		{
 			"name": "_posts",
 			"path": "_posts"
+		},
+		{
+			"path": "_recipes"
 		}
 	],
 	"settings": {}

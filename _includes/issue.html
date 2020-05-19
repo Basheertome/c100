@@ -1,6 +1,6 @@
 <div class="banner">
   <h1>{{- issue.slug | split: "-" | first -}}</h1>
-  <h2><span>{{ issue.title }}</span>&nbsp;&nbsp;{{ issue.content | strip_html }}</h2>
+  <h2><span>{{ issue.theme }}</span>&nbsp;&nbsp;{{ issue.content | strip_html }}</h2>
 </div>
 
 {% assign posts = site.categories[issue.slug] | reverse %}

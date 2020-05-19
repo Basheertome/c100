@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="page recipe">
+    <h1 class="recipe-title">{{ page.title }}</h1>
+    <picture class="recipe-thumbnail">
+        <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
+    </picture>
+    <div class="recipe-meta">
+        <p class="recipe-description">{{ page.description }}</p>
+        <span class="recipe-servings">{{ page.servings }}</span>
+        <span class="recipe-time">{{ page.time }}</span>
+    </div>
+    <div class="recipe-ingredients">
+        <h2 id="ingredients">Ingredients</h2>
+        {{ content | split: "<hr />" | slice: 0 }}
+    </div>
+    <div class="recipe-directions">
+        <h2 id="directions">Directions</h2>
+        {{ content | split: "<hr />" | slice: 1 }}
+    </div>
+    <div class="recipe-outline">
+        <h2 id="outline">Outline</h2>
+        {{ content | split: "<hr />" | slice: 2 }}
+    </div>
+</article>

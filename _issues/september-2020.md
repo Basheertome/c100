@@ -1,5 +1,5 @@
 ---
-title: orange
+theme: orange
 volume: 2
 color: ffffff
 cover: icecream.jpg

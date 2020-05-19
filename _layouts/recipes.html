@@ -2,20 +2,17 @@
 layout: default
 ---
 
-{% assign issues = paginator.posts %}
+{% assign recipes = paginator.posts %}
 <div class="issues">
-{% for issue in issues %}
-  <a class="issue-link" href="{{ issue | relative_url }}">
-    <div class="issue" style="color: #{{ issue.color }}; background-image: url('{{ site.baseurl | append: "/covers/" | append: issue.cover }}');">
-      <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
-      <div class="issue-volume">{{- issue.volume -}}</div>
+{% for recipe in recipes %}
+  <a class="issue-link" href="{{ recipe | relative_url }}">
+    <div class="issue" style="color: #{{ recipe.color }}; background-image: url('{{ site.baseurl | append: "/covers/" | append: issue.cover }}');">
+      <div class="issue-title">{{- recipe.slug | split: "-" | slice: 0 -}}</div>
+      <div class="issue-volume">{{- recipe.volume -}}</div>
       <div class="issue-logo">{% include mark.svg %}</div>
     </div>
     <div class="issue-meta">
-      <span>{{ issue.theme }}</span>
-      &middot;
-      {% assign issue-month = issue.slug | split: "-" | slice: 0 | join: "" %}
-      <span>{{ issue-month | slice: 0,3 }} {{ issue.slug | split: "-" | slice: 1 }}</span>
+      <span>{{ recipe.title }}</span>
     </div>
   </a>
 {% endfor %}
