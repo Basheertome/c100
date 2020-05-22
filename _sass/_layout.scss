@@ -20,10 +20,17 @@
     .splash {
       display: block;
       position: absolute;
-      width: 1000px; height: 1000px;
+      max-width: calc(500px + 100vw - 1.5rem);
       top: 500px;
       left: -500px;
       z-index: -1;
+      overflow: hidden;
+
+      picture {
+        display: block;
+        width: 1000px;
+        height: 1000px;
+      }
 
       img {
         display: initial;
@@ -40,7 +47,14 @@
       opacity: 0.5;
     }
     .issues + .splash {
-        top: 0px;
+      top: 0px;
+    }
+    .recipes ~ .splash {
+      max-width: calc(500px - 50% + 100vw - 1.5rem);
+      @media (min-width: 55rem) {
+        max-width: calc(500px + 50vw); }
+      top: -200px;
+      left: calc(50% - 500px);
     }
   }
 }

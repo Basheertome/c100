@@ -2,6 +2,11 @@
 //
 // Update the foundational and global aspects of the page.
 
+// Quick debug view
+// * {
+//   outline: 1px solid red !important;
+// }
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +21,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html {
   overflow-x: hidden;
 }
 
