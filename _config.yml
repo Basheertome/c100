@@ -42,6 +42,7 @@ defaults:
       type: "recipes"
     values:
       layout: recipe
+      tags: recipes
       volume: 0
       thumbnail: default.png
       illo: default.png

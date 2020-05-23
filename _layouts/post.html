@@ -8,11 +8,11 @@ layout: default
 {% else %}
 	{% assign title = page.title %}
 {% endif %}
-{% if page.tags contains "found" %}{% else %}
+{% unless page.tags contains "found" %}
   <picture class="post-thumbnail header">
     <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
   </picture>
-{% endif %}
+{% endunless %}
 <article class="post {{ page.tags | join: " " }}">
   <h1 class="post-title">
     {{ title }}

@@ -22,7 +22,25 @@ var index = lunr(function () {
     description: {{post.description | strip_html | jsonify}},
     tags: {{post.tags | jsonify}},
     issue: {{post-issue.volume | jsonify}},
-    date: {{ post-issue.slug | replace: "-", " " | jsonify }},
+    date: {{post-issue.slug | replace: "-", " " | jsonify}},
+    id: {{count}}
+  });
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+{% for recipe in site.recipes %}
+  {% for issue in site.issues %}
+    {% if issue.volume == recipe.volume %}
+      {% assign recipe-issue = issue %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  index.add({
+    title: {{recipe.title | jsonify}},
+    content: {{recipe.content | split: "<hr />" | slice: 0,2 | join | strip_html | jsonify}},
+    description: {{recipe.description | strip_html | jsonify}},
+    tags: {{recipe.tags | jsonify}},
+    issue: {{recipe.volume | jsonify}},
+    date: {{recipe-issue.slug | replace: "-", " " | jsonify}},
     id: {{count}}
   });
   {% assign count = count | plus: 1 %}
@@ -37,7 +55,15 @@ var store = [{% for post in site.posts %}{% assign post-issue = site.issues | wh
   "tags": {{ post.tags | jsonify }},
   "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail | jsonify }},
   "excerpt": {% if post.description %}{{ post.description | truncatewords: 27 | jsonify }}{% else %}{{ post.content | strip_html | truncatewords: 27 | jsonify }}{% endif %}
-}{% unless forloop.last %},{% endunless %}{% endfor %}]
+}{% unless forloop.last %},{% endunless %}{% endfor %}{% if site.recipes.size > 0 %},{% for recipe in site.recipes %}{% for issue in site.issues %}{% if issue.volume == recipe.volume %}{% assign recipe-issue = issue %}{% break %}{% endif %}{% endfor %}{
+  "title": {{recipe.title | jsonify}},
+  "link": {{ recipe.url | jsonify }},
+  "issue": {{recipe.volume | jsonify}},
+  "date" : {{ recipe-issue.slug | replace: "-", " " | jsonify }},
+  "tags": {{ recipe.tags | jsonify }},
+  "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: recipe.thumbnail | jsonify }},
+  "excerpt": {{ recipe.description | truncatewords: 27 | jsonify }}
+}{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}]
 
 // builds search
 $(document).ready(function() {

@@ -8,11 +8,11 @@
 
 <{{ wrapper }} class="post {{ post.tags | join: " " }}">
   <a class="left" href="{{ post.url | relative_url }}">
-    {% if post.tags contains "found" and include.full-found %}{% else %}
+    {% unless post.tags contains "found" and include.full-found %}
       <picture class="post-thumbnail">
           <img src="{{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail }}" alt="" />
       </picture>
-    {% endif %}
+    {% endunless %}
   </a>
   <span class="right">
     <h1 class="post-title">
