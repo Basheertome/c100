@@ -3,11 +3,11 @@ layout: default
 ---
 
 {% assign recipes = paginator.posts %}
-{% assign offset = paginator.previous_page | times: paginator.per_page | plus: 1 %}
+{% assign offset = paginator.previous_page | times: paginator.per_page %}
 
 <div class="recipes">
     <h1 class="page-title">Recipes</h1>
-    <ol class="recipe-list" start="{{ offset }}">
+    <ol class="recipe-list" style="counter-reset: counter {{ offset }};">
     {% for recipe in recipes %}
     <a class="recipe-link" href="{{ recipe | relative_url }}"><li>
         <span class="recipe-title">{{ recipe.title }}</span>
