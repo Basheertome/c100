@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body{% if page.is_issue %} class="no-overflow"{% endif %}>
     <div class="container content">
       
       {% include masthead.html %}
