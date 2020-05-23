@@ -2,8 +2,10 @@
   <h3>Also in this issue</h3>
   <ul class="related-posts">
     {% assign posts = site.categories[post-issue.slug] | reverse %}
+    {% assign counter = 0 %}
     {% for post in posts %}
-      {% if post.slug == page.slug %}{% continue %}{% endif %}
+    {% if post.slug == page.slug or counter > 2 %}{% continue %}{% else %}
+      {% assign counter = counter | plus: 1 %}
       <li>
         <a href="{{ post.url | relative_url }}">
           <picture class="post-thumbnail">
@@ -36,6 +38,7 @@
           {% endif %}
         </p>
       </a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 </aside>

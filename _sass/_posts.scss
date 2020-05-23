@@ -77,9 +77,12 @@ main > article.post h1 {
 }
 
 article.post {
-  &.features, &.lab {
+  &.features, &.lab, &.recipe {
     position: relative;
     margin: -6rem 3.5rem 0 3.5rem;
+  }
+
+  &.features, &.lab, &.recipe, main > &.found {
     padding: 3.5rem;
     background: #fff;
     z-index: 100;
@@ -352,9 +355,14 @@ article.post {
 
 @media (max-width: 45rem) {
   article.post {
-    &.features, &.lab {
+    &.features, &.lab, &.recipe {
       margin: -4.5rem 2rem 0 2rem;
+    }
+    &.features, &.lab, &.recipe, main > &.found {
       padding: 2rem;
+    }
+    main > &.found h1 {
+      margin-top: 1rem;
     }
     p > img[src$="#half"] {
       max-width: calc(50% - 0.5rem);
@@ -406,11 +414,13 @@ article.post {
     font-size: 2rem;
   }
   article.post {
-    &.features, &.lab {
+    &.features, &.lab, &.recipe {
       margin: 0;
-      padding: 1.5rem;
       border-top-left-radius: 0;
       border-top-right-radius: 0;
+    }
+    &.features, &.lab, &.recipe, main > &.found {
+      padding: 1.5rem;
     }
     p > img[src$="#half"] {
       max-width: 100%;

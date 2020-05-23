@@ -9,11 +9,11 @@ layout: default
     <h1 class="page-title">Recipes</h1>
     <ol class="recipe-list" style="counter-reset: counter {{ offset }};">
     {% for recipe in recipes %}
-    <a class="recipe-link" href="{{ recipe | relative_url }}"><li>
-        <span class="recipe-title">{{ recipe.title }}</span>
-        <span class="recipe-servings">{{ recipe.servings }}</span>
-        <span class="recipe-time">{{ recipe.time }}</span>
-    </li></a>
+        <a class="recipe-link" href="{{ recipe | relative_url }}"><li>
+            <span class="recipe-title">{{ recipe.title }}</span>
+            <span class="recipe-servings">{{ recipe.servings }}</span>
+            <span class="recipe-time">{{ recipe.time }}</span>
+        </li></a>
     {% endfor %}
     </ol>
 </div>
