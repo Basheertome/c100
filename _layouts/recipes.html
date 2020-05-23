@@ -3,19 +3,19 @@ layout: default
 ---
 
 {% assign recipes = paginator.posts %}
-<div class="issues">
-{% for recipe in recipes %}
-  <a class="issue-link" href="{{ recipe | relative_url }}">
-    <div class="issue" style="color: #{{ recipe.color }}; background-image: url('{{ site.baseurl | append: "/covers/" | append: issue.cover }}');">
-      <div class="issue-title">{{- recipe.slug | split: "-" | slice: 0 -}}</div>
-      <div class="issue-volume">{{- recipe.volume -}}</div>
-      <div class="issue-logo">{% include mark.svg %}</div>
-    </div>
-    <div class="issue-meta">
-      <span>{{ recipe.title }}</span>
-    </div>
-  </a>
-{% endfor %}
+{% assign offset = paginator.previous_page | times: paginator.per_page | plus: 1 %}
+
+<div class="recipes">
+    <h1 class="page-title">Recipes</h1>
+    <ol class="recipe-list" start="{{ offset }}">
+    {% for recipe in recipes %}
+    <a class="recipe-link" href="{{ recipe | relative_url }}"><li>
+        <span class="recipe-title">{{ recipe.title }}</span>
+        <span class="recipe-servings">{{ recipe.servings }}</span>
+        <span class="recipe-time">{{ recipe.time }}</span>
+    </li></a>
+    {% endfor %}
+    </ol>
 </div>
 
 {% if paginator.total_pages > 1 %}
@@ -34,4 +34,4 @@ layout: default
 </div>
 {% endif %}
 
-<picture class="splash"><img src="/assets/slipperyelm.png" alt="" /></picture>
+<div class="splash"><picture><img src="/assets/phlox.png" alt="" /></picture></div>

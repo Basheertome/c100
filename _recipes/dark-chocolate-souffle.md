@@ -1,8 +1,8 @@
 ---
-title: The Original Tiramisu
-volume: 1
-servings: 2 servings
-time: 30 - 40 mins
+title: Dark Chocolate Soufflé
+volume: 2
+servings: 4 servings
+time: 20 mins
 thumbnail: introduction.png
 description: Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.
 ---
