@@ -45,6 +45,7 @@ defaults:
       volume: 0
       thumbnail: default.png
       illo: default.png
+      is_post: true
 
 # Collection settings
 collections:
