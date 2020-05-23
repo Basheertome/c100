@@ -107,11 +107,77 @@
         &:first-child { margin-right: 0.25rem; }
         &:last-child { margin-left: 0.25rem; }
     }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .recipe-ingredients {
+        margin: 0 5rem;
+        padding: 1rem 2rem;
+        background: rgba(245,242,239,0.35);
+        border-radius: 20px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+
+        h2, h3 {
+            margin-left: calc(100px + 0.5rem);
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style: none;
+            padding: 0;
+
+            li {
+                display: flex;
+
+                strong {
+                    flex-shrink: 0;
+                    display: inline-block;
+                    width: 100px;
+                    margin-right: 0.5rem;
+                    font-family: var(--ui-font);
+                    font-weight: 600;
+                    line-height: 1.5rem;
+                    text-align: right;
+                    color: #916a4c;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 60rem) {
+    .post.recipe .recipe-ingredients {
+        margin: 0 3rem;
+    }
 }
 
 @media (max-width: 45rem) {
     .recipe-link .recipe-time {
         display: none;
+    }
+
+    .post.recipe {
+        .recipe-ingredients {
+            margin: 0 1.5rem;
+            padding: 1rem;
+
+            h2, h3 {
+                margin-left: calc(80px + 0.5rem);
+            }
+
+            ul li strong {
+                width: 80px;
+            }
+        }
     }
 }
 
@@ -137,7 +203,37 @@
         }
     }
 
+    .post.recipe {
+        .recipe-ingredients {
+            margin: 0;
+            padding: 1rem 2rem;
+
+            h2, h3 {
+                margin-left: 0;
+            }
+
+            ul li strong {
+                width: auto;
+                margin-right: 0.5rem;
+                margin-left: 1rem;
+                text-align: left;
+            }
+        }
+    }
+
     .recipes + .pagination {
         padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 25rem) {
+    .post.recipe {
+        .recipe-ingredients {
+            padding: 1rem 1.5rem;
+
+            ul li strong {
+                margin-left: 0;
+            }
+        }
     }
 }
