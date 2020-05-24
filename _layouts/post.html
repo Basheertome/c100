@@ -25,6 +25,10 @@ layout: default
     <a href="{{ site.baseurl | append: post-issue.url }}">{{ post-issue.slug | replace: "-", " " }}</a>
   </div>
   {{ content | extlinks }}
+  {% if page.recipe %}
+    {% assign recipe = site.recipes | where:"slug", page.recipe | first %}
+    {% include recipe.html %}
+  {% endif %}
   <div class="share">
     <ul>
       <li>share this article</li>

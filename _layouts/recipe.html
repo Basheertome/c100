@@ -16,18 +16,20 @@ layout: default
     <hr />
     <div class="recipe-ingredients">
         <h2 id="ingredients">Ingredients</h2>
-        {{ content | split: "<hr />" | slice: 0 }}
+        {{ content | split: "<hr />" | first }}
     </div>
     <hr />
     <div class="recipe-directions">
         <h2 id="directions">Directions</h2>
-        {{ content | split: "<hr />" | slice: 1 }}
+        {{ content | split: "<hr />" | last }}
     </div>
-    <hr />
-    <div class="recipe-outline">
-        <h2 id="outline">Outline</h2>
-        {{ content | split: "<hr />" | slice: 2 }}
-    </div>
+    {% if page.outline %}
+      <hr />
+      <div class="recipe-outline"><div class="outline">
+        <h2 id="outline">Recipe outline</h2>
+        <img src="{{ site.baseurl | append: "/recipes/" | append: page.outline }}" alt="Recipe outline" />
+      </div></div>
+    {% endif %}
     <div class="share">
       <ul>
         <li>share this recipe</li>

@@ -1,0 +1,13 @@
+<hr />
+<div class="recipe-outline">
+  <h2 id="outline"><a href="{{ recipe | relative_url }}">{{ recipe.title }}<span>&rarr;</span></a></h2>
+  <div class="post-meta">
+      <span class="recipe-servings">{{ recipe.servings }}</span>
+      &middot;
+      <span class="recipe-time">{{ recipe.time }}</span>
+  </div>
+  <p class="recipe-description">{{ recipe.description }}</p>
+  <div class="outline"><a href="{{ recipe | relative_url }}">
+    <img src="{{ site.baseurl | append: "/recipes/" | append: recipe.outline }}" alt="Recipe outline" />
+  </a></div>
+</div>

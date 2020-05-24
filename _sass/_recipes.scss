@@ -102,15 +102,10 @@
 }
 
 .post.recipe {
-    .post-meta span {
-        color: var(--ui-color);
-        &:first-child { margin-right: 0.25rem; }
-        &:last-child { margin-left: 0.25rem; }
-    }
-
     h2 {
         text-align: center;
         font-size: 1.8rem;
+        font-weight: 400;
     }
 
     .recipe-ingredients {
@@ -154,6 +149,70 @@
     }
 }
 
+.post-meta span {
+    color: var(--ui-color);
+    &:first-child { margin-right: 0.25rem; }
+    &:last-child { margin-left: 0.25rem; }
+}
+
+.recipe-outline {
+    text-align: center;
+
+    .recipe-description {
+        margin-bottom: 0;
+    }
+
+    .outline {
+        width: calc(100% + 26rem);
+        max-width: calc(100% + 26rem);
+        margin: 3.5rem -13rem 0.5rem -13rem;
+        padding: 2rem;
+        border-radius: 20px;
+        background: var(--overlay-bg);
+        box-shadow: 0 3px 7px rgba(0,0,0,0.05),
+                    0 5px 20px rgba(0,0,0,0.05);
+
+        h2 {
+            margin: 0 0 1rem 0;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+
+        img {
+            margin: 0;
+            border-radius: 0;
+        }
+    }
+
+    a {
+        color: var(--ui-color);
+
+        &:hover, &:focus {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }   
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+
+        span {
+            display: inline-block;
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 70rem) {
+    .recipe-outline .outline {
+        width: calc(100% + 14rem);
+        max-width: calc(100% + 14rem);
+        margin: 3.5rem -7rem 0.5rem -7rem;
+    }
+}
+
 @media (max-width: 60rem) {
     .post.recipe .recipe-ingredients {
         margin: 0 3rem;
@@ -178,6 +237,13 @@
                 width: 80px;
             }
         }
+    }
+
+    .recipe-outline .outline {
+        width: calc(100% + 8rem);
+        max-width: calc(100% + 8rem);
+        margin: 3.5rem -4rem 0.5rem -4rem;
+        padding: 1.5rem;
     }
 }
 
@@ -219,6 +285,13 @@
                 text-align: left;
             }
         }
+    }
+
+    .recipe-outline .outline {
+        width: calc(100% + 5rem);
+        max-width: calc(100% + 5rem);
+        margin: 2rem -2.5rem 0.5rem -2.5rem;
+        border-radius: var(--border-radius);
     }
 
     .recipes + .pagination {
