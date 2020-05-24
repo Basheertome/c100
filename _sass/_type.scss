@@ -4,7 +4,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.25;
   font-family: var(--ui-font);
   color: var(--ui-color);
@@ -132,10 +132,10 @@ figure {
     margin: 0;
 
     font-size: 12vw;
-    padding-bottom: 3vw;
+    padding-bottom: 2.5vw;
     @media (min-width: 1000px) {
       font-size: 120px;
-      padding-bottom: 36px;
+      padding-bottom: 25px;
     }
   }
 
@@ -155,11 +155,13 @@ figure {
                  0 0 2px var(--body-bg),
                  0 0 2px var(--body-bg);
     span {
+      position: relative;
+      bottom: 2px;
       display: inline-block;
       padding: 0.25rem 1.25rem;
       margin: -0.25rem 0 0 -0.25rem;
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1px;
       border-radius: 10rem;
@@ -190,7 +192,7 @@ figure {
 article {
   p a, li > a {
     display: inline-block;
-    line-height: 1;
+    line-height: 1.2;
     border-bottom: 1px solid var(--link-color);
 
     &:hover, &:focus {
@@ -207,93 +209,48 @@ article {
 
 // Custom type
 //
-// Extend paragraphs with `.lead` for larger introductory text.
-//
 // Sans:
 //   Mallory
-//     • Thin (300)
 //     • Book (400)
 //     • Book Italic (400)
-//     • Medium (500)
-//     • Bold (600)
+//     • Medium (700)
 // 
 // Serif:
 //   Feijoa
-//     • Book (400)
-//     • Book Italic (400)
-//     • Bold (600)
+//     • Medium (400)
+//     • Medium Italic (400)
+//     • Bold (700)
 // 
 // Mono:
 //   Spot Mono
-//     • Normal (400)
+//     • Regular (400)
 // 
 // Display:
-//   Hoefler Titling
-//     • Normal (400)
+//   Ivar Display
+//     • Regular (400)
 //
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
 
 @font-face {
   font-family: "Mallory";
-  src: url($baseurl + "/fonts/mallory-book.eot");
-  src: url($baseurl + "/fonts/mallory-book.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/mallory-book.woff2") format("woff2"),
-       url($baseurl + "/fonts/mallory-book.woff") format("woff"),
-       url($baseurl + "/fonts/mallory-book.ttf") format("truetype"),
-       url($baseurl + "/fonts/mallory-book.svg#mallory-book") format("svg");
+  src: url($baseurl + "/fonts/mallory-book.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory-book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Mallory";
-  src: url($baseurl + "/fonts/mallory-book-italic.eot");
-  src: url($baseurl + "/fonts/mallory-book-italic.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/mallory-book-italic.woff2") format("woff2"),
-       url($baseurl + "/fonts/mallory-book-italic.woff") format("woff"),
-       url($baseurl + "/fonts/mallory-book-italic.ttf") format("truetype"),
-       url($baseurl + "/fonts/mallory-book-italic.svg#mallory-bookitalic") format("svg");
+  src: url($baseurl + "/fonts/mallory-book-italic.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory-book-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Mallory";
-  src: url($baseurl + "/fonts/mallory-thin.eot");
-  src: url($baseurl + "/fonts/mallory-thin.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/mallory-thin.woff2") format("woff2"),
-       url($baseurl + "/fonts/mallory-thin.woff") format("woff"),
-       url($baseurl + "/fonts/mallory-thin.ttf") format("truetype"),
-       url($baseurl + "/fonts/mallory-thin.svg#mallory-thin") format("svg");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Mallory";
-  src: url($baseurl + "/fonts/mallory-medium.eot");
-  src: url($baseurl + "/fonts/mallory-medium.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/mallory-medium.woff2") format("woff2"),
-       url($baseurl + "/fonts/mallory-medium.woff") format("woff"),
-       url($baseurl + "/fonts/mallory-medium.ttf") format("truetype"),
-       url($baseurl + "/fonts/mallory-medium.svg#mallory-medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Mallory";
-  src: url($baseurl + "/fonts/mallory-bold.eot");
-  src: url($baseurl + "/fonts/mallory-bold.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/mallory-bold.woff2") format("woff2"),
-       url($baseurl + "/fonts/mallory-bold.woff") format("woff"),
-       url($baseurl + "/fonts/mallory-bold.ttf") format("truetype"),
-       url($baseurl + "/fonts/mallory-bold.svg#mallory-bold") format("svg");
-  font-weight: 600;
+  src: url($baseurl + "/fonts/mallory-medium.woff2") format("woff2"),
+       url($baseurl + "/fonts/mallory-medium.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -302,9 +259,7 @@ article {
   src: url($baseurl + "/fonts/feijoa-medium.eot");
   src: url($baseurl + "/fonts/feijoa-medium.eot?#iefix") format("embedded-opentype"),
        url($baseurl + "/fonts/feijoa-medium.woff2") format("woff2"),
-       url($baseurl + "/fonts/feijoa-medium.woff") format("woff"),
-       url($baseurl + "/fonts/feijoa-medium.ttf") format("truetype"),
-       url($baseurl + "/fonts/feijoa-medium.svg#feijoa-medium") format("svg");
+       url($baseurl + "/fonts/feijoa-medium.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -314,9 +269,7 @@ article {
   src: url($baseurl + "/fonts/feijoa-medium-italic.eot");
   src: url($baseurl + "/fonts/feijoa-medium-italic.eot?#iefix") format("embedded-opentype"),
        url($baseurl + "/fonts/feijoa-medium-italic.woff2") format("woff2"),
-       url($baseurl + "/fonts/feijoa-medium-italic.woff") format("woff"),
-       url($baseurl + "/fonts/feijoa-medium-italic.ttf") format("truetype"),
-       url($baseurl + "/fonts/feijoa-medium-italic.svg#feijoa-medium-italic") format("svg");
+       url($baseurl + "/fonts/feijoa-medium-italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -326,33 +279,23 @@ article {
   src: url($baseurl + "/fonts/feijoa-bold.eot");
   src: url($baseurl + "/fonts/feijoa-bold.eot?#iefix") format("embedded-opentype"),
        url($baseurl + "/fonts/feijoa-bold.woff2") format("woff2"),
-       url($baseurl + "/fonts/feijoa-bold.woff") format("woff"),
-       url($baseurl + "/fonts/feijoa-bold.ttf") format("truetype"),
-       url($baseurl + "/fonts/feijoa-bold.svg#feijoa-bold") format("svg");
-  font-weight: 600;
+       url($baseurl + "/fonts/feijoa-bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Spot Mono";
-  src: url($baseurl + "/fonts/spotmono-book.eot");
-  src: url($baseurl + "/fonts/spotmono-book.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/spotmono-book.woff2") format("woff2"),
-       url($baseurl + "/fonts/spotmono-book.woff") format("woff"),
-       url($baseurl + "/fonts/spotmono-book.ttf") format("truetype"),
-       url($baseurl + "/fonts/spotmono-book.svg#spotmono-book") format("svg");
+  src: url($baseurl + "/fonts/spotmono-regular.eot");
+  src: url($baseurl + "/fonts/spotmono-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Hoefler Titling";
-  src: url($baseurl + "/fonts/hoeflertitling-smroman.eot");
-  src: url($baseurl + "/fonts/hoeflertitling-smroman.eot?#iefix") format("embedded-opentype"),
-       url($baseurl + "/fonts/hoeflertitling-smroman.woff2") format("woff2"),
-       url($baseurl + "/fonts/hoeflertitling-smroman.woff") format("woff"),
-       url($baseurl + "/fonts/hoeflertitling-smroman.ttf") format("truetype"),
-       url($baseurl + "/fonts/hoeflertitling-smroman.svg#hoeflertitling-smroman") format("svg");
+  font-family: "Ivar Display";
+  src: url($baseurl + "/fonts/ivardisplay-regular.woff2") format("woff2"),
+       url($baseurl + "/fonts/ivardisplay-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
