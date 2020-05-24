@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>C100 - Recipes</title>
+ <link href="/recipes/atom.xml" rel="self"/>
+ <link href="http://0.0.0.0:4000/recipes/"/>
+ <updated>2020-05-24T16:46:37-07:00</updated>
+ <id>http://0.0.0.0:4000/recipes</id>
+
+ 
+ 
+ 
+
+ <entry>
+   <title>The Original Tiramisu</title>
+   <link href="http://0.0.0.0:4000/recipes/the-original-tiramisu/"/>
+   <updated>2020-05-24T16:46:37-07:00</updated>
+   <id>http://0.0.0.0:4000/recipes/the-original-tiramisu</id>
+   <content type="html">
+    
+    
+    
+      &lt;div class=&quot;post-meta&quot;&gt;
+        &lt;span class=&quot;recipe-servings&quot;&gt;2 servings&lt;/span&gt;
+        &amp;middot;
+        &lt;span class=&quot;recipe-time&quot;&gt;30 - 40 mins&lt;/span&gt;
+      &lt;/div&gt;
+    
+    
+    
+    
+      
+        &lt;p&gt;&lt;/p&gt;&lt;picture class=&quot;post-thumbnail header&quot;&gt;
+          &lt;img src=&quot;/thumbnails/introduction.png&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+      
+    
+    
+      
+      
+        &lt;p class=&quot;recipe-description&quot;&gt;Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.&lt;/p&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-ingredients&quot;&gt;
+            &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+            &lt;h3 id=&quot;creamy&quot;&gt;Creamy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;4 Large&lt;/strong&gt; Egg yolks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Sweet marsala wine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1lb&lt;/strong&gt; Mascarpone cheese&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1C&lt;/strong&gt; Heavy cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crunch&quot;&gt;Crunch&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;12oz&lt;/strong&gt; Prepared espresso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2t&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40&lt;/strong&gt; Ladyfinger cookies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2T&lt;/strong&gt; Cocoa powder&lt;/li&gt;
+&lt;/ul&gt;
+
+
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-directions&quot;&gt;
+            &lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
+            
+
+&lt;h3 id=&quot;1-make-dough&quot;&gt;1. Make Dough&lt;/h3&gt;
+&lt;p&gt;Prepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-pickles-and-sauce&quot;&gt;Make pickles and sauce&lt;/h3&gt;
+&lt;p&gt;While the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;p&gt;To make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-wrappers&quot;&gt;Make wrappers&lt;/h3&gt;
+&lt;p&gt;Lightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.&lt;/p&gt;
+
+        &lt;/div&gt;
+        
+          &lt;hr /&gt;
+          &lt;div class=&quot;recipe-outline&quot;&gt;&lt;div class=&quot;outline&quot;&gt;
+            &lt;h2 id=&quot;outline&quot;&gt;Recipe outline&lt;/h2&gt;
+            &lt;img src=&quot;/recipes/the-original-tiramisu.svg&quot; alt=&quot;Recipe outline&quot; /&gt;
+          &lt;/div&gt;&lt;/div&gt;
+        
+      
+    
+   </content>
+ </entry>
+ 
+ 
+ 
+
+ <entry>
+   <title>Dark Chocolate Soufflé</title>
+   <link href="http://0.0.0.0:4000/recipes/dark-chocolate-souffle/"/>
+   <updated>2020-05-24T16:46:37-07:00</updated>
+   <id>http://0.0.0.0:4000/recipes/dark-chocolate-souffle</id>
+   <content type="html">
+    
+    
+    
+      &lt;div class=&quot;post-meta&quot;&gt;
+        &lt;span class=&quot;recipe-servings&quot;&gt;4 servings&lt;/span&gt;
+        &amp;middot;
+        &lt;span class=&quot;recipe-time&quot;&gt;20 mins&lt;/span&gt;
+      &lt;/div&gt;
+    
+    
+    
+    
+      
+        &lt;p&gt;&lt;/p&gt;&lt;picture class=&quot;post-thumbnail header&quot;&gt;
+          &lt;img src=&quot;/thumbnails/introduction.png&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+      
+    
+    
+      
+      
+        &lt;p class=&quot;recipe-description&quot;&gt;Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.&lt;/p&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-ingredients&quot;&gt;
+            &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+            &lt;h3 id=&quot;creamy&quot;&gt;Creamy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;4 Large&lt;/strong&gt; Egg yolks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Sweet marsala wine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1lb&lt;/strong&gt; Mascarpone cheese&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1C&lt;/strong&gt; Heavy cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crunch&quot;&gt;Crunch&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;12oz&lt;/strong&gt; Prepared espresso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2t&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40&lt;/strong&gt; Ladyfinger cookies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2T&lt;/strong&gt; Cocoa powder&lt;/li&gt;
+&lt;/ul&gt;
+
+
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-directions&quot;&gt;
+            &lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
+            
+
+&lt;h3 id=&quot;1-make-dough&quot;&gt;1. Make Dough&lt;/h3&gt;
+&lt;p&gt;Prepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-pickles-and-sauce&quot;&gt;Make pickles and sauce&lt;/h3&gt;
+&lt;p&gt;While the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;p&gt;To make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-wrappers&quot;&gt;Make wrappers&lt;/h3&gt;
+&lt;p&gt;Lightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.&lt;/p&gt;
+
+        &lt;/div&gt;
+        
+          &lt;hr /&gt;
+          &lt;div class=&quot;recipe-outline&quot;&gt;&lt;div class=&quot;outline&quot;&gt;
+            &lt;h2 id=&quot;outline&quot;&gt;Recipe outline&lt;/h2&gt;
+            &lt;img src=&quot;/recipes/the-original-tiramisu.svg&quot; alt=&quot;Recipe outline&quot; /&gt;
+          &lt;/div&gt;&lt;/div&gt;
+        
+      
+    
+   </content>
+ </entry>
+ 
+ 
+ 
+
+ <entry>
+   <title>Ratatouille</title>
+   <link href="http://0.0.0.0:4000/recipes/ratatouille/"/>
+   <updated>2020-05-24T16:46:37-07:00</updated>
+   <id>http://0.0.0.0:4000/recipes/ratatouille</id>
+   <content type="html">
+    
+    
+    
+      &lt;div class=&quot;post-meta&quot;&gt;
+        &lt;span class=&quot;recipe-servings&quot;&gt;8 servings&lt;/span&gt;
+        &amp;middot;
+        &lt;span class=&quot;recipe-time&quot;&gt;60 mins&lt;/span&gt;
+      &lt;/div&gt;
+    
+    
+    
+    
+      
+        &lt;p&gt;&lt;/p&gt;&lt;picture class=&quot;post-thumbnail header&quot;&gt;
+          &lt;img src=&quot;/thumbnails/introduction.png&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+      
+    
+    
+      
+      
+        &lt;p class=&quot;recipe-description&quot;&gt;Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.&lt;/p&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-ingredients&quot;&gt;
+            &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+            &lt;h3 id=&quot;creamy&quot;&gt;Creamy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;4 Large&lt;/strong&gt; Egg yolks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Sweet marsala wine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1lb&lt;/strong&gt; Mascarpone cheese&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1C&lt;/strong&gt; Heavy cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crunch&quot;&gt;Crunch&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;12oz&lt;/strong&gt; Prepared espresso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2t&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40&lt;/strong&gt; Ladyfinger cookies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2T&lt;/strong&gt; Cocoa powder&lt;/li&gt;
+&lt;/ul&gt;
+
+
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-directions&quot;&gt;
+            &lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
+            
+
+&lt;h3 id=&quot;1-make-dough&quot;&gt;1. Make Dough&lt;/h3&gt;
+&lt;p&gt;Prepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-pickles-and-sauce&quot;&gt;Make pickles and sauce&lt;/h3&gt;
+&lt;p&gt;While the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;p&gt;To make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-wrappers&quot;&gt;Make wrappers&lt;/h3&gt;
+&lt;p&gt;Lightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.&lt;/p&gt;
+
+        &lt;/div&gt;
+        
+          &lt;hr /&gt;
+          &lt;div class=&quot;recipe-outline&quot;&gt;&lt;div class=&quot;outline&quot;&gt;
+            &lt;h2 id=&quot;outline&quot;&gt;Recipe outline&lt;/h2&gt;
+            &lt;img src=&quot;/recipes/the-original-tiramisu.svg&quot; alt=&quot;Recipe outline&quot; /&gt;
+          &lt;/div&gt;&lt;/div&gt;
+        
+      
+    
+   </content>
+ </entry>
+ 
+ 
+ 
+
+ <entry>
+   <title>Black Pepper Tofu</title>
+   <link href="http://0.0.0.0:4000/recipes/black-pepper-tofu/"/>
+   <updated>2020-05-24T16:46:37-07:00</updated>
+   <id>http://0.0.0.0:4000/recipes/black-pepper-tofu</id>
+   <content type="html">
+    
+    
+    
+      &lt;div class=&quot;post-meta&quot;&gt;
+        &lt;span class=&quot;recipe-servings&quot;&gt;2 servings&lt;/span&gt;
+        &amp;middot;
+        &lt;span class=&quot;recipe-time&quot;&gt;30 - 40 mins&lt;/span&gt;
+      &lt;/div&gt;
+    
+    
+    
+    
+      
+        &lt;p&gt;&lt;/p&gt;&lt;picture class=&quot;post-thumbnail header&quot;&gt;
+          &lt;img src=&quot;/thumbnails/introduction.png&quot; alt=&quot;&quot; /&gt;
+        &lt;/picture&gt;
+      
+    
+    
+      
+      
+        &lt;p class=&quot;recipe-description&quot;&gt;Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.&lt;/p&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-ingredients&quot;&gt;
+            &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+            &lt;h3 id=&quot;creamy&quot;&gt;Creamy&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;4 Large&lt;/strong&gt; Egg yolks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1/2C&lt;/strong&gt; Sweet marsala wine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1lb&lt;/strong&gt; Mascarpone cheese&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1C&lt;/strong&gt; Heavy cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crunch&quot;&gt;Crunch&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;12oz&lt;/strong&gt; Prepared espresso&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2t&lt;/strong&gt; Granulated sugar&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;40&lt;/strong&gt; Ladyfinger cookies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2T&lt;/strong&gt; Cocoa powder&lt;/li&gt;
+&lt;/ul&gt;
+
+
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class=&quot;recipe-directions&quot;&gt;
+            &lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
+            
+
+&lt;h3 id=&quot;1-make-dough&quot;&gt;1. Make Dough&lt;/h3&gt;
+&lt;p&gt;Prepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-pickles-and-sauce&quot;&gt;Make pickles and sauce&lt;/h3&gt;
+&lt;p&gt;While the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;p&gt;To make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-wrappers&quot;&gt;Make wrappers&lt;/h3&gt;
+&lt;p&gt;Lightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.&lt;/p&gt;
+
+        &lt;/div&gt;
+        
+          &lt;hr /&gt;
+          &lt;div class=&quot;recipe-outline&quot;&gt;&lt;div class=&quot;outline&quot;&gt;
+            &lt;h2 id=&quot;outline&quot;&gt;Recipe outline&lt;/h2&gt;
+            &lt;img src=&quot;/recipes/the-original-tiramisu.svg&quot; alt=&quot;Recipe outline&quot; /&gt;
+          &lt;/div&gt;&lt;/div&gt;
+        
+      
+    
+   </content>
+ </entry>
+ 
+
+</feed>
+
