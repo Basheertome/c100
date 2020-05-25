@@ -1,11 +1,10 @@
 ---
-title: Black Pepper Tofu
-volume: 4
+title: The Original Tiramisu
 servings: 2 servings
 time: 30 - 40 mins
 outline: the-original-tiramisu.svg
 thumbnail: introduction.png
-illo: longman.png
+illo: baccharis.png
 description: Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.
 ---
 

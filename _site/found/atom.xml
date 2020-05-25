@@ -3,9 +3,9 @@
 
  <title>C100 - Found</title>
  <link href="/found/atom.xml" rel="self"/>
- <link href="http://0.0.0.0:4000/found/"/>
- <updated>2020-05-24T16:46:37-07:00</updated>
- <id>http://0.0.0.0:4000/found</id>
+ <link href="https://c100.co/found/"/>
+ <updated>2020-05-25T00:24:31-07:00</updated>
+ <id>https://c100.co/found</id>
 
  
  
@@ -13,9 +13,9 @@
 
  <entry>
    <title>Around the Web</title>
-   <link href="http://0.0.0.0:4000/november-2020/found/"/>
+   <link href="https://c100.co/november-2020/found/"/>
    <updated>2020-04-04T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/november-2020/found</id>
+   <id>https://c100.co/november-2020/found</id>
    <content type="html">
     
     
@@ -90,9 +90,9 @@
 
  <entry>
    <title>Around the Web</title>
-   <link href="http://0.0.0.0:4000/october-2020/found/"/>
+   <link href="https://c100.co/october-2020/found/"/>
    <updated>2020-03-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/october-2020/found</id>
+   <id>https://c100.co/october-2020/found</id>
    <content type="html">
     
     
@@ -134,9 +134,9 @@
 
  <entry>
    <title>Around the Web</title>
-   <link href="http://0.0.0.0:4000/september-2020/found/"/>
+   <link href="https://c100.co/september-2020/found/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/september-2020/found</id>
+   <id>https://c100.co/september-2020/found</id>
    <content type="html">
     
     
@@ -204,9 +204,9 @@
 
  <entry>
    <title>Around the Web</title>
-   <link href="http://0.0.0.0:4000/august-2020/found/"/>
+   <link href="https://c100.co/august-2020/found/"/>
    <updated>2020-01-04T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/august-2020/found</id>
+   <id>https://c100.co/august-2020/found</id>
    <content type="html">
     
     

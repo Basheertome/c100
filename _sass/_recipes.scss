@@ -37,7 +37,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: baseline;
-        counter-increment: counter;
+        counter-increment: counter -1;
         -webkit-transition: .1s ease-in-out opacity;
         -moz-transition: .1s ease-in-out opacity;
         transition: .1s ease-in-out opacity;

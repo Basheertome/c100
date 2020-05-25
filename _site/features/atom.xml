@@ -3,9 +3,9 @@
 
  <title>C100 - Features</title>
  <link href="/features/atom.xml" rel="self"/>
- <link href="http://0.0.0.0:4000/features/"/>
- <updated>2020-05-24T16:46:37-07:00</updated>
- <id>http://0.0.0.0:4000/features</id>
+ <link href="https://c100.co/features/"/>
+ <updated>2020-05-25T00:24:31-07:00</updated>
+ <id>https://c100.co/features</id>
 
  
  
@@ -13,9 +13,9 @@
 
  <entry>
    <title>IxDA Submission</title>
-   <link href="http://0.0.0.0:4000/november-2020/ixda/"/>
+   <link href="https://c100.co/november-2020/ixda/"/>
    <updated>2020-04-02T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/november-2020/ixda</id>
+   <id>https://c100.co/november-2020/ixda</id>
    <content type="html">
     
     
@@ -81,9 +81,9 @@
 
  <entry>
    <title>Animal Crossing</title>
-   <link href="http://0.0.0.0:4000/november-2020/animal-crossing/"/>
+   <link href="https://c100.co/november-2020/animal-crossing/"/>
    <updated>2020-04-01T00:00:00-07:00</updated>
-   <id>http://0.0.0.0:4000/november-2020/animal-crossing</id>
+   <id>https://c100.co/november-2020/animal-crossing</id>
    <content type="html">
     
     
@@ -127,9 +127,9 @@
 
  <entry>
    <title>These Days Highlights</title>
-   <link href="http://0.0.0.0:4000/october-2020/these-days/"/>
+   <link href="https://c100.co/october-2020/these-days/"/>
    <updated>2020-03-03T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/october-2020/these-days</id>
+   <id>https://c100.co/october-2020/these-days</id>
    <content type="html">
     
     
@@ -178,9 +178,9 @@
 
  <entry>
    <title>Famous Breakfasts</title>
-   <link href="http://0.0.0.0:4000/october-2020/famous-breakfasts/"/>
+   <link href="https://c100.co/october-2020/famous-breakfasts/"/>
    <updated>2020-03-02T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/october-2020/famous-breakfasts</id>
+   <id>https://c100.co/october-2020/famous-breakfasts</id>
    <content type="html">
     
     
@@ -272,9 +272,9 @@
 
  <entry>
    <title>FITC Talk Outline</title>
-   <link href="http://0.0.0.0:4000/september-2020/fitc-outline/"/>
+   <link href="https://c100.co/september-2020/fitc-outline/"/>
    <updated>2020-02-03T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/september-2020/fitc-outline</id>
+   <id>https://c100.co/september-2020/fitc-outline</id>
    <content type="html">
     
     
@@ -348,9 +348,9 @@
 
  <entry>
    <title>Mac Baker Email</title>
-   <link href="http://0.0.0.0:4000/september-2020/mac-baker-email/"/>
+   <link href="https://c100.co/september-2020/mac-baker-email/"/>
    <updated>2020-02-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/september-2020/mac-baker-email</id>
+   <id>https://c100.co/september-2020/mac-baker-email</id>
    <content type="html">
     
     
@@ -432,9 +432,9 @@ Blanket, lump response.&lt;/p&gt;
 
  <entry>
    <title>Options</title>
-   <link href="http://0.0.0.0:4000/august-2020/options/"/>
+   <link href="https://c100.co/august-2020/options/"/>
    <updated>2020-01-02T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/august-2020/options</id>
+   <id>https://c100.co/august-2020/options</id>
    <content type="html">
     
     
@@ -631,9 +631,9 @@ Blanket, lump response.&lt;/p&gt;
 
  <entry>
    <title>Measuring pH at Home</title>
-   <link href="http://0.0.0.0:4000/august-2020/measuring-ph-at-home/"/>
+   <link href="https://c100.co/august-2020/measuring-ph-at-home/"/>
    <updated>2020-01-01T00:00:00-08:00</updated>
-   <id>http://0.0.0.0:4000/august-2020/measuring-ph-at-home</id>
+   <id>https://c100.co/august-2020/measuring-ph-at-home</id>
    <content type="html">
     
     
@@ -665,7 +665,7 @@ Blanket, lump response.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://readcereal.com/wp-content/uploads/2020/04/Bauhaus-landscape-2-1455x970.jpg#big&quot; alt=&quot;Cereal&quot; /&gt;
 &lt;em&gt;The first test caption for an image with a &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;link&lt;/a&gt; too just in case&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;This demo site was last updated May 24, 2020.&lt;/p&gt;
+&lt;p&gt;This demo site was last updated May 25, 2020.&lt;/p&gt;
 
 &lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
 

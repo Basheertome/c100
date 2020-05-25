@@ -1,6 +1,5 @@
 ---
 title: Dark Chocolate Soufflé
-volume: 2
 servings: 4 servings
 time: 20 mins
 outline: the-original-tiramisu.svg

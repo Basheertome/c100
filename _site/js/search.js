@@ -194,7 +194,7 @@ var index = lunr(function () {
   
   index.add({
     title: "Measuring pH at Home",
-    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll1 and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\n\nThe first test caption for an image with a link too just in case\n\nThis demo site was last updated May 24, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\n\nThe first test caption for an image with a link too just in case\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\n\n\n\n\nThe first test caption for an image with a link too just in case\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\n\n\n\n\nThe first test caption for an image with a link too just in case\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n\n  \n    \n      Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following. Poole is the butler for Jekyll, the static site generator. &#x21a9;&#xFE0E;\n    \n  \n\n",
+    content: "The Strange Case of Dr. Jekyll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll1 and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.\n\n\n\nPoole is the butler for Jekyll, the static site generator. It’s designed and developed by @mdo to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.\n\n\nThe first test caption for an image with a link too just in case\n\nThis demo site was last updated May 25, 2020.\n\nThere are currently two themes built on Poole:\n\n\n  Hyde\n  Lanyon\n\n\nLearn more and contribute on GitHub.\n\n\nThe first test caption for an image with a link too just in case\n\nWhat’s included\n\nPoole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:\n\n\n  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, archive page, and example page)\n  Mobile friendly design and development\n  Easily scalable text and component sizing with rem units in the CSS\n  Support for a wide gamut of HTML elements\n  Related posts (time-based, because Jekyll) below each post\n  Syntax highlighting, courtesy Jekyll’s built-in support for Rouge\n\n\nAdditional features are available in individual themes.\n\n\n\n\n\nThe first test caption for an image with a link too just in case\n\nBrowser support\n\nPoole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.\n\n\n\n\n\nThe first test caption for an image with a link too just in case\n\nDownload\n\nThese themes are developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.\n\nThanks!\n\n  \n    \n      Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following. Poole is the butler for Jekyll, the static site generator. &#x21a9;&#xFE0E;\n    \n  \n\n",
     description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
     tags: ["features"],
     issue: 1,
@@ -206,15 +206,20 @@ var index = lunr(function () {
 
   
     
-      
-      
+  
+    
+  
+    
+  
+    
+  
   index.add({
     title: "The Original Tiramisu",
     content: "Creamy\n\n  4 Large Egg yolks\n  1/2C Granulated sugar\n  1/2C Sweet marsala wine\n  1lb Mascarpone cheese\n  1C Heavy cream\n\n\nCrunch\n\n  12oz Prepared espresso\n  2t Granulated sugar\n  40 Ladyfinger cookies\n  2T Cocoa powder\n\n\n \n\n1. Make Dough\nPrepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.\n\nMake pickles and sauce\nWhile the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.\n\nTo make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.\n\nMake wrappers\nLightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.\n",
     description: "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.",
     tags: ["recipes"],
-    issue: 1,
-    date: "august 2020",
+    issue: null,
+    date: "",
     id: 16
   });
   
@@ -223,15 +228,18 @@ var index = lunr(function () {
     
   
     
-      
-      
+  
+    
+  
+    
+  
   index.add({
     title: "Dark Chocolate Soufflé",
     content: "Creamy\n\n  4 Large Egg yolks\n  1/2C Granulated sugar\n  1/2C Sweet marsala wine\n  1lb Mascarpone cheese\n  1C Heavy cream\n\n\nCrunch\n\n  12oz Prepared espresso\n  2t Granulated sugar\n  40 Ladyfinger cookies\n  2T Cocoa powder\n\n\n \n\n1. Make Dough\nPrepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.\n\nMake pickles and sauce\nWhile the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.\n\nTo make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.\n\nMake wrappers\nLightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.\n",
     description: "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.",
     tags: ["recipes"],
-    issue: 2,
-    date: "september 2020",
+    issue: null,
+    date: "",
     id: 17
   });
   
@@ -242,15 +250,16 @@ var index = lunr(function () {
     
   
     
-      
-      
+  
+    
+  
   index.add({
     title: "Ratatouille",
     content: "Creamy\n\n  4 Large Egg yolks\n  1/2C Granulated sugar\n  1/2C Sweet marsala wine\n  1lb Mascarpone cheese\n  1C Heavy cream\n\n\nCrunch\n\n  12oz Prepared espresso\n  2t Granulated sugar\n  40 Ladyfinger cookies\n  2T Cocoa powder\n\n\n \n\n1. Make Dough\nPrepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.\n\nMake pickles and sauce\nWhile the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.\n\nTo make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.\n\nMake wrappers\nLightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.\n",
     description: "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.",
     tags: ["recipes"],
-    issue: 3,
-    date: "october 2020",
+    issue: null,
+    date: "",
     id: 18
   });
   
@@ -263,15 +272,14 @@ var index = lunr(function () {
     
   
     
-      
-      
+  
   index.add({
     title: "Black Pepper Tofu",
     content: "Creamy\n\n  4 Large Egg yolks\n  1/2C Granulated sugar\n  1/2C Sweet marsala wine\n  1lb Mascarpone cheese\n  1C Heavy cream\n\n\nCrunch\n\n  12oz Prepared espresso\n  2t Granulated sugar\n  40 Ladyfinger cookies\n  2T Cocoa powder\n\n\n \n\n1. Make Dough\nPrepare your dough by activating yeast in 1 1/2 cups of warm water. Place all your dry ingredients into a large mixing bowl, pour activated yeast/water into the bowl and mix until it forms clumps. Then, knead with your hands for 10 minutes until the dough is smooth like a baby’s butt. Cover and proof for 1 hour.\n\nMake pickles and sauce\nWhile the dough is proofing, prep pickles by thinly slicing a cucumber width wise. Put cucumbers in a mixing bowl and add in the rest of the pickle ingredients. Carefully mix together to incorporate ingredients and set aside in the fridge until assembly.\n\nTo make the almond hoisin sauce, combine all sauce ingredients in a container and mix until combined and smooth (if it looks a little chunky I like to give it a quick 10 seconds in the microwave to melt down almond butter to make it smoother) set aside in the fridge until assembly.\n\nMake wrappers\nLightly dust a work surface with flour. When your dough is ready, take out of plastic wrap and cut into half. Store one half with plastic wrap, then with the other piece, cut in half again. Roll both halves into two thin cylinders, about the size and shape of small hot dogs. Cut each cylinder into 6 equal pieces, they should look like marshmellows. Then, turn each piece cut side up and with the palm of your hand, press down onto it to flatten to make a roughly flattened circle. Dust each side with flour and then with a rolling pin, flatten to create an oval shape about a 1/4 of an inch. Fold each oval in half to create a taco like shape and set aside. Repeat with the rest of your marshmellow dough pieces until you have a bunch of gua bao wrappers. Make sure to flour each wrapper as you roll them out and then cover them with plastic wrap or cloth so they don’t dry out.\n",
     description: "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate flavor, this version uses a base of melted butter and chocolate without any starch.",
     tags: ["recipes"],
-    issue: 4,
-    date: "november 2020",
+    issue: null,
+    date: "",
     id: 19
   });
   
@@ -409,32 +417,32 @@ var store = [{
 },{
   "title": "The Original Tiramisu",
   "link": "/recipes/the-original-tiramisu/",
-  "issue": 1,
-  "date" : "august 2020",
+  "issue": null,
+  "date" : "",
   "tags": ["recipes"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate..."
 },{
   "title": "Dark Chocolate Soufflé",
   "link": "/recipes/dark-chocolate-souffle/",
-  "issue": 2,
-  "date" : "september 2020",
+  "issue": null,
+  "date" : "",
   "tags": ["recipes"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate..."
 },{
   "title": "Ratatouille",
   "link": "/recipes/ratatouille/",
-  "issue": 3,
-  "date" : "october 2020",
+  "issue": null,
+  "date" : "",
   "tags": ["recipes"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate..."
 },{
   "title": "Black Pepper Tofu",
   "link": "/recipes/black-pepper-tofu/",
-  "issue": 4,
-  "date" : "november 2020",
+  "issue": null,
+  "date" : "",
   "tags": ["recipes"],
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "Dark and intense in flavor, yet with a light and custardy texture, a chocolate soufflé is an eternal showstopper of a dessert. To get that intense chocolate..."
