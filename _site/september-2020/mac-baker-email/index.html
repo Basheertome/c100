@@ -182,10 +182,9 @@ Blanket, lump response.</p>
       <span>Get the newsletter</span>
       <span>Subscribe</span>
     </span>
-    <!-- TODO: Get real form action for this -->
-<form action="https://tinyletter.com/c100" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/c100', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <form action="https://buttondown.email/api/emails/embed-subscribe/c100" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/c100', 'popupwindow')" class="embeddable-buttondown-form">
+    <input type="email" placeholder="email address" name="email" id="bd-email">
     <input type="hidden" value="1" name="embed">
-    <input type="text" placeholder="email address" name="email" id="tlemail">
     <button type="submit"><span>submit </span><span>⇥</span></button>
 </form>
 

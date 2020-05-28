@@ -93,7 +93,7 @@
             outline: none;
         }
 
-        input[type="text"] {
+        input[type="email"] {
             flex-grow: 1;
             -webkit-appearance: none;
         }
@@ -140,7 +140,7 @@
             }
         }
 
-        input[type="text"]:focus + button {
+        input[type="email"]:focus + button {
             opacity: 1;
         }
     }
@@ -293,7 +293,7 @@
                 line-height: 31px;
             }
 
-            input[type="text"] {
+            input[type="email"] {
                 width: 100%;
                 background: rgba(0,0,0,0.02);
                 border-radius: 30px;
