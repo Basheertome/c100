@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>C100 - a kitchen tools journal</title>
- <link href="/atom.xml" rel="self"/>
+ <link href="https://c100.co/atom.xml" rel="self"/>
  <link href="https://c100.co/"/>
- <updated>2020-05-28T01:57:16-07:00</updated>
- <id>https://c100.co</id>
+ <updated>2020-05-30T15:10:27-07:00</updated>
+ <id>https://c100.co/</id>
+ <author>
+  <name>C100</name>
+  <email>editor@c100.co</email>
+ </author>
 
  
  
@@ -47,7 +51,7 @@
 &lt;p&gt;&lt;img src=&quot;https://readcereal.com/wp-content/uploads/2020/04/Bauhaus-landscape-2-1455x970.jpg#big&quot; alt=&quot;Cereal&quot; /&gt;
 &lt;em&gt;The first test caption for an image with a &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;link&lt;/a&gt; too just in case&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;This demo site was last updated May 28, 2020.&lt;/p&gt;
+&lt;p&gt;This demo site was last updated May 30, 2020.&lt;/p&gt;
 
 &lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
 

@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }} - {{ title }}</title>
- <link href="{{ '/atom.xml' | relative_url | prepend: path }}" rel="self"/>
+ <link href="{{ '/atom.xml' | absolute_url | prepend: path }}" rel="self"/>
  <link href="{{ site.url | append: site.baseurl | append: path }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}{{ path }}</id>
+ <id>{{ site.url }}{{ path }}/</id>
+ <author>
+  <name>{{ site.title }}</name>
+  <email>{{ site.email }}</email>
+ </author>
 
  {% for post in list limit:100 %}
  {% assign post-issue = site.issues | where:"slug", post.category | first %}
