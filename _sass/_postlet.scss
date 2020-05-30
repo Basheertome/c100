@@ -68,6 +68,13 @@
 
     .post-title {
         position: relative;
+        margin-top: 0;
+        font-size: 2rem;
+
+        a:hover,
+        a:focus {
+          text-underline-offset: 4px;
+        }
 
         &:before {
             content: '';
