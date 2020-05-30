@@ -25,6 +25,10 @@ facebook: c100journal
 defaults:
   - scope:
       path: ""
+    values:
+      image: /assets/default-card.png
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: post
