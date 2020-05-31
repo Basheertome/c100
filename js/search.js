@@ -17,7 +17,7 @@ var index = lunr(function () {
 {% for post in site.posts %}
   {% assign post-issue = site.issues | where:"slug", post.category | first %}
   index.add({
-    title: {% if post.tags contains "found" %}{{ post.category | replace: "-", " " | capitalize | prepend: "Around the Web: " | jsonify }}{% else %}{{ post.title | jsonify }}{% endif %},
+    title: {{ post.title | jsonify }},
     content: {{post.content | strip_html | jsonify}},
     description: {{post.description | strip_html | jsonify}},
     tags: {{post.tags | jsonify}},
@@ -39,7 +39,7 @@ var index = lunr(function () {
 
 // builds reference data
 var store = [{% for post in site.posts %}{% assign post-issue = site.issues | where:"slug", post.category | first %}{
-  "title": {% if post.tags contains "found" %}{{ post.category | replace: "-", " " | capitalize | prepend: "Around the Web: " | jsonify }}{% else %}{{ post.title | jsonify }}{% endif %},
+  "title": {{ post.title | jsonify }},
   "link": {{ post.url | jsonify }},
   "issue": {{post-issue.volume | jsonify}},
   "date" : {{ post-issue.slug | replace: "-", " " | jsonify }},

@@ -51,6 +51,7 @@ defaults:
       tags: recipes
       illo: /illos/default.png
       is_post: true
+      is_recipe: true
 
 # Collection settings
 collections:

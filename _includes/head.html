@@ -3,16 +3,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
-    {% if page.title == "C100" %}
-      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
-    {% elsif page.tags contains "found" and page.title %}
-      {{ page.category | replace: "-", " " | capitalize | prepend: "Around the Web: " }}
-    {% elsif page.volume %}
-      C100 &middot; {{ page.theme | capitalize }} &middot; {{ page.title }}
-    {% elsif page.title %}
+    {% if page.title %}
       {{ page.title }}
     {% else %}
-      {{ site.title }}
+      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
     {% endif %}
   </title>
 

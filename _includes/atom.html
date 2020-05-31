@@ -13,20 +13,15 @@
 
  {% for post in list limit:100 %}
  {% assign post-issue = site.issues | where:"slug", post.category | first %}
- {% if post.tags contains "found" %}
-   {% assign post-title = "Around the Web" %}
- {% else %}
-   {% assign post-title = post.title %}
- {% endif %}
 
  <entry>
-   <title>{{ post-title | xml_escape }}</title>
+   <title>{{ post.title | xml_escape }}</title>
    <link href="{{ site.url | append: site.baseurl | append: post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url | append: post.id }}</id>
    <content type="html">
     {% capture post-meta %}
-    {% if path == "/recipes" %}
+    {% if post.is_recipe %}
       <div class="post-meta">
         <span class="recipe-servings">{{ post.servings }}</span>
         &middot;

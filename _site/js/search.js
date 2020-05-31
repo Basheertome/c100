@@ -13,7 +13,7 @@ var index = lunr(function () {
 
   
   index.add({
-    title: "Around the Web: November 2020",
+    title: "Around the Web &middot; November 2020",
     content: "\n  \n    Cooking with Alkali\n\n    nordicfoodlab.org\n\n    \n      Acidity comes in many delicious forms. Much of the research performed here at the Lab concerns our unending search for them, from our exploration of sour wild things to our investigations of the possibilities of lactic and acetic acid fermentations. Acids can balance flavours, providing brightness and cutting through richness, or they can make you pucker your lips in a delight bordering on pain. But what about their chemical opposites, the alkalis?\n    \n\n    Lovely overview from the folks at Noma, going fairly deep into the science without losing sight of the practical culinary implications.\n  \n  \n    Bake the Baking Soda\n\n    nytimes.com\n\n    \n      Acids are invaluable mainstay cooking ingredients. Lemon and lime juices, myriad vinegars and sour salt, or citric acid, can brighten and balance the flavor of almost any food. But what about their chemical opposites, the un-acids? These are the alkalis, and they’re a different story.\n    \n\n    This short, old, but still relevant article in the NYT by culinary legend Harold McGee really opened my eyes to the full palate that pH’s spectrum encompasses, tying it right back to pretzels in a clear way.\n  \n  \n    Little Fat Boy\n\n    littlefatboy.com\n\n    Beautifully designed, photographed, and written blog going deep on dumplings by my friend Frankie. It started as him going to his grandma’s house to learn the recipes he loved growing up.\n  \n  \n    Stag EKG Kettle by Fellow\n\n    fellowproducts.com\n\n    It’s nearly impossible to find well-made and beautiful electrics in the kitchen. Fellow manages to tread that line while also delivering a fast, clean, &amp; simple interface that gets out of the way. Check out their grinder too.\n  \n  \n    The Spoon\n\n    thespoon.tech\n\n    For your day to day news on all things kitchen &amp; tech, The Spoon is one of the only places putting in the hard work to bring it to you.\n  \n\n",
     description: "",
     tags: ["found"],
@@ -57,10 +57,10 @@ var index = lunr(function () {
 
   
   index.add({
-    title: "Around the Web: October 2020",
+    title: "Around the Web &middot; October 2020",
     content: "\n  Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?\n  What do you think of the heat lost while doing pour over?\n  When you’re making coffee, is it more like baking or more like cooking? science or art?\n  How do you feel about the connectivity in the EKG+? Is it something you want to keep pursuing?\n  Where do you draw the line between automation and agency? How much would you streamline if you could?\n  Who do you feel like is your competitor? Hario? Bonavita? Proctor Silex? Breville?\n  What’s it been like to work with Branch? How do you balance what you rely on folks like them for vs what you bring in-house?\n  Did everything just kind of spiral from the Kickstarter project? Or was it a bit more conscious than that? It seems like it’d be hard to be a solo founder working in hardware.\n  How did you decide on the funding model? Did you consider VC? How did you find/meet your current investor?\n  How do you maintain steady income in-between major “hits” or new product drops? Have you been seeing uplift with SKU expansions, the partnerships, and the analog products launching in-between?\n\n",
     description: "",
-    tags: ["found"],
+    tags: [],
     issue: "october 2020",
     id: 4
   });
@@ -101,7 +101,7 @@ var index = lunr(function () {
 
   
   index.add({
-    title: "Around the Web: September 2020",
+    title: "Around the Web &middot; September 2020",
     content: "Everyday Carry\n$4000 - Leica Q\n\nDSLR\n$1500 - Canon EOS 5D Mark II\n\n$1200 - Canon 50mm f/1.2\n\n$1600 - Canon 14mm f/2.8\n\n$2200 - Canon TS-E 24mm f/3.5L II Tilt-S\n\n$400 - Canon 100mm f/2.8 Macro\n\nLighting &amp; Accessories\nCanon 430EX II Speedlite Flash\n\n2 Pocketwizard Plus II Tranceivers\n\nPocketWizard 804-501 CM-N3 Canon N3 3-Feet Straight Motor Drive Cord\n\nWestcott 45” Umbrella Optical White Satin\n\nManfrotto 680B Monopod\n\nManfrotto 7’8” ALU AC Compact Stand\n\nManfrotto 026 Swivel Umbrella Adapter\n\nManfrotto 035RL Super Clamp with 2908 Standard Stud\n\nManfrotto MB LBAG110 Light Stand Bag\n\nManfrotto 024B 6.5 Feet Long 3 Piece Boom Assembly with 10 lb Counterweight\n\nIncase DSLR Sling Pack in Black\n\nIncase Nylon Carrying Case for DSLR in Black\n",
     description: "",
     tags: ["found"],
@@ -145,7 +145,7 @@ var index = lunr(function () {
 
   
   index.add({
-    title: "Around the Web: August 2020",
+    title: "Around the Web &middot; August 2020",
     content: "Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:\n\n\n  Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.\n\n\nIt’s an immensely useful tool. Find out more by visiting the project on GitHub.\n",
     description: "",
     tags: ["found"],
@@ -227,7 +227,7 @@ var index = lunr(function () {
 
 // builds reference data
 var store = [{
-  "title": "Around the Web: November 2020",
+  "title": "Around the Web &middot; November 2020",
   "link": "/november-2020/found/",
   "issue": 4,
   "date" : "november 2020",
@@ -259,12 +259,12 @@ var store = [{
   "thumbnail": "/thumbnails/introduction.png",
   "excerpt": "His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on..."
 },{
-  "title": "Around the Web: October 2020",
+  "title": "Around the Web &middot; October 2020",
   "link": "/october-2020/found/",
   "issue": 3,
   "date" : "october 2020",
-  "tags": ["found"],
-  "thumbnail": "/thumbnails/default-found.png",
+  "tags": [],
+  "thumbnail": "/thumbnails/default.jpg",
   "excerpt": "Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing? What do you think of the heat lost while doing..."
 },{
   "title": "These Days Highlights",
@@ -291,7 +291,7 @@ var store = [{
   "thumbnail": "/thumbnails/jekyll.png",
   "excerpt": "And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have..."
 },{
-  "title": "Around the Web: September 2020",
+  "title": "Around the Web &middot; September 2020",
   "link": "/september-2020/found/",
   "issue": 2,
   "date" : "september 2020",
@@ -323,7 +323,7 @@ var store = [{
   "thumbnail": "/thumbnails/jekyll.png",
   "excerpt": "How about if I sleep a little bit longer and forget all this nonsense, he thought, but that was something he was unable to do because he..."
 },{
-  "title": "Around the Web: August 2020",
+  "title": "Around the Web &middot; August 2020",
   "link": "/august-2020/found/",
   "issue": 1,
   "date" : "august 2020",
