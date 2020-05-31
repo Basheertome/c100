@@ -1,6 +1,7 @@
 ---
 layout: about
 title: C100 &middot; About
+image: /assets/about.jpg
 ---
 
 <p class="image"><img src="/assets/about.jpg" alt="Golden Gate Bridge" /></p>

@@ -6,7 +6,7 @@ layout: default
 <div class="issues">
 {% for issue in issues %}
   <a class="issue-link" href="{{ issue | relative_url }}">
-    <div class="issue" style="color: #{{ issue.color }}; background-image: url('{{ site.baseurl | append: "/covers/" | append: issue.cover }}');">
+    <div class="issue" style="color: #{{ issue.color }}; background-image: url('{{ site.baseurl | append: issue.image }}');">
       <div class="issue-title">{{- issue.slug | split: "-" | slice: 0 -}}</div>
       <div class="issue-volume">{{- issue.volume -}}</div>
       <div class="issue-logo">{% include mark.svg %}</div>
