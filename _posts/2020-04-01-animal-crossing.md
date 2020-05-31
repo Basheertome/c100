@@ -2,8 +2,8 @@
 title: Animal Crossing
 tags: features lab
 category: november-2020
-thumbnail: introduction.png
-illo: poppy.png
+image: /thumbnails/introduction.png
+illo: /illos/poppy.png
 description: His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.
 ---
 

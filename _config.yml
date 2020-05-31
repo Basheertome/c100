@@ -26,14 +26,13 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /thumbnails/default-card.jpg
+      image: /thumbnails/default.jpg
   - scope:
       path: ""
       type: "posts"
     values:
       layout: post
-      thumbnail: default.png
-      illo: default.png
+      illo: /illos/default.png
       is_post: true
   - scope:
       path: ""
@@ -50,8 +49,7 @@ defaults:
     values:
       layout: recipe
       tags: recipes
-      thumbnail: default.png
-      illo: default.png
+      illo: /illos/default.png
       is_post: true
 
 # Collection settings

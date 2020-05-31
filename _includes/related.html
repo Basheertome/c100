@@ -9,7 +9,11 @@
       <li>
         <a href="{{ post.url | relative_url }}">
           <picture class="post-thumbnail">
-            <img src="{{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail }}" alt="" />
+            {% if post.tags contains "found" %}
+              <img src="{{ site.baseurl | append: "/thumbnails/default-found.png" }}" alt="" />
+            {% else %}
+              <img src="{{ site.baseurl | append: post.image }}" alt="" />
+            {% endif %}
           </picture>
         </a>
         <h3 class="post-title">

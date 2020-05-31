@@ -2,8 +2,8 @@
 title: Super Normal
 tags: lab
 category: october-2020
-thumbnail: jekyll.png
-illo: default.png
+image: /thumbnails/jekyll.png
+illo: /illos/default.png
 description: And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates from up there, especially when you have to go right up close because the boss is hard of hearing. Well, there's still some hope; once I've got the money together to pay off my parents' debt to him - another five or six years I suppose - that's definitely what I'll do.
 ---
 

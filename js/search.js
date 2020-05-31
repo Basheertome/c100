@@ -17,30 +17,21 @@ var index = lunr(function () {
 {% for post in site.posts %}
   {% assign post-issue = site.issues | where:"slug", post.category | first %}
   index.add({
-    title: {{post.title | jsonify}},
+    title: {% if post.tags contains "found" %}{{ post.category | replace: "-", " " | capitalize | prepend: "Around the Web: " | jsonify }}{% else %}{{ post.title | jsonify }}{% endif %},
     content: {{post.content | strip_html | jsonify}},
     description: {{post.description | strip_html | jsonify}},
     tags: {{post.tags | jsonify}},
-    issue: {{post-issue.volume | jsonify}},
-    date: {{post-issue.slug | replace: "-", " " | jsonify}},
+    issue: {{post-issue.slug | replace: "-", " " | jsonify}},
     id: {{count}}
   });
   {% assign count = count | plus: 1 %}
 {% endfor %}
 {% for recipe in site.recipes %}
-  {% for issue in site.issues %}
-    {% if issue.volume == recipe.volume %}
-      {% assign recipe-issue = issue %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
   index.add({
     title: {{recipe.title | jsonify}},
     content: {{recipe.content | split: "<hr />" | slice: 0,2 | join | strip_html | jsonify}},
     description: {{recipe.description | strip_html | jsonify}},
     tags: {{recipe.tags | jsonify}},
-    issue: {{recipe.volume | jsonify}},
-    date: {{recipe-issue.slug | replace: "-", " " | jsonify}},
     id: {{count}}
   });
   {% assign count = count | plus: 1 %}
@@ -53,15 +44,15 @@ var store = [{% for post in site.posts %}{% assign post-issue = site.issues | wh
   "issue": {{post-issue.volume | jsonify}},
   "date" : {{ post-issue.slug | replace: "-", " " | jsonify }},
   "tags": {{ post.tags | jsonify }},
-  "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail | jsonify }},
+  "thumbnail": {% if post.tags contains "found" %}{{ site.baseurl | append: "/thumbnails/default-found.png" | jsonify }}{% else %}{{ site.baseurl | append: post.image | jsonify }}{% endif %},
   "excerpt": {% if post.description %}{{ post.description | truncatewords: 27 | jsonify }}{% else %}{{ post.content | strip_html | truncatewords: 27 | jsonify }}{% endif %}
-}{% unless forloop.last %},{% endunless %}{% endfor %}{% if site.recipes.size > 0 %},{% for recipe in site.recipes %}{% for issue in site.issues %}{% if issue.volume == recipe.volume %}{% assign recipe-issue = issue %}{% break %}{% endif %}{% endfor %}{
+}{% unless forloop.last %},{% endunless %}{% endfor %}{% if site.recipes.size > 0 %},{% for recipe in site.recipes %}{
   "title": {{recipe.title | jsonify}},
   "link": {{ recipe.url | jsonify }},
-  "issue": {{recipe.volume | jsonify}},
-  "date" : {{ recipe-issue.slug | replace: "-", " " | jsonify }},
+  "servings": {{recipe.servings | jsonify}},
+  "time": {{recipe.time | jsonify}},
   "tags": {{ recipe.tags | jsonify }},
-  "thumbnail": {{ site.baseurl | append: "/thumbnails/" | append: recipe.thumbnail | jsonify }},
+  "thumbnail": {{ site.baseurl | append: recipe.image | jsonify }},
   "excerpt": {{ recipe.description | truncatewords: 27 | jsonify }}
 }{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}]
 
@@ -109,7 +100,7 @@ $(document).ready(function() {
       // Loop through, match, and add results
       for (var item in result) {
         var ref = result[item].ref;
-        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; issue '+store[ref].issue+' &middot; '+store[ref].date+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
+        var searchitem = '<a class="result-wrapper" href="'+store[ref].link+'"><li class="result"><span class="left"><div class="result-thumbnail" style="background-image: url(\''+store[ref].thumbnail+'\')"></div></span><span class="right"><div class="result-title">'+store[ref].title+'</div><div class="result-meta">'+store[ref].tags.join(' &middot; ')+' &middot; '+((store[ref].issue) ? 'issue '+store[ref].issue+' &middot; '+store[ref].date : store[ref].servings+' &middot; '+store[ref].time)+'</div><p>'+store[ref].excerpt+'</p></span></li></a>';
         resultdiv.append(searchitem);
       }
       $('#results').fadeIn(100);

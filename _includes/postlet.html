@@ -10,7 +10,7 @@
   <a class="left" href="{{ post.url | relative_url }}">
     {% unless post.tags contains "found" and include.full-found %}
       <picture class="post-thumbnail">
-          <img src="{{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail }}" alt="" />
+          <img src="{{ site.baseurl | append: post.image }}" alt="" />
       </picture>
     {% endunless %}
   </a>
@@ -38,6 +38,6 @@
     {% else %}
       <p class="post-description">{{ post.description }}</p>
     {% endif %}
-    <picture class="post-spot"><img src="{{ site.baseurl | append: "/illos/" | append: post.illo }}" alt="" /></picture>
+    <picture class="post-spot"><img src="{{ site.baseurl | append: post.illo }}" alt="" /></picture>
   </span>
 </{{ wrapper }}>

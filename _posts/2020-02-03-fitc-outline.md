@@ -2,8 +2,8 @@
 title: FITC Talk Outline
 tags: features
 category: september-2020
-thumbnail: options.png
-illo: default.png
+image: /thumbnails/options.png
+illo: /illos/default.png
 description: He could see from the bed that it had been set for four o'clock as it should have been; it certainly must have rung. Yes, but was it possible to quietly sleep through that furniture-rattling noise? True, he had not slept peacefully, but probably all the more deeply because of that. What should he do now?
 ---
 

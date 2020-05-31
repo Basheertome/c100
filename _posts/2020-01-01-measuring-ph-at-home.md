@@ -2,8 +2,8 @@
 title: Measuring pH at Home
 tags: features
 category: august-2020
-thumbnail: introduction.png
-illo: baccharis.png
+image: /thumbnails/introduction.png
+illo: /illos/baccharis.png
 recipe: the-original-tiramisu
 description: One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
 ---

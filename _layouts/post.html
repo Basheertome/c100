@@ -10,7 +10,7 @@ layout: default
 {% endif %}
 {% unless page.tags contains "found" %}
   <picture class="post-thumbnail header">
-    <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
+    <img src="{{ site.baseurl | append: page.image }}" alt="" />
   </picture>
 {% endunless %}
 <article class="post {{ page.tags | join: " " }}">
@@ -48,4 +48,4 @@ layout: default
 
 {% include related.html %}
 
-<div class="splash"><picture><img src="/illos/{{ page.illo }}" alt="" /></picture></div>
+<div class="splash"><picture><img src="{{ page.illo }}" alt="" /></picture></div>

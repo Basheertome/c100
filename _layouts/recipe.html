@@ -3,7 +3,7 @@ layout: default
 ---
 
 <picture class="post-thumbnail header">
-    <img src="{{ site.baseurl | append: "/thumbnails/" | append: page.thumbnail }}" alt="" />
+    <img src="{{ site.baseurl | append: page.image }}" alt="" />
 </picture>
 <article class="post recipe">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -67,4 +67,4 @@ layout: default
 </aside>
 {% endif %}
 
-<div class="splash"><picture><img src="/illos/{{ page.illo }}" alt="" /></picture></div>
+<div class="splash"><picture><img src="{{ page.illo }}" alt="" /></picture></div>

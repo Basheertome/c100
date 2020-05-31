@@ -46,7 +46,7 @@
     {% capture post-thumbnail %}
       {% unless post.tags contains "found" %}
         <p></p><picture class="post-thumbnail header">
-          <img src="{{ site.baseurl | append: "/thumbnails/" | append: post.thumbnail }}" alt="" />
+          <img src="{{ site.baseurl | append: post.image }}" alt="" />
         </picture>
       {% endunless %}
     {% endcapture %}
