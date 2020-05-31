@@ -6,7 +6,9 @@
     {% if page.title == "C100" %}
       {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
     {% elsif page.tags contains "found" and page.title %}
-      Around the Web
+      {{ page.category | replace: "-", " " | capitalize | prepend: "Around the Web: " }}
+    {% elsif page.volume %}
+      C100 &middot; {{ page.theme | capitalize }} &middot; {{ page.title }}
     {% elsif page.title %}
       {{ page.title }}
     {% else %}
