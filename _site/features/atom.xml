@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>C100 - Features</title>
- <link href="/featureshttps://c100.co/atom.xml" rel="self"/>
- <link href="https://c100.co/features/"/>
- <updated>2020-05-30T18:10:04-07:00</updated>
- <id>https://c100.co/features/</id>
+ <link href="/featureshttps://draft.c100.co/atom.xml" rel="self"/>
+ <link href="https://draft.c100.co/features/"/>
+ <updated>2020-05-30T18:13:01-07:00</updated>
+ <id>https://draft.c100.co/features/</id>
  <author>
   <name>C100</name>
   <email>editor@c100.co</email>
@@ -17,9 +17,9 @@
 
  <entry>
    <title>IxDA Submission</title>
-   <link href="https://c100.co/november-2020/ixda/"/>
+   <link href="https://draft.c100.co/november-2020/ixda/"/>
    <updated>2020-04-02T00:00:00-07:00</updated>
-   <id>https://c100.co/november-2020/ixda</id>
+   <id>https://draft.c100.co/november-2020/ixda</id>
    <content type="html">
     
     
@@ -85,9 +85,9 @@
 
  <entry>
    <title>Animal Crossing</title>
-   <link href="https://c100.co/november-2020/animal-crossing/"/>
+   <link href="https://draft.c100.co/november-2020/animal-crossing/"/>
    <updated>2020-04-01T00:00:00-07:00</updated>
-   <id>https://c100.co/november-2020/animal-crossing</id>
+   <id>https://draft.c100.co/november-2020/animal-crossing</id>
    <content type="html">
     
     
@@ -131,9 +131,9 @@
 
  <entry>
    <title>These Days Highlights</title>
-   <link href="https://c100.co/october-2020/these-days/"/>
+   <link href="https://draft.c100.co/october-2020/these-days/"/>
    <updated>2020-03-03T00:00:00-08:00</updated>
-   <id>https://c100.co/october-2020/these-days</id>
+   <id>https://draft.c100.co/october-2020/these-days</id>
    <content type="html">
     
     
@@ -182,9 +182,9 @@
 
  <entry>
    <title>Famous Breakfasts</title>
-   <link href="https://c100.co/october-2020/famous-breakfasts/"/>
+   <link href="https://draft.c100.co/october-2020/famous-breakfasts/"/>
    <updated>2020-03-02T00:00:00-08:00</updated>
-   <id>https://c100.co/october-2020/famous-breakfasts</id>
+   <id>https://draft.c100.co/october-2020/famous-breakfasts</id>
    <content type="html">
     
     
@@ -276,9 +276,9 @@
 
  <entry>
    <title>FITC Talk Outline</title>
-   <link href="https://c100.co/september-2020/fitc-outline/"/>
+   <link href="https://draft.c100.co/september-2020/fitc-outline/"/>
    <updated>2020-02-03T00:00:00-08:00</updated>
-   <id>https://c100.co/september-2020/fitc-outline</id>
+   <id>https://draft.c100.co/september-2020/fitc-outline</id>
    <content type="html">
     
     
@@ -352,9 +352,9 @@
 
  <entry>
    <title>Mac Baker Email</title>
-   <link href="https://c100.co/september-2020/mac-baker-email/"/>
+   <link href="https://draft.c100.co/september-2020/mac-baker-email/"/>
    <updated>2020-02-01T00:00:00-08:00</updated>
-   <id>https://c100.co/september-2020/mac-baker-email</id>
+   <id>https://draft.c100.co/september-2020/mac-baker-email</id>
    <content type="html">
     
     
@@ -436,9 +436,9 @@ Blanket, lump response.&lt;/p&gt;
 
  <entry>
    <title>Options</title>
-   <link href="https://c100.co/august-2020/options/"/>
+   <link href="https://draft.c100.co/august-2020/options/"/>
    <updated>2020-01-02T00:00:00-08:00</updated>
-   <id>https://c100.co/august-2020/options</id>
+   <id>https://draft.c100.co/august-2020/options</id>
    <content type="html">
     
     
@@ -635,9 +635,9 @@ Blanket, lump response.&lt;/p&gt;
 
  <entry>
    <title>Measuring pH at Home</title>
-   <link href="https://c100.co/august-2020/measuring-ph-at-home/"/>
+   <link href="https://draft.c100.co/august-2020/measuring-ph-at-home/"/>
    <updated>2020-01-01T00:00:00-08:00</updated>
-   <id>https://c100.co/august-2020/measuring-ph-at-home</id>
+   <id>https://draft.c100.co/august-2020/measuring-ph-at-home</id>
    <content type="html">
     
     
