@@ -26,7 +26,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://draft.c100.co/images/default.jpg
+      image: /thumbnails/default-card.jpg
   - scope:
       path: ""
       type: "posts"
