@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>C100 - Lab</title>
- <link href="/labhttps://draft.c100.co/atom.xml" rel="self"/>
- <link href="https://draft.c100.co/lab/"/>
- <updated>2020-05-30T20:00:53-07:00</updated>
- <id>https://draft.c100.co/lab/</id>
+ <link href="/labhttps://c100.co/atom.xml" rel="self"/>
+ <link href="https://c100.co/lab/"/>
+ <updated>2020-05-30T20:17:45-07:00</updated>
+ <id>https://c100.co/lab/</id>
  <author>
   <name>C100</name>
   <email>editor@c100.co</email>
@@ -16,9 +16,9 @@
 
  <entry>
    <title>Wabi Sabi</title>
-   <link href="https://draft.c100.co/november-2020/wabi-sabi/"/>
+   <link href="https://c100.co/november-2020/wabi-sabi/"/>
    <updated>2020-04-03T00:00:00-07:00</updated>
-   <id>https://draft.c100.co/november-2020/wabi-sabi</id>
+   <id>https://c100.co/november-2020/wabi-sabi</id>
    <content type="html">
     
     
@@ -66,9 +66,9 @@
 
  <entry>
    <title>Animal Crossing</title>
-   <link href="https://draft.c100.co/november-2020/animal-crossing/"/>
+   <link href="https://c100.co/november-2020/animal-crossing/"/>
    <updated>2020-04-01T00:00:00-07:00</updated>
-   <id>https://draft.c100.co/november-2020/animal-crossing</id>
+   <id>https://c100.co/november-2020/animal-crossing</id>
    <content type="html">
     
     
@@ -111,9 +111,9 @@
 
  <entry>
    <title>Super Normal</title>
-   <link href="https://draft.c100.co/october-2020/super-normal/"/>
+   <link href="https://c100.co/october-2020/super-normal/"/>
    <updated>2020-03-01T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/october-2020/super-normal</id>
+   <id>https://c100.co/october-2020/super-normal</id>
    <content type="html">
     
     
@@ -155,9 +155,9 @@
 
  <entry>
    <title>Slow Carb</title>
-   <link href="https://draft.c100.co/september-2020/slow-carb/"/>
+   <link href="https://c100.co/september-2020/slow-carb/"/>
    <updated>2020-02-02T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/september-2020/slow-carb</id>
+   <id>https://c100.co/september-2020/slow-carb</id>
    <content type="html">
     
     
@@ -253,9 +253,9 @@
 
  <entry>
    <title>Example content</title>
-   <link href="https://draft.c100.co/august-2020/example-content/"/>
+   <link href="https://c100.co/august-2020/example-content/"/>
    <updated>2020-01-03T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/august-2020/example-content</id>
+   <id>https://c100.co/august-2020/example-content</id>
    <content type="html">
     
     

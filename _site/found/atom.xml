@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>C100 - Found</title>
- <link href="/foundhttps://draft.c100.co/atom.xml" rel="self"/>
- <link href="https://draft.c100.co/found/"/>
- <updated>2020-05-30T20:00:53-07:00</updated>
- <id>https://draft.c100.co/found/</id>
+ <link href="/foundhttps://c100.co/atom.xml" rel="self"/>
+ <link href="https://c100.co/found/"/>
+ <updated>2020-05-30T20:17:45-07:00</updated>
+ <id>https://c100.co/found/</id>
  <author>
   <name>C100</name>
   <email>editor@c100.co</email>
@@ -16,9 +16,9 @@
 
  <entry>
    <title>Around the Web &amp;middot; November 2020</title>
-   <link href="https://draft.c100.co/november-2020/found/"/>
+   <link href="https://c100.co/november-2020/found/"/>
    <updated>2020-04-04T00:00:00-07:00</updated>
-   <id>https://draft.c100.co/november-2020/found</id>
+   <id>https://c100.co/november-2020/found</id>
    <content type="html">
     
     
@@ -92,9 +92,9 @@
 
  <entry>
    <title>Around the Web &amp;middot; September 2020</title>
-   <link href="https://draft.c100.co/september-2020/found/"/>
+   <link href="https://c100.co/september-2020/found/"/>
    <updated>2020-02-04T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/september-2020/found</id>
+   <id>https://c100.co/september-2020/found</id>
    <content type="html">
     
     
@@ -161,9 +161,9 @@
 
  <entry>
    <title>Around the Web &amp;middot; August 2020</title>
-   <link href="https://draft.c100.co/august-2020/found/"/>
+   <link href="https://c100.co/august-2020/found/"/>
    <updated>2020-01-04T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/august-2020/found</id>
+   <id>https://c100.co/august-2020/found</id>
    <content type="html">
     
     

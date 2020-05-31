@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>C100 - Recipes</title>
- <link href="/recipeshttps://draft.c100.co/atom.xml" rel="self"/>
- <link href="https://draft.c100.co/recipes/"/>
- <updated>2020-05-30T20:00:53-07:00</updated>
- <id>https://draft.c100.co/recipes/</id>
+ <link href="/recipeshttps://c100.co/atom.xml" rel="self"/>
+ <link href="https://c100.co/recipes/"/>
+ <updated>2020-05-30T20:17:45-07:00</updated>
+ <id>https://c100.co/recipes/</id>
  <author>
   <name>C100</name>
   <email>editor@c100.co</email>
@@ -16,9 +16,9 @@
 
  <entry>
    <title>The Original Tiramisu</title>
-   <link href="https://draft.c100.co/recipes/the-original-tiramisu/"/>
+   <link href="https://c100.co/recipes/the-original-tiramisu/"/>
    <updated>2020-01-05T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/recipes/the-original-tiramisu</id>
+   <id>https://c100.co/recipes/the-original-tiramisu</id>
    <content type="html">
     
     
@@ -97,9 +97,9 @@
 
  <entry>
    <title>Dark Chocolate Soufflé</title>
-   <link href="https://draft.c100.co/recipes/dark-chocolate-souffle/"/>
+   <link href="https://c100.co/recipes/dark-chocolate-souffle/"/>
    <updated>2020-02-05T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/recipes/dark-chocolate-souffle</id>
+   <id>https://c100.co/recipes/dark-chocolate-souffle</id>
    <content type="html">
     
     
@@ -178,9 +178,9 @@
 
  <entry>
    <title>Ratatouille</title>
-   <link href="https://draft.c100.co/recipes/ratatouille/"/>
+   <link href="https://c100.co/recipes/ratatouille/"/>
    <updated>2020-03-05T00:00:00-08:00</updated>
-   <id>https://draft.c100.co/recipes/ratatouille</id>
+   <id>https://c100.co/recipes/ratatouille</id>
    <content type="html">
     
     
@@ -259,9 +259,9 @@
 
  <entry>
    <title>Black Pepper Tofu</title>
-   <link href="https://draft.c100.co/recipes/black-pepper-tofu/"/>
+   <link href="https://c100.co/recipes/black-pepper-tofu/"/>
    <updated>2020-04-05T00:00:00-07:00</updated>
-   <id>https://draft.c100.co/recipes/black-pepper-tofu</id>
+   <id>https://c100.co/recipes/black-pepper-tofu</id>
    <content type="html">
     
     
