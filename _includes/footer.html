@@ -22,6 +22,15 @@
     </div>
 </footer>
 
+<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+
+<script src="{{ site.baseurl }}/js/script.js"></script>
+
+{% if page.is_post %}
+  <script src="{{ site.baseurl }}/js/jquery.inline-footnotes.min.js"></script>
+  <script type="text/javascript">$(document).ready(function(){$.inlineFootnotes();});</script>
+{% endif %}
+
 <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
 <script src="{{ site.baseurl }}/js/search.js"></script>
 
