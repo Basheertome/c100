@@ -62,6 +62,9 @@ css:
         ],
         text: {
           button: 'add to cart',
+        },
+        templates: {
+          imgWithCarousel: '<div class="{{data.classes.product.imgWrapper}}" data-element="product.imageWrapper">{{#data.images.0}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.0}}{{#data.images.1}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.1}}</div>'
         }
       },
       cart: { // configure the cart
