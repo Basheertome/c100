@@ -18,12 +18,7 @@ $baseurl: "{{ site.baseurl }}";
 @import "message";
 @import "toc";
 @import "search";
-@import "subscribe";
-@import "recipes";
-@import "about";
 @import "postlet";
-@import "404";
-@import "issues";
 @import "footnotes";
 
 // Sass for creating the swatches

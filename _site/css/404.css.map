@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "404.css",
+	"sources": [
+		"404.scss"
+	],
+	"sourcesContent": [
+		".page.fourohfour {\n    text-align: center;\n\n    img {\n        width: 450px;\n        margin: 0 auto 4rem auto;\n        @media (max-width: 35rem) {\n            margin: 0 auto 2rem auto;\n        }\n    }\n\n    h1 {\n        font-size: 36px;\n        font-weight: 400;\n        margin-bottom: 1.5rem;\n    }\n\n    p {\n        font-size: 18px;\n        color: var(--ui-color);\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,AAAA,WAAW,AAAC,CACb,UAAU,CAAE,MAAM,CAoBrB,AArBD,AAGI,KAHC,AAAA,WAAW,CAGZ,GAAG,AAAC,CACA,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,gBAAgB,CAI3B,AAHG,MAAM,mBAHV,CAHJ,AAGI,KAHC,AAAA,WAAW,CAGZ,GAAG,AAAC,CAII,MAAM,CAAE,gBAAgB,CAE/B,CAAA,AATL,AAWI,KAXC,AAAA,WAAW,CAWZ,EAAE,AAAC,CACC,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,aAAa,CAAE,MAAM,CACxB,AAfL,AAiBI,KAjBC,AAAA,WAAW,CAiBZ,CAAC,AAAC,CACE,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,eAAe,CACzB"
+}

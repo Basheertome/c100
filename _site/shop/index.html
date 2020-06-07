@@ -12,6 +12,8 @@
   </title>
 
   <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/css/shop.css">
+  
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="/assets/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="C100" href="/atom.xml">
@@ -102,9 +104,7 @@
 <script type="text/javascript">
   var client = ShopifyBuy.buildClient({
     domain: 'walnutco.myshopify.com',
-    storefrontAccessToken: 'ce9162f9c2427fca0363214f91292db9', // previously apiKey, now deprecated
-  });
-
+    storefrontAccessToken: 'ce9162f9c2427fca0363214f91292db9'});
   var ui = ShopifyBuy.UI.init(client);
 
   ui.createComponent('collection', {
@@ -127,18 +127,32 @@
           button: false
         },
         templates: {
-          imgWithCarousel:
-            '<div class="{{data.classes.product.imgWrapper}}" data-element="product.imageWrapper">'+
-            '{{#data.images.0}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.0}}'+
-            '{{#data.images.1}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.1}}'+
-            '</div>'
+          imgWithCarousel: '<div class="{{data.classes.product.imgWrapper}}" data-element="product.imageWrapper">{{#data.images.0}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.0}}{{#data.images.1}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.1}}</div>'
         }
       },
-      modal: { // configure the modal created by a product embed
-        // iframe: false
+      modal: {
+        iframe: false
       },
       modalProduct: { // configure the product within the modal
-
+        contents: {
+          img: false,
+          imgWithCarousel: true,
+          quantity: true,
+          quantityIncrement: true,
+          quantityDecrement: true
+        },
+        order: [
+          'imgWithCarousel',
+          'title',
+          'price',
+          'description',
+          'options',
+          'quantity',
+          'button'
+        ],
+        text: {
+          button: 'add to cart',
+        }
       },
       cart: { // configure the cart
         // iframe: false

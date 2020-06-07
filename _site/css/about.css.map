@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"about.scss"
+	],
+	"sourcesContent": [
+		".about {\n    display: grid;\n    grid-template-columns: [left] 33% [right] 67%;\n\n    h2 {\n        grid-column-start: left;\n        margin: 2rem 0 1rem 0;\n        font-family: var(--ui-font);\n        font-size: var(--body-font-size);\n        line-height: var(--body-line-height);\n        font-weight: 400;\n        letter-spacing: 1px;\n        color: var(--ui-color);\n        text-transform: uppercase;\n    }\n\n    p {\n        grid-column-start: right;\n        font-size: 15px;\n        line-height: 2;\n        color: #353535;\n\n        &.image {\n            grid-column-start: left;\n            grid-column-end: span 2;\n        }\n\n        &.image.mug {\n            margin-top: 4.5rem;\n        }\n    }\n\n    h2 + p {\n        margin-top: 2rem;\n    }\n}\n\n@media (max-width: 35rem) {\n    .about {\n        display: block;\n\n        h2 {\n            margin: 2rem 0 1rem 0;\n            font-size: 18px;\n        }\n\n        p.image.mug {\n            margin-top: 3rem;\n        }\n\n        h2 + p {\n            margin-top: 0rem;\n        }\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,IAAI,CACb,qBAAqB,EAAG,IAAI,EAAE,GAAG,EAAE,KAAK,EAAE,GAAG,CAiChD,AAnCD,AAII,MAJE,CAIF,EAAE,AAAC,CACC,iBAAiB,CAAE,IAAI,CACvB,MAAM,CAAE,aAAa,CACrB,WAAW,CAAE,cAAc,CAC3B,SAAS,CAAE,qBAAqB,CAChC,WAAW,CAAE,uBAAuB,CACpC,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,GAAG,CACnB,KAAK,CAAE,eAAe,CACtB,cAAc,CAAE,SAAS,CAC5B,AAdL,AAgBI,MAhBE,CAgBF,CAAC,AAAC,CACE,iBAAiB,CAAE,KAAK,CACxB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,CAAC,CACd,KAAK,CAAE,OAAO,CAUjB,AA9BL,AAsBQ,MAtBF,CAgBF,CAAC,AAMI,MAAM,AAAC,CACJ,iBAAiB,CAAE,IAAI,CACvB,eAAe,CAAE,MAAM,CAC1B,AAzBT,AA2BQ,MA3BF,CAgBF,CAAC,AAWI,MAAM,AAAA,IAAI,AAAC,CACR,UAAU,CAAE,MAAM,CACrB,AA7BT,AAgCI,MAhCE,CAgCF,EAAE,CAAG,CAAC,AAAC,CACH,UAAU,CAAE,IAAI,CACnB,AAGL,MAAM,mBACF,CAAA,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,KAAK,CAcjB,AAfD,AAGI,MAHE,CAGF,EAAE,AAAC,CACC,MAAM,CAAE,aAAa,CACrB,SAAS,CAAE,IAAI,CAClB,AANL,AAQI,MARE,CAQF,CAAC,AAAA,MAAM,AAAA,IAAI,AAAC,CACR,UAAU,CAAE,IAAI,CACnB,AAVL,AAYI,MAZE,CAYF,EAAE,CAAG,CAAC,AAAC,CACH,UAAU,CAAE,IAAI,CACnB,CACJ"
+}
