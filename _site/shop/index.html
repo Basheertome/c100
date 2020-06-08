@@ -154,6 +154,7 @@
           button: 'add to cart',
         },
         templates: {
+          options: '{{#data.hasVariants}}<div class="{{data.classes.product.options}}" data-element="product.options">{{#data.decoratedOptions}}<div class="{{data.classes.option.option}}" data-element="option.option"><label class="{{data.classes.option.label}}" data-element="option.label">{{name}}</label><div class="{{data.classes.option.wrapper}}" data-element="option.wrapper"><select class="{{data.classes.option.select}}" name="{{name}}" data-element="option.select">{{#values}}<option value="{{name}}" {{#selected}}selected{{/selected}}>{{name}}</option>{{/values}}</select><span class="{{data.classes.option.selectIcon}}" data-element="option.selectIcon">&blacktriangledown;</span></div></div>{{/data.decoratedOptions}}</div>{{/data.hasVariants}}',
           imgWithCarousel: '<div class="{{data.classes.product.imgWrapper}}" data-element="product.imageWrapper">{{#data.images.0}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.0}}{{#data.images.1}}<img class="{{data.classes.product.img}}" alt="{{altText}}" src="{{src}}" data-element="product.img" />{{/data.images.1}}</div>'
         }
       },
