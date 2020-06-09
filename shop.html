@@ -75,9 +75,20 @@ css:
       lineItem: { // configure the individual line items within a cart
 
       },
-      toggle: { // configure the tab that toggles the cart open
-        // iframe: false
+      toggle: {
+        iframe: false,
+        order: [
+          'icon',
+          'count',
+          'title',
+        ],
+        templates: {
+          icon: '{% endraw %}{% include cart.svg %}{% raw %}',
+        }
       },
+      window: { // configure the window that opens for checkout
+        
+      }
     }
   });
 </script>{% endraw %}
