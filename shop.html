@@ -69,11 +69,16 @@ css:
           imgWithCarousel: '<div class="{{data.classes.product.imgWrapper}}" data-element="product.imageWrapper"><div class="main-image-wrapper">{{#data.carouselImages.1}}<button type="button" class="carousel-button carousel-button--previous">Left</button>{{/data.carouselImages.1}}<img class="{{data.classes.product.img}}" alt="{{data.currentImage.altText}}" src="{{data.currentImage.srcLarge}}" data-element="product.img" />{{#data.carouselImages.1}}<button type="button" class="carousel-button carousel-button--next">Right</button>{{/data.carouselImages.1}}</div>{{#data.carouselImages.1}}<div class="{{data.classes.product.carousel}}">{{#data.carouselImages}}<a data-element="product.carouselitem" aria-label="{{altText}}" href="{{src}}" class="{{data.classes.product.carouselItem}} {{#isSelected}} {{data.classes.product.carouselItemSelected}} {{/isSelected}}" data-image-id="{{id}}"></a>{{/data.carouselImages}}</div>{{/data.carouselImages.1}}</div>'
         }
       },
-      cart: { // configure the cart
-        // iframe: false
-      },
-      lineItem: { // configure the individual line items within a cart
-
+      cart: {
+        iframe: false,
+        popup: false,
+        text: {
+          title: 'your cart',
+          empty: 'your cart is empty',
+          button: 'checkout',
+          total: 'subtotal',
+          notice: 'shipping and discount codes are added at checkout'
+        }
       },
       toggle: {
         iframe: false,
@@ -85,10 +90,6 @@ css:
         templates: {
           icon: '{% endraw %}{% include cart.svg %}{% raw %}',
         }
-      },
-      window: {
-        height: 600, // remove if not customized later
-        width: 400 // remove if not customized later
       }
     }
   });
