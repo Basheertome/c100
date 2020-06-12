@@ -46,7 +46,8 @@
       top: 150px;
       opacity: 0.5;
     }
-    .issues + .splash {
+    .issues + .splash,
+    #shopify + .splash {
       top: 0px;
     }
     .recipes ~ .splash {
