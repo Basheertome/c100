@@ -1,14 +1,21 @@
 ---
 layout: default
 title: C100 &middot; Shop
-illo: /illos/baccharis.png
+image: /thumbnails/default.jpg
 css:
+  - message
   - shop
 ---
 
-<div id="shopify"></div>
+<div id="shopify">
+  <div class="page fourohfour">
+    <img src="/assets/nest2.png" alt="" />
+    <h1 class="page-title">Coming soon</h1>
+    <p class="lead">Subscribe to the <a href="{{ site.baseurl }}/subscribe">newlsetter</a> and you'll be the first to know when there's new stuff.</p>
+  </div>
+</div>
 
-<div class="splash"><picture><img src="{{ page.illo }}" alt="" /></picture></div>
+<div class="splash"><picture><img src="/assets/baccharis.png" alt="" /></picture></div>
 
 <script src="{{ site.baseurl }}/js/buybutton.min.js"></script>
 {% raw %}<script type="text/javascript">
@@ -16,8 +23,7 @@ css:
     domain: 'walnutco.myshopify.com',
     storefrontAccessToken: 'ce9162f9c2427fca0363214f91292db9'});
   var ui = ShopifyBuy.UI.init(client);
-
-  ui.createComponent('collection', {
+  var collection = ui.createComponent('collection', {
     id: 189648109612,
     node: document.getElementById('shopify'),
     options: {
@@ -93,4 +99,11 @@ css:
       }
     }
   });
+  function proxy(context, method) { 
+    return function() {
+      method.apply(context, Array.prototype.slice.apply(arguments));
+      document.getElementsByClassName("fourohfour")[0].classList.add("show");
+    }
+  }
+  console.error = proxy(console, console.error);
 </script>{% endraw %}
