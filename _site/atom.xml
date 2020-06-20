@@ -4,7 +4,7 @@
  <title>C100 - a kitchen tools journal</title>
  <link href="https://c100.co/atom.xml" rel="self"/>
  <link href="https://c100.co/"/>
- <updated>2020-06-20T11:40:51-07:00</updated>
+ <updated>2020-06-20T11:45:51-07:00</updated>
  <id>https://c100.co/</id>
  <author>
   <name>C100</name>
@@ -1225,6 +1225,8 @@ Blanket, lump response.&lt;/p&gt;
     
       &lt;div class=&quot;post-meta&quot;&gt;
         
+          &lt;a href=&quot;/found/&quot;&gt;found&lt;/a&gt; &amp;middot;
+        
         &lt;a href=&quot;/october-2020/&quot;&gt;issue 3&lt;/a&gt; &amp;middot;
         &lt;a href=&quot;/october-2020/&quot;&gt;october 2020&lt;/a&gt;
       &lt;/div&gt;
@@ -1232,10 +1234,6 @@ Blanket, lump response.&lt;/p&gt;
     
     
     
-      
-        &lt;p&gt;&lt;/p&gt;&lt;picture class=&quot;post-thumbnail header&quot;&gt;
-          &lt;img src=&quot;/thumbnails/default.jpg&quot; alt=&quot;&quot; /&gt;
-        &lt;/picture&gt;
       
     
     

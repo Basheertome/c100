@@ -60,7 +60,7 @@ var index = lunr(function () {
     title: "Around the Web &middot; October 2020",
     content: "\n  Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing?\n  What do you think of the heat lost while doing pour over?\n  When you’re making coffee, is it more like baking or more like cooking? science or art?\n  How do you feel about the connectivity in the EKG+? Is it something you want to keep pursuing?\n  Where do you draw the line between automation and agency? How much would you streamline if you could?\n  Who do you feel like is your competitor? Hario? Bonavita? Proctor Silex? Breville?\n  What’s it been like to work with Branch? How do you balance what you rely on folks like them for vs what you bring in-house?\n  Did everything just kind of spiral from the Kickstarter project? Or was it a bit more conscious than that? It seems like it’d be hard to be a solo founder working in hardware.\n  How did you decide on the funding model? Did you consider VC? How did you find/meet your current investor?\n  How do you maintain steady income in-between major “hits” or new product drops? Have you been seeing uplift with SKU expansions, the partnerships, and the analog products launching in-between?\n\n",
     description: "",
-    tags: [],
+    tags: ["found"],
     issue: "october 2020",
     id: 4
   });
@@ -263,8 +263,8 @@ var store = [{
   "link": "/october-2020/found/",
   "issue": 3,
   "date" : "october 2020",
-  "tags": [],
-  "thumbnail": "/thumbnails/default.jpg",
+  "tags": ["found"],
+  "thumbnail": "/thumbnails/default-found.png",
   "excerpt": "Where do you see the most variance in quality of the coffee? Roasting, grinding, measuring, or brewing? What do you think of the heat lost while doing..."
 },{
   "title": "These Days Highlights",
