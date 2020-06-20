@@ -392,8 +392,6 @@
 }
 
 .shopify-buy__collection-products .shopify-buy__product:hover {
-  transform: translateY(-3px);
-
   .shopify-buy__product__actual-price {
     border-bottom: 1px solid rgba(0,0,0,1);
   }
@@ -401,10 +399,6 @@
   .shopify-buy__product__variant-img:nth-child(n+2) {
     opacity: 1;
   }
-}
-
-.shopify-buy__collection-products .shopify-buy__product:active {
-  transform: translateY(0px);
 }
 
 .shopify-buy__product__variant-img.is-transitioning {
@@ -694,32 +688,33 @@
 .shopify-buy__carousel {
   font-size: 0;
   text-align: center;
-  min-height: 90px;
-  margin-left: -15px;
   margin-top: 15px;
 }
 
 .shopify-buy__carousel-item {
-  width: calc(16.666% - 15px);
-  margin-left: 15px;
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
   position: relative;
-  background-size: cover;
-  background-position: center;
-  padding: 0;
-  border: none
-}
-
-.shopify-buy__carousel-item:nth-child(n+7) {
-  margin-top: 15px;
+  padding: 8px;
+  border: none;
+  &:hover:before {
+    transform: translateY(-1.5px);
+  }
+  &:active:before {
+    transform: translateY(0px);
+  }
 }
 
 .shopify-buy__carousel-item:before {
   content: "";
   display: block;
-  padding-top: 100%;
+  width: 8px; height: 8px;
+  background: transparent;
+  box-shadow: 0 0 0 1.5px #73512d;
+  border-radius: 50px;
+  -webkit-transition: background 200ms ease;
+  transition: background 200ms ease;
 }
 
 .main-image-wrapper {
@@ -728,20 +723,13 @@
 
 .carousel-button {
   position: absolute;
-  width: 75px;
+  width: 40%;
   top: 0;
   height: 100%;
   border: none;
   font-size: 0;
   background-color: transparent;
-  opacity: 0.4;
   cursor: pointer
-}
-
-.carousel-button:hover,
-.carousel-button:focus {
-  opacity: 0.9;
-  outline: none;
 }
 
 .carousel-button-arrow {
@@ -760,8 +748,34 @@
   right: 0;
 }
 
-.shopify-buy__carousel-item--selected {
-  opacity: 0.4;
+.carousel-button--previous:after,
+.carousel-button--next:after {
+  content: '\21E5';
+  display: block;
+  font-size: 2rem;
+  color: #fff;
+  text-align: right;
+  margin-right: 2rem;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  opacity: 0;
+}
+
+.carousel-button--previous:hover:after,
+.carousel-button--next:hover:after {
+  opacity: 1;
+}
+
+.carousel-button--previous:active:after {
+  transform: translateY(-1.5px);
+}
+
+.carousel-button--next:active:after {
+  transform: translateY(1.5px);
+}
+
+.shopify-buy__carousel-item--selected:before {
+  background: #73512d;
 }
 
 .shopify-buy__modal {
