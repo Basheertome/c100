@@ -188,6 +188,9 @@
       }
     }
   });
+  var cartOverlay = document.createElement('div');
+  cartOverlay.id = 'cart-overlay';
+  document.body.appendChild(cartOverlay);
   function proxy(context, method) { 
     return function() {
       method.apply(context, Array.prototype.slice.apply(arguments));
