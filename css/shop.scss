@@ -19,6 +19,10 @@ body {
   display: block;
 }
 
+hr {
+  margin: 2rem 0;
+}
+
 #cart-overlay {
   position: fixed;
   display: block;
@@ -226,6 +230,10 @@ body {
   color: #000;
   display: block;
   height: 30px;
+  .shopify-buy-frame--modal & {
+    width: 30px;
+    height: 36px;
+  }
   float: left;
   line-height: 16px;
   font-family: monospace;
@@ -274,6 +282,10 @@ body {
   color: black;
   width: 30px;
   height: 30px;
+  .shopify-buy-frame--modal & {
+    width: 30px;
+    height: 36px;
+  }
   font-size: 16px;
   border: none;
   text-align: center;
@@ -281,9 +293,9 @@ body {
   -moz-appearance: textfield;
   display: inline-block;
   padding: 0;
-  border-radius: 0;
-  border-top: 1px solid #767676;
-  border-bottom: 1px solid #767676;
+  border-radius: 0 !important;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #shopify {
@@ -305,27 +317,36 @@ body {
 }
 
 .shopify-buy__option-select-wrapper {
-  border: 1px solid #d3dbe2;
-  border-radius: 3px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  // border: 1px solid #d3dbe2;
+  // border-radius: 3px;
+  // -webkit-box-sizing: border-box;
+  // box-sizing: border-box;
+  display: inline-block;
   position: relative;
-  background: #fff;
-  overflow: hidden;
-  vertical-align: bottom;
+  color: #000;
+  font-family: var(--ui-font);
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 30px !important;
+  border: 1px solid rgba(0,0,0,0.1);
+  min-width: 200px;
+  cursor: pointer;
+  // background: #fff;
+  // overflow: hidden;
+  // vertical-align: bottom;
 }
 
 .shopify-buy__select-icon {
   cursor: pointer;
   display: block;
-  fill: #798c9c;
+  fill: #000;
   position: absolute;
-  right: 10px;
+  right: 19px;
   top: 50%;
-  margin-top: -6px;
+  margin-top: -2.5px;
   pointer-events: none;
-  width: 12px;
-  height: 12px;
+  width: 9px;
+  height: 6px;
   vertical-align: middle;
 }
 
@@ -335,9 +356,12 @@ body {
 
 .shopify-buy__option-select__label {
   display: block;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  float: left;
+  line-height: 35px;
+  margin-right: 15px;
+  font-family: var(--ui-font);
+  color: #000;
+  font-size: 15px;
 }
 
 .shopify-buy__btn--parent .shopify-buy__option-select__label {
@@ -345,14 +369,16 @@ body {
 }
 
 .shopify-buy__option-select__select {
-  font-size: inherit;
-  padding: 7px 10px;
-  padding-right: 32px;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  padding: 0 32px 0 18px;
   border: 0;
+  height: 36px;
   width: 100%;
   background: transparent;
   -webkit-appearance: none;
-  -moz-appearance: none
+  -moz-appearance: none;
+  cursor: pointer;
 }
 
 .shopify-buy__option-select__select::-ms-expand {
@@ -426,7 +452,9 @@ body {
 }
 
 .shopify-buy__layout-horizontal .shopify-buy__product__title {
-  margin-top: 10px;
+  margin-top: 35px;
+  margin-bottom: 0.35rem;
+  font-size: 2.75rem;
 }
 
 .shopify-buy__product__variant-title {
@@ -440,6 +468,7 @@ body {
 .shopify-buy__product__price {
   font-family: var(--ui-font);
   letter-spacing: 1px;
+  line-height: 20px;
   margin-bottom: 15px;
 }
 
@@ -545,17 +574,6 @@ body {
      -webkit-appearance: none;
      margin: 0;
   }
-}
-
-.shopify-buy__quantity,
-.shopify-buy__quantity-increment,
-.shopify-buy__quantity-decrement {
-  border-color: rgba(0,0,0,0.1);
-  line-height: 1.2;
-  font-size: 15px;
-  height: auto;
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .shopify-buy__btn {
@@ -691,6 +709,7 @@ body {
   font-size: 0;
   text-align: center;
   margin-top: 15px;
+  margin-bottom: -15px;
 }
 
 .shopify-buy__carousel-item {
@@ -854,6 +873,10 @@ body {
     margin: 0 auto;
     width: auto;
     max-width: 100%;
+  }
+  .shopify-buy__layout-horizontal .shopify-buy__product__title {
+    margin-top: 27px;
+    font-size: 2rem;
   }
 }
 
@@ -1308,9 +1331,16 @@ body {
 .shopify-buy__quantity-container {
   margin-left: 80px;
   margin-right: 100px;
-  width: 82px;
-  height: 30px;
   line-height: 26px;
+}
+
+.shopify-buy__quantity-label {
+  float: left;
+  line-height: 35px;
+  margin-right: 15px;
+  font-family: var(--ui-font);
+  color: #000;
+  font-size: 15px;
 }
 
 .shopify-buy__quantity-container.is-loading {
@@ -1558,8 +1588,8 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
   z-index: 2147483646;
   display: none;
   -webkit-transition: background 300ms ease;
