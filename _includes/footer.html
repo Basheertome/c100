@@ -8,12 +8,7 @@
         <li{% if page.dir contains nav.url %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ nav.url }}">{{ nav.text }}</a></li>
         {% endfor %}
     </ul>
-    <ul class="social">
-        <li><a href="https://twitter.com/{{ site.twitter }}/" target="_blank"><img src="{{ site.baseurl }}/assets/twitter.svg" alt="t"></a></li>
-        <li><a href="https://www.instagram.com/{{ site.instagram }}/" target="_blank"><img src="{{ site.baseurl }}/assets/instagram.svg" alt="i"></a></li>
-        <li><a href="{{ site.baseurl }}/atom.xml"><img src="{{ site.baseurl }}/assets/feed.svg" alt="r"></a></li>
-        <li><a href="{{ site.baseurl }}/subscribe"><img src="{{ site.baseurl }}/assets/email.svg" alt="e"></a></li>
-    </ul>
+    {% include social.html %}
     <div class="copyright">
         <span>&copy; </span>
         <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }} </time>
