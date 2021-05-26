@@ -1,0 +1,9 @@
+[submodule "js/waypoints"]
+	path = js/waypoints
+	url = https://github.com/imakewebthings/waypoints.git
+[submodule "js/FitVids.js"]
+	path = js/FitVids.js
+	url = https://github.com/davatron5000/FitVids.js.git
+[submodule "css/normalize.css"]
+	path = css/normalize.css
+	url = https://github.com/necolas/normalize.css.git

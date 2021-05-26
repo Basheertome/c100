@@ -1,4 +1,0 @@
----
-layout: null
----
-{% assign title = "Recipes" %}{% assign path = "/recipes" %}{% assign list = site.recipes %}{% include atom.html %}

@@ -1,4 +1,0 @@
----
-layout: null
----
-{% assign title = "Found" %}{% assign path = "/found" %}{% assign list = site.tags.found %}{% include atom.html %}

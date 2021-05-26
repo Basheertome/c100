@@ -1,4 +1,0 @@
----
-layout: null
----
-{% assign title = site.tagline %}{% assign path = "" %}{% assign list = site.posts | concat: site.recipes | sort: 'date' %}{% include atom.html %}

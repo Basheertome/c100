@@ -1,4 +1,0 @@
----
-layout: null
----
-{% assign title = "Lab" %}{% assign path = "/lab" %}{% assign list = site.tags.lab %}{% include atom.html %}

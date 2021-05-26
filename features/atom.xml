@@ -1,4 +1,0 @@
----
-layout: null
----
-{% assign title = "Features" %}{% assign path = "/features" %}{% assign list = site.tags.features %}{% include atom.html %}
